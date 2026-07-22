@@ -1,271 +1,222 @@
-import React, { useState, useEffect } from 'react';
-import { Award, CheckCircle2, XCircle, HelpCircle, RotateCcw, Filter, ChevronDown, ChevronUp, BookOpen, Sparkles, TrendingUp } from 'lucide-react';
-import confetti from 'canvas-confetti';
-import { calculateResults, SUBJECTS } from '../data/examsData';
+import { useState, useMemo } from 'react';
+import { SUBJECTS } from '../data/examsData';
 
-export default function ResultsScreen({ examConfig, questions, userAnswers, onRestartExam }) {
-  const results = calculateResults(questions, userAnswers);
+/* Icons */
+const HomeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+  </svg>
+);
+const RefreshIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+  </svg>
+);
+const CheckCircleIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--c-success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+  </svg>
+);
+const XCircleIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--c-danger)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/>
+  </svg>
+);
+const MinusCircleIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--c-text-3)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10"/><line x1="8" y1="12" x2="16" y2="12"/>
+  </svg>
+);
 
-  const [activeFilter, setActiveFilter] = useState('all'); // 'all', 'correct', 'wrong', 'empty'
-  const [expandedSolutions, setExpandedSolutions] = useState({});
+export default function ResultsScreen({ results, config, answers, onRetry, onHome }) {
+  const [showAnswerKey, setShowAnswerKey] = useState(false);
+  const [answerFilter, setAnswerFilter] = useState('all'); // 'all' | 'correct' | 'wrong' | 'empty'
 
-  // Confetti effect on load
-  useEffect(() => {
-    try {
-      confetti({
-        particleCount: 80,
-        spread: 70,
-        origin: { y: 0.6 }
+  const { totalCorrect, totalWrong, totalEmpty, totalNet, estimatedP93Score, breakdown } = results;
+  const totalQ = config.questions.length;
+
+  /* Score bar width */
+  const scorePercent = Math.round((totalNet / totalQ) * 100);
+
+  /* Subject breakdown with data */
+  const subjectData = useMemo(() => {
+    return SUBJECTS
+      .filter(s => breakdown[s.id] && (breakdown[s.id].correct + breakdown[s.id].wrong + breakdown[s.id].empty) > 0)
+      .map(s => {
+        const b = breakdown[s.id];
+        const total = b.correct + b.wrong + b.empty;
+        return { ...s, ...b, total };
       });
-    } catch (e) {
-      console.log('Confetti effect ignored:', e);
-    }
-  }, []);
+  }, [breakdown]);
 
-  const toggleSolution = (qId) => {
-    setExpandedSolutions(prev => ({
-      ...prev,
-      [qId]: !prev[qId]
-    }));
-  };
-
-  // Filter questions for solution list
-  const filteredQuestions = questions.filter(q => {
-    const ans = userAnswers[q.id];
-    if (activeFilter === 'correct') return ans === q.correctAnswer;
-    if (activeFilter === 'wrong') return ans && ans !== q.correctAnswer;
-    if (activeFilter === 'empty') return !ans;
-    return true;
-  });
+  /* Filtered answer key */
+  const filteredQuestions = useMemo(() => {
+    return config.questions.filter(q => {
+      const ans = answers[q.id];
+      if (answerFilter === 'correct') return ans === q.correctAnswer;
+      if (answerFilter === 'wrong') return ans && ans !== q.correctAnswer;
+      if (answerFilter === 'empty') return !ans;
+      return true;
+    });
+  }, [config.questions, answers, answerFilter]);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 space-y-8 animate-fade-in">
-      
-      {/* Header Banner & Score Card */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-700 via-indigo-800 to-violet-900 text-white p-8 sm:p-10 shadow-2xl border border-indigo-500/30 text-center space-y-6">
-        
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-semibold backdrop-blur-md">
-          <Sparkles className="w-4 h-4 text-amber-300 fill-amber-300" />
-          <span>Sınav Tamamlandı! Raporunuz Hazır</span>
+    <div className="results">
+      <div className="results__container">
+        {/* ─── Header ─── */}
+        <div className="results__header anim-slide">
+          <h1 className="results__title">Sınav Sonuçları</h1>
+          <p className="results__exam-name">{config.exam.title}</p>
         </div>
 
-        <div className="max-w-md mx-auto space-y-2">
-          <p className="text-xs text-indigo-200 uppercase tracking-widest font-bold">Tahmini KPSS Ön Lisans P93 Puanı</p>
-          <h2 className="text-5xl sm:text-6xl font-black tracking-tight text-white font-mono drop-shadow-md">
-            {results.estimatedP93Score} <span className="text-xl text-indigo-300 font-normal font-sans">/ 100</span>
-          </h2>
-        </div>
-
-        {/* Big Net Indicator */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto pt-2">
-          
-          <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
-            <p className="text-[11px] text-indigo-200 font-semibold uppercase">Toplam Net</p>
-            <p className="text-2xl font-black text-white">{results.totalNet}</p>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-emerald-500/20 backdrop-blur-md border border-emerald-500/30">
-            <p className="text-[11px] text-emerald-200 font-semibold uppercase">Doğru</p>
-            <p className="text-2xl font-black text-emerald-300">{results.totalCorrect}</p>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-red-500/20 backdrop-blur-md border border-red-500/30">
-            <p className="text-[11px] text-red-200 font-semibold uppercase">Yanlış</p>
-            <p className="text-2xl font-black text-red-300">{results.totalWrong}</p>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-slate-500/20 backdrop-blur-md border border-slate-500/30">
-            <p className="text-[11px] text-slate-300 font-semibold uppercase">Boş</p>
-            <p className="text-2xl font-black text-slate-200">{results.totalEmpty}</p>
-          </div>
-
-        </div>
-
-      </div>
-
-      {/* Subject Breakdown Section */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-bold tracking-tight flex items-center gap-2">
-          <TrendingUp className="w-5 h-5 text-indigo-500" />
-          <span>Ders Bazlı Başarı Analizi</span>
-        </h3>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {SUBJECTS.map((sub) => {
-            const data = results.breakdown[sub.id] || { correct: 0, wrong: 0, empty: 0, net: 0 };
-            return (
-              <div key={sub.id} className="glass-panel p-5 space-y-3 border border-[var(--border-color)]">
-                <div className="flex items-center justify-between">
-                  <h4 className="font-bold text-sm text-[var(--text-main)]">{sub.name}</h4>
-                  <span className="text-xs font-extrabold px-2.5 py-1 rounded-lg bg-indigo-500/10 text-indigo-500 border border-indigo-500/20">
-                    {data.net} Net
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-3 gap-2 text-center text-xs pt-1 border-t border-[var(--border-color)]">
-                  <div>
-                    <span className="text-[var(--text-muted)] block text-[10px]">Doğru</span>
-                    <span className="font-bold text-emerald-500">{data.correct}</span>
-                  </div>
-                  <div>
-                    <span className="text-[var(--text-muted)] block text-[10px]">Yanlış</span>
-                    <span className="font-bold text-red-500">{data.wrong}</span>
-                  </div>
-                  <div>
-                    <span className="text-[var(--text-muted)] block text-[10px]">Boş</span>
-                    <span className="font-bold text-[var(--text-subtle)]">{data.empty}</span>
-                  </div>
-                </div>
+        {/* ─── Score Cards ─── */}
+        <div className="results__score-grid anim-slide" style={{ animationDelay: '.08s' }}>
+          {/* Main Score Card */}
+          <div className="results__main-card surface">
+            <div className="results__score-circle">
+              <svg viewBox="0 0 120 120" className="results__score-ring">
+                <circle cx="60" cy="60" r="52" fill="none" stroke="var(--c-border)" strokeWidth="8" />
+                <circle
+                  cx="60" cy="60" r="52"
+                  fill="none"
+                  stroke="var(--c-primary)"
+                  strokeWidth="8"
+                  strokeLinecap="round"
+                  strokeDasharray={`${2 * Math.PI * 52}`}
+                  strokeDashoffset={`${2 * Math.PI * 52 * (1 - scorePercent / 100)}`}
+                  style={{ transition: 'stroke-dashoffset 1s ease-out', transform: 'rotate(-90deg)', transformOrigin: '50% 50%' }}
+                />
+              </svg>
+              <div className="results__score-inner">
+                <span className="results__score-value">{totalNet}</span>
+                <span className="results__score-label">Net</span>
               </div>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Detailed Solution Viewer */}
-      <div className="space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <h3 className="text-lg font-bold tracking-tight flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-indigo-500" />
-              <span>Çözümlü Cevap Anahtarı</span>
-            </h3>
-            <p className="text-xs text-[var(--text-muted)]">Soruların detaylı çözümlerini ve açıklamalarını inceleyin.</p>
+            </div>
+            <div className="results__p93">
+              <span className="results__p93-label">Tahmini P93 Puanı</span>
+              <span className="results__p93-value">{estimatedP93Score}</span>
+            </div>
           </div>
 
-          {/* Filter Buttons */}
-          <div className="flex items-center gap-2 bg-[var(--bg-card)] p-1 rounded-xl border border-[var(--border-color)] text-xs font-semibold">
-            <button
-              onClick={() => setActiveFilter('all')}
-              className={`px-3 py-1.5 rounded-lg transition-colors ${
-                activeFilter === 'all' ? 'bg-indigo-600 text-white shadow-sm' : 'text-[var(--text-muted)] hover:text-[var(--text-main)]'
-              }`}
-            >
-              Tümü ({questions.length})
-            </button>
-            <button
-              onClick={() => setActiveFilter('wrong')}
-              className={`px-3 py-1.5 rounded-lg transition-colors ${
-                activeFilter === 'wrong' ? 'bg-red-500 text-white shadow-sm' : 'text-[var(--text-muted)] hover:text-[var(--text-main)]'
-              }`}
-            >
-              Yanlış ({results.totalWrong})
-            </button>
-            <button
-              onClick={() => setActiveFilter('empty')}
-              className={`px-3 py-1.5 rounded-lg transition-colors ${
-                activeFilter === 'empty' ? 'bg-amber-500 text-white shadow-sm' : 'text-[var(--text-muted)] hover:text-[var(--text-main)]'
-              }`}
-            >
-              Boş ({results.totalEmpty})
-            </button>
-            <button
-              onClick={() => setActiveFilter('correct')}
-              className={`px-3 py-1.5 rounded-lg transition-colors ${
-                activeFilter === 'correct' ? 'bg-emerald-600 text-white shadow-sm' : 'text-[var(--text-muted)] hover:text-[var(--text-main)]'
-              }`}
-            >
-              Doğru ({results.totalCorrect})
-            </button>
+          {/* Stat Cards */}
+          <div className="results__stat-card surface results__stat-card--success">
+            <span className="results__stat-num">{totalCorrect}</span>
+            <span className="results__stat-label">Doğru</span>
+          </div>
+          <div className="results__stat-card surface results__stat-card--danger">
+            <span className="results__stat-num">{totalWrong}</span>
+            <span className="results__stat-label">Yanlış</span>
+          </div>
+          <div className="results__stat-card surface results__stat-card--muted">
+            <span className="results__stat-num">{totalEmpty}</span>
+            <span className="results__stat-label">Boş</span>
           </div>
         </div>
 
-        {/* Questions List */}
-        <div className="space-y-4">
-          {filteredQuestions.map((q, idx) => {
-            const userAns = userAnswers[q.id];
-            const isCorrect = userAns === q.correctAnswer;
-            const isEmpty = !userAns;
-            const isExpanded = expandedSolutions[q.id] || false;
+        {/* ─── Subject Breakdown ─── */}
+        <div className="results__breakdown surface anim-slide" style={{ animationDelay: '.16s' }}>
+          <h2 className="results__section-title">Ders Bazlı Performans</h2>
+          <div className="results__breakdown-table">
+            <div className="results__breakdown-header">
+              <span>Ders</span><span>Doğru</span><span>Yanlış</span><span>Boş</span><span>Net</span>
+            </div>
+            {subjectData.map(s => (
+              <div key={s.id} className="results__breakdown-row">
+                <span className="results__breakdown-name">
+                  <span className="results__breakdown-dot" style={{ background: s.color }} />
+                  {s.name}
+                </span>
+                <span className="results__breakdown-val results__breakdown-val--success">{s.correct}</span>
+                <span className="results__breakdown-val results__breakdown-val--danger">{s.wrong}</span>
+                <span className="results__breakdown-val">{s.empty}</span>
+                <span className="results__breakdown-val results__breakdown-val--net">{s.net.toFixed(2)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
 
-            return (
-              <div
-                key={q.id}
-                className={`glass-panel p-6 border rounded-2xl transition-all ${
-                  isCorrect
-                    ? 'border-emerald-500/30 bg-emerald-500/5'
-                    : isEmpty
-                    ? 'border-amber-500/30 bg-amber-500/5'
-                    : 'border-red-500/30 bg-red-500/5'
-                }`}
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <div className="space-y-2 flex-1">
-                    
-                    <div className="flex items-center gap-2 text-xs">
-                      <span className="font-extrabold px-2 py-0.5 rounded bg-[var(--badge-bg)]">Soru {idx + 1}</span>
-                      <span className="text-[var(--text-muted)]">&bull; {q.subjectTitle}</span>
-                      
-                      {isCorrect && (
-                        <span className="inline-flex items-center gap-1 font-bold text-emerald-500">
-                          <CheckCircle2 className="w-3.5 h-3.5" /> Doğru Cevaplandı
-                        </span>
-                      )}
-                      {!isCorrect && !isEmpty && (
-                        <span className="inline-flex items-center gap-1 font-bold text-red-500">
-                          <XCircle className="w-3.5 h-3.5" /> Yanlış Cevaplandı
-                        </span>
-                      )}
-                      {isEmpty && (
-                        <span className="inline-flex items-center gap-1 font-bold text-amber-500">
-                          <HelpCircle className="w-3.5 h-3.5" /> Boş Bırakıldı
-                        </span>
-                      )}
-                    </div>
+        {/* ─── Answer Key Toggle ─── */}
+        <div className="results__answer-section anim-slide" style={{ animationDelay: '.24s' }}>
+          <button
+            id="toggle-answer-key"
+            className="btn btn--primary"
+            onClick={() => setShowAnswerKey(v => !v)}
+          >
+            {showAnswerKey ? 'Cevap Anahtarını Gizle' : 'Çözümlü Cevap Anahtarı'}
+          </button>
 
-                    <p className="font-semibold text-sm leading-relaxed">{q.text}</p>
-
-                    {/* User and Correct Answers info */}
-                    <div className="pt-2 text-xs font-medium space-y-1">
-                      <p>
-                        <span className="text-[var(--text-muted)]">Sizin Cevabınız: </span>
-                        <span className={`font-bold ${isCorrect ? 'text-emerald-500' : isEmpty ? 'text-amber-500' : 'text-red-500'}`}>
-                          {userAns ? `${userAns}) ${q.options[userAns]}` : 'Boş Bırakıldı'}
-                        </span>
-                      </p>
-                      <p>
-                        <span className="text-[var(--text-muted)]">Doğru Cevap: </span>
-                        <span className="font-bold text-emerald-500">{q.correctAnswer}) {q.options[q.correctAnswer]}</span>
-                      </p>
-                    </div>
-
-                  </div>
-
-                  {/* Toggle Explanation Button */}
+          {showAnswerKey && (
+            <div className="results__answer-key anim-fade">
+              {/* Filters */}
+              <div className="results__answer-filters">
+                {[
+                  { key: 'all', label: `Tümü (${totalQ})` },
+                  { key: 'correct', label: `Doğru (${totalCorrect})` },
+                  { key: 'wrong', label: `Yanlış (${totalWrong})` },
+                  { key: 'empty', label: `Boş (${totalEmpty})` },
+                ].map(f => (
                   <button
-                    onClick={() => toggleSolution(q.id)}
-                    className="p-2 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-xs font-semibold hover:bg-[var(--bg-card-hover)] flex items-center gap-1 shrink-0"
+                    key={f.key}
+                    className={`btn btn--ghost results__filter-btn ${answerFilter === f.key ? 'results__filter-btn--active' : ''}`}
+                    onClick={() => setAnswerFilter(f.key)}
                   >
-                    <span>{isExpanded ? 'Çözümü Gizle' : 'Çözümü Gör'}</span>
-                    {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                    {f.label}
                   </button>
-                </div>
-
-                {/* Expanded Solution Box */}
-                {isExpanded && (
-                  <div className="mt-4 pt-4 border-t border-[var(--border-color)] text-xs leading-relaxed space-y-2 animate-fade-in bg-[var(--bg-card)] p-4 rounded-xl">
-                    <p className="font-bold text-indigo-500">Soru Çözümü & Açıklama:</p>
-                    <p className="text-[var(--text-main)]">{q.explanation}</p>
-                  </div>
-                )}
-
+                ))}
               </div>
-            );
-          })}
+
+              {/* Questions */}
+              <div className="results__answer-list">
+                {filteredQuestions.map((q, i) => {
+                  const userAns = answers[q.id];
+                  const isCorrect = userAns === q.correctAnswer;
+                  const isEmpty = !userAns;
+                  return (
+                    <div key={q.id} className="results__answer-item surface">
+                      <div className="results__answer-status">
+                        {isEmpty ? <MinusCircleIcon /> : isCorrect ? <CheckCircleIcon /> : <XCircleIcon />}
+                      </div>
+                      <div className="results__answer-content">
+                        <div className="results__answer-q-header">
+                          <span className="badge badge--muted">Soru {config.questions.indexOf(q) + 1}</span>
+                          <span className="badge badge--muted">{q.subjectTitle}</span>
+                        </div>
+                        <p className="results__answer-q-text">{q.text}</p>
+                        <div className="results__answer-info">
+                          {!isEmpty && (
+                            <span className={isCorrect ? 'results__ans--correct' : 'results__ans--wrong'}>
+                              Cevabınız: <strong>{userAns}</strong>
+                            </span>
+                          )}
+                          {!isCorrect && (
+                            <span className="results__ans--correct">
+                              Doğru: <strong>{q.correctAnswer}</strong>
+                            </span>
+                          )}
+                        </div>
+                        {q.explanation && (
+                          <p className="results__explanation">{q.explanation}</p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* ─── Actions ─── */}
+        <div className="results__actions anim-slide" style={{ animationDelay: '.3s' }}>
+          <button className="btn btn--ghost" onClick={onHome}>
+            <HomeIcon /> Ana Sayfa
+          </button>
+          <button className="btn btn--primary" onClick={onRetry}>
+            <RefreshIcon /> Tekrar Çöz
+          </button>
         </div>
       </div>
-
-      {/* Restart CTA */}
-      <div className="text-center pt-4">
-        <button
-          onClick={onRestartExam}
-          className="px-8 py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-base shadow-xl shadow-indigo-600/25 transition-all inline-flex items-center gap-2"
-        >
-          <RotateCcw className="w-5 h-5" />
-          <span>Yeni Bir Sınava Başla</span>
-        </button>
-      </div>
-
     </div>
   );
 }

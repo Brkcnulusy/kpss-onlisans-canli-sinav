@@ -1,128 +1,103 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import Navbar from './components/Navbar';
 import HeroScreen from './components/HeroScreen';
 import ExamConfigModal from './components/ExamConfigModal';
 import ExamSimulator from './components/ExamSimulator';
 import ResultsScreen from './components/ResultsScreen';
+import { EXAMS, calculateResults } from './data/examsData';
+
+/*
+ * App States:
+ * 'home'   → Hero / landing screen
+ * 'config' → Exam selection + subject picker modal
+ * 'exam'   → Live exam simulator
+ * 'results'→ Score / analysis screen
+ */
 
 export default function App() {
-  // Theme Management (System default, Light, Dark)
-  const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('kpss_theme') || 'system';
-  });
-
-  // Screen state: 'hero', 'exam', 'results'
-  const [screen, setScreen] = useState('hero');
-  const [isConfigOpen, setIsConfigOpen] = useState(false);
-  const [initialConfigYear, setInitialConfigYear] = useState(2024);
-
-  // Active Exam state
-  const [examConfig, setExamConfig] = useState(null);
-  const [timerSeconds, setTimerSeconds] = useState(0);
-  const [completedQuestions, setCompletedQuestions] = useState([]);
+  const [screen, setScreen] = useState('home');
+  const [examConfig, setExamConfig] = useState(null);   // { exam, subjects, questions, durationMinutes }
   const [userAnswers, setUserAnswers] = useState({});
+  const [results, setResults] = useState(null);
 
-  // Theme effect
-  useEffect(() => {
-    localStorage.setItem('kpss_theme', theme);
-    let targetTheme = theme;
-
-    if (theme === 'system') {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      targetTheme = prefersDark ? 'dark' : 'light';
-    }
-
-    document.documentElement.setAttribute('data-theme', targetTheme);
+  /* Theme toggle */
+  const [theme, setTheme] = useState(
+    () => document.documentElement.getAttribute('data-theme') || 'dark'
+  );
+  const toggleTheme = useCallback(() => {
+    const next = theme === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('kpss-theme', next);
   }, [theme]);
 
-  // Open config modal
-  const handleOpenConfig = (year = 2024) => {
-    setInitialConfigYear(year);
-    setIsConfigOpen(true);
-  };
+  /* Navigation handlers */
+  const handleStartExam = () => setScreen('config');
 
-  // Start exam from modal
-  const handleStartExam = (config) => {
+  const handleConfigDone = (config) => {
     setExamConfig(config);
-    setTimerSeconds(config.durationMinutes * 60);
-    setIsConfigOpen(false);
+    setUserAnswers({});
+    setResults(null);
     setScreen('exam');
   };
 
-  // Finish exam from simulator
-  const handleFinishExam = (questions, answers) => {
-    setCompletedQuestions(questions);
+  const handleFinishExam = (answers) => {
+    if (!examConfig) return;
     setUserAnswers(answers);
+    const res = calculateResults(examConfig.questions, answers);
+    setResults(res);
     setScreen('results');
   };
 
-  // Restart exam
-  const handleRestart = () => {
-    setScreen('hero');
+  const handleGoHome = () => {
+    setScreen('home');
     setExamConfig(null);
+    setUserAnswers({});
+    setResults(null);
   };
 
-  // Exit exam early
-  const handleExitExam = () => {
-    if (window.confirm('Sınavı bitirmeden çıkmak istediğinize emin misiniz? İlerlemeniz silinecektir.')) {
-      handleRestart();
-    }
+  const handleRetry = () => {
+    if (!examConfig) return;
+    setUserAnswers({});
+    setResults(null);
+    setScreen('exam');
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[var(--bg-main)] text-[var(--text-main)] transition-colors duration-300">
-      
-      {/* Navigation Bar */}
-      <Navbar
-        theme={theme}
-        setTheme={setTheme}
-        activeExam={examConfig?.exam}
-        timerSeconds={timerSeconds}
-        isExamActive={screen === 'exam'}
-        onExitExam={handleExitExam}
-      />
+    <>
+      <Navbar theme={theme} toggleTheme={toggleTheme} onLogoClick={handleGoHome} />
 
-      {/* Main Screen Router */}
-      <main className="flex-1 pb-12">
-        {screen === 'hero' && (
-          <HeroScreen
-            onStartExamClick={() => handleOpenConfig(2024)}
-            onSelectYearDirect={(yr) => handleOpenConfig(yr)}
+      <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        {screen === 'home' && (
+          <HeroScreen onStart={handleStartExam} />
+        )}
+
+        {screen === 'config' && (
+          <ExamConfigModal
+            exams={EXAMS}
+            onStart={handleConfigDone}
+            onClose={handleGoHome}
           />
         )}
 
         {screen === 'exam' && examConfig && (
           <ExamSimulator
-            examConfig={examConfig}
-            timerSeconds={timerSeconds}
-            setTimerSeconds={setTimerSeconds}
-            onFinishExam={handleFinishExam}
+            config={examConfig}
+            onFinish={handleFinishExam}
+            onQuit={handleGoHome}
           />
         )}
 
-        {screen === 'results' && (
+        {screen === 'results' && results && examConfig && (
           <ResultsScreen
-            examConfig={examConfig}
-            questions={completedQuestions}
-            userAnswers={userAnswers}
-            onRestartExam={handleRestart}
+            results={results}
+            config={examConfig}
+            answers={userAnswers}
+            onRetry={handleRetry}
+            onHome={handleGoHome}
           />
         )}
       </main>
-
-      {/* Exam Setup Config Modal */}
-      <ExamConfigModal
-        isOpen={isConfigOpen}
-        onClose={() => setIsConfigOpen(false)}
-        initialYear={initialConfigYear}
-        onStartExam={handleStartExam}
-      />
-
-      {/* Footer */}
-      <footer className="py-6 border-t border-[var(--border-color)] text-center text-xs text-[var(--text-muted)]">
-        <p>KPSS Ön Lisans Canlı Sınav Platformu &bull; Tüm Hakları Saklıdır &copy; 2026</p>
-      </footer>
-
-    </div>
+    </>
   );
 }

@@ -1,351 +1,290 @@
-import React, { useState, useEffect } from 'react';
-import { Play, Pause, Clock, Flag, ChevronLeft, ChevronRight, CheckCircle2, RotateCcw, XCircle, Grid, AlertCircle, HelpCircle } from 'lucide-react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import SmartBlankModal from './SmartBlankModal';
 
-export default function ExamSimulator({ examConfig, timerSeconds, setTimerSeconds, onFinishExam }) {
-  const { exam, questions, durationMinutes } = examConfig;
+/* ─── Icons ─── */
+const PauseIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+);
+const PlayIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+);
+const FlagIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+  </svg>
+);
+const ChevronLeftIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+);
+const ChevronRightIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+);
 
+/* Format seconds → mm:ss */
+const formatTime = (totalSeconds) => {
+  const h = Math.floor(totalSeconds / 3600);
+  const m = Math.floor((totalSeconds % 3600) / 60);
+  const s = totalSeconds % 60;
+  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+};
+
+export default function ExamSimulator({ config, onFinish, onQuit }) {
+  const { questions, durationMinutes } = config;
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState({});
-  const [flaggedQuestions, setFlaggedQuestions] = useState({});
+  const [answers, setAnswers] = useState({});       // { questionId: 'A'|'B'|... }
+  const [flagged, setFlagged] = useState(new Set()); // marked-for-review question ids
+  const [secondsLeft, setSecondsLeft] = useState(durationMinutes * 60);
   const [isPaused, setIsPaused] = useState(false);
-  
-  // Smart Blank Review Mode State
-  const [isBlankOnlyMode, setIsBlankOnlyMode] = useState(false);
-  const [showSmartBlankModal, setShowSmartBlankModal] = useState(false);
+  const [showBlankModal, setShowBlankModal] = useState(false);
+  const [showPalette, setShowPalette] = useState(false);
+  const timerRef = useRef(null);
 
-  const currentQuestion = questions[currentIndex] || questions[0];
-  const selectedAnswer = userAnswers[currentQuestion.id] || null;
-  const isFlagged = flaggedQuestions[currentQuestion.id] || false;
-
-  // Auto timer tick
+  /* Timer */
   useEffect(() => {
-    if (isPaused) return;
-    const interval = setInterval(() => {
-      setTimerSeconds(prev => {
+    if (isPaused || secondsLeft <= 0) return;
+    timerRef.current = setInterval(() => {
+      setSecondsLeft(prev => {
         if (prev <= 1) {
-          clearInterval(interval);
-          handleTimeExpired();
+          clearInterval(timerRef.current);
+          onFinish(answers);
           return 0;
         }
         return prev - 1;
       });
     }, 1000);
-    return () => clearInterval(interval);
-  }, [isPaused, setTimerSeconds]);
+    return () => clearInterval(timerRef.current);
+  }, [isPaused, secondsLeft, answers, onFinish]);
 
-  // Handle automatic finish when time expires
-  const handleTimeExpired = () => {
-    onFinishExam(questions, userAnswers);
-  };
+  /* Current question */
+  const question = questions[currentIndex];
+  const options = Object.entries(question.options);
 
-  // Option selection
-  const handleOptionSelect = (optionKey) => {
-    setUserAnswers(prev => ({
-      ...prev,
-      [currentQuestion.id]: optionKey
-    }));
-  };
+  /* Derived counts */
+  const answeredCount = Object.keys(answers).length;
+  const emptyCount = questions.length - answeredCount;
+  const flaggedCount = flagged.size;
 
-  // Clear answer (Boş bırak)
-  const handleClearAnswer = () => {
-    setUserAnswers(prev => {
-      const updated = { ...prev };
-      delete updated[currentQuestion.id];
-      return updated;
+  /* Timer urgency */
+  const timerUrgent = secondsLeft <= 300; // last 5 min
+
+  /* Handlers */
+  const selectAnswer = useCallback((optKey) => {
+    setAnswers(prev => {
+      // If clicking same answer, clear it (boş bırakma)
+      if (prev[question.id] === optKey) {
+        const next = { ...prev };
+        delete next[question.id];
+        return next;
+      }
+      return { ...prev, [question.id]: optKey };
     });
-  };
+  }, [question]);
 
-  // Flag toggle (Sonra bak)
-  const handleToggleFlag = () => {
-    setFlaggedQuestions(prev => ({
-      ...prev,
-      [currentQuestion.id]: !prev[currentQuestion.id]
-    }));
-  };
+  const clearAnswer = useCallback(() => {
+    setAnswers(prev => {
+      const next = { ...prev };
+      delete next[question.id];
+      return next;
+    });
+  }, [question]);
 
-  // Get list of blank question indices
-  const getBlankQuestionIndices = () => {
-    return questions
-      .map((q, idx) => (!userAnswers[q.id] ? idx : null))
-      .filter(idx => idx !== null);
-  };
+  const toggleFlag = useCallback(() => {
+    setFlagged(prev => {
+      const next = new Set(prev);
+      if (next.has(question.id)) next.delete(question.id);
+      else next.add(question.id);
+      return next;
+    });
+  }, [question]);
 
-  const blankIndices = getBlankQuestionIndices();
+  const goTo = useCallback((idx) => {
+    setCurrentIndex(idx);
+    setShowPalette(false);
+  }, []);
 
-  // Navigation handlers
-  const handleNext = () => {
-    if (isBlankOnlyMode) {
-      const nextBlanks = blankIndices.filter(i => i > currentIndex);
-      if (nextBlanks.length > 0) {
-        setCurrentIndex(nextBlanks[0]);
-      } else if (blankIndices.length > 0) {
-        setCurrentIndex(blankIndices[0]);
-      }
+  const goPrev = () => setCurrentIndex(i => Math.max(0, i - 1));
+  const goNext = () => setCurrentIndex(i => Math.min(questions.length - 1, i + 1));
+
+  /* Finish flow */
+  const handleFinishClick = () => {
+    if (emptyCount > 0) {
+      setShowBlankModal(true);
     } else {
-      if (currentIndex < questions.length - 1) {
-        setCurrentIndex(currentIndex + 1);
-      }
+      onFinish(answers);
     }
   };
 
-  const handlePrev = () => {
-    if (isBlankOnlyMode) {
-      const prevBlanks = blankIndices.filter(i => i < currentIndex);
-      if (prevBlanks.length > 0) {
-        setCurrentIndex(prevBlanks[prevBlanks.length - 1]);
-      } else if (blankIndices.length > 0) {
-        setCurrentIndex(blankIndices[blankIndices.length - 1]);
-      }
-    } else {
-      if (currentIndex > 0) {
-        setCurrentIndex(currentIndex - 1);
-      }
-    }
+  /* Blank modal: navigate to blanks */
+  const blankQuestionIndices = useMemo(() => {
+    return questions.reduce((acc, q, i) => {
+      if (!answers[q.id]) acc.push(i);
+      return acc;
+    }, []);
+  }, [questions, answers]);
+
+  const handleGoToBlank = (idx) => {
+    setCurrentIndex(idx);
+    setShowBlankModal(false);
   };
 
-  // Click Finish Exam Button
-  const handleFinishAttempt = () => {
-    if (blankIndices.length > 0) {
-      setShowSmartBlankModal(true);
-    } else {
-      onFinishExam(questions, userAnswers);
-    }
+  const handleForceFinish = () => {
+    setShowBlankModal(false);
+    onFinish(answers);
   };
 
-  // User decides to review blank questions from modal
-  const handleReviewBlanksFromModal = () => {
-    setShowSmartBlankModal(false);
-    setIsBlankOnlyMode(true);
-    if (blankIndices.length > 0) {
-      setCurrentIndex(blankIndices[0]);
-    }
-  };
-
-  const formatTime = (totalSec) => {
-    const hours = Math.floor(totalSec / 3600);
-    const mins = Math.floor((totalSec % 3600) / 60);
-    const secs = totalSec % 60;
-    const pad = (n) => String(n).padStart(2, '0');
-    return hours > 0 ? `${pad(hours)}:${pad(mins)}:${pad(secs)}` : `${pad(mins)}:${pad(secs)}`;
-  };
-
-  // Math text renderer helper
-  const renderFormattedText = (text) => {
-    if (!text) return null;
-    return text.split('\n').map((paragraph, idx) => (
-      <p key={idx} className="mb-2 leading-relaxed">
-        {paragraph}
-      </p>
-    ));
-  };
+  /* Subject label for current question */
+  const subjectLabel = question.subjectTitle || question.subject;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-4 space-y-6 animate-fade-in relative">
-      
-      {/* Smart Blank Modal */}
-      <SmartBlankModal
-        isOpen={showSmartBlankModal}
-        blankCount={blankIndices.length}
-        totalCount={questions.length}
-        onReviewBlanks={handleReviewBlanksFromModal}
-        onConfirmFinish={() => {
-          setShowSmartBlankModal(false);
-          onFinishExam(questions, userAnswers);
-        }}
-      />
-
-      {/* Floating Timer Badge & Controls Header */}
-      <div className="glass-panel p-4 flex flex-wrap items-center justify-between gap-4 sticky top-20 z-30 shadow-md">
-        
-        {/* Question Counter & Mode */}
-        <div className="flex items-center gap-3">
-          <span className="px-3 py-1 rounded-xl bg-indigo-500/10 text-indigo-500 font-extrabold text-sm border border-indigo-500/20">
-            Soru {currentIndex + 1} / {questions.length}
-          </span>
-          <span className="text-xs font-semibold text-[var(--text-muted)] px-2.5 py-1 rounded-lg bg-[var(--bg-card)] border border-[var(--border-color)]">
-            {currentQuestion.subjectTitle}
-          </span>
+    <div className="exam">
+      {/* ─── Top Bar ─── */}
+      <div className="exam__topbar">
+        <div className="exam__topbar-left">
+          <span className="exam__topbar-title">{config.exam.title}</span>
+          <span className="badge badge--muted">{currentIndex + 1} / {questions.length}</span>
         </div>
 
-        {/* Blank Mode Banner Badge if active */}
-        {isBlankOnlyMode && (
-          <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-500 text-xs font-bold animate-pulse">
-            <HelpCircle className="w-3.5 h-3.5" />
-            <span>Boş Soruları İnceleme Modu ({blankIndices.length} Boş)</span>
+        <div className="exam__topbar-center">
+          <div className={`exam__timer ${timerUrgent ? 'exam__timer--urgent' : ''}`}>
             <button
-              onClick={() => setIsBlankOnlyMode(false)}
-              className="ml-1 text-[10px] underline hover:opacity-80"
+              id="timer-pause-btn"
+              className="exam__timer-btn"
+              onClick={() => setIsPaused(p => !p)}
+              aria-label={isPaused ? 'Devam Et' : 'Duraklat'}
             >
-              (Tüm Sorulara Dön)
+              {isPaused ? <PlayIcon /> : <PauseIcon />}
+            </button>
+            <span className="exam__timer-display">{formatTime(secondsLeft)}</span>
+          </div>
+        </div>
+
+        <div className="exam__topbar-right">
+          <button
+            className="btn btn--ghost"
+            onClick={() => setShowPalette(p => !p)}
+          >
+            Soru Haritası
+          </button>
+          <button
+            id="finish-exam-btn"
+            className="btn btn--primary"
+            onClick={handleFinishClick}
+          >
+            Sınavı Bitir
+          </button>
+        </div>
+      </div>
+
+      {/* ─── Main Content ─── */}
+      <div className="exam__body">
+        {/* Question Card */}
+        <div className="exam__question-area">
+          <div className="exam__question-card surface anim-fade" key={question.id}>
+            {/* Question Header */}
+            <div className="exam__q-header">
+              <div className="exam__q-meta">
+                <span className="badge badge--primary">Soru {currentIndex + 1}</span>
+                <span className="badge badge--muted">{subjectLabel}</span>
+                {question.topic && <span className="badge badge--muted">{question.topic}</span>}
+              </div>
+              <div className="exam__q-actions">
+                <button
+                  className={`btn btn--icon exam__flag-btn ${flagged.has(question.id) ? 'exam__flag-btn--active' : ''}`}
+                  onClick={toggleFlag}
+                  title="İşaretle / Bayrak"
+                  aria-label="Soruyu işaretle"
+                >
+                  <FlagIcon />
+                </button>
+              </div>
+            </div>
+
+            {/* Question Text */}
+            <div className="exam__q-text">
+              <p>{question.text}</p>
+            </div>
+
+            {/* Options */}
+            <div className="exam__options">
+              {options.map(([key, text]) => {
+                const isSelected = answers[question.id] === key;
+                return (
+                  <button
+                    key={key}
+                    id={`option-${question.id}-${key}`}
+                    className={`exam__option ${isSelected ? 'exam__option--selected' : ''}`}
+                    onClick={() => selectAnswer(key)}
+                  >
+                    <span className="exam__option-letter">{key}</span>
+                    <span className="exam__option-text">{text}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Clear + Flag actions */}
+            <div className="exam__q-footer">
+              <button className="btn btn--ghost" onClick={clearAnswer} disabled={!answers[question.id]}>
+                Yanıtı Temizle
+              </button>
+            </div>
+          </div>
+
+          {/* Navigation */}
+          <div className="exam__nav">
+            <button className="btn btn--ghost" onClick={goPrev} disabled={currentIndex === 0}>
+              <ChevronLeftIcon /> Önceki
+            </button>
+            <button className="btn btn--ghost" onClick={goNext} disabled={currentIndex === questions.length - 1}>
+              Sonraki <ChevronRightIcon />
             </button>
           </div>
+        </div>
+
+        {/* ─── Side Palette ─── */}
+        {showPalette && (
+          <aside className="exam__palette surface anim-slide">
+            <div className="exam__palette-header">
+              <h3 className="exam__palette-title">Soru Haritası</h3>
+              <button className="btn btn--icon" onClick={() => setShowPalette(false)} aria-label="Kapat">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+            </div>
+            <div className="exam__palette-legend">
+              <span className="exam__legend-item"><span className="exam__legend-dot exam__legend-dot--answered" /> Cevaplandı ({answeredCount})</span>
+              <span className="exam__legend-item"><span className="exam__legend-dot exam__legend-dot--empty" /> Boş ({emptyCount})</span>
+              <span className="exam__legend-item"><span className="exam__legend-dot exam__legend-dot--flagged" /> İşaretli ({flaggedCount})</span>
+            </div>
+            <div className="exam__palette-grid">
+              {questions.map((q, i) => {
+                const isAnswered = !!answers[q.id];
+                const isFlagged = flagged.has(q.id);
+                const isCurrent = i === currentIndex;
+                let cls = 'exam__palette-cell';
+                if (isCurrent) cls += ' exam__palette-cell--current';
+                if (isAnswered) cls += ' exam__palette-cell--answered';
+                if (isFlagged) cls += ' exam__palette-cell--flagged';
+                return (
+                  <button key={q.id} className={cls} onClick={() => goTo(i)}>
+                    {i + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </aside>
         )}
-
-        {/* Timer Control Badge */}
-        <div className="flex items-center gap-3">
-          <button
-            onClick={() => setIsPaused(!isPaused)}
-            className="p-2 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-[var(--text-main)] hover:bg-[var(--bg-card-hover)] transition-colors flex items-center gap-1.5 text-xs font-semibold shadow-sm"
-          >
-            {isPaused ? <Play className="w-4 h-4 text-emerald-500 fill-emerald-500" /> : <Pause className="w-4 h-4 text-amber-500 fill-amber-500" />}
-            <span>{isPaused ? 'Devam Et' : 'Duraklat'}</span>
-          </button>
-
-          <div className={`px-4 py-2 rounded-xl border font-mono font-bold text-sm flex items-center gap-2 shadow-sm ${
-            timerSeconds < 300
-              ? 'bg-red-500/15 border-red-500/40 text-red-500 animate-pulse'
-              : 'bg-indigo-500/10 border-indigo-500/30 text-indigo-500'
-          }`}>
-            <Clock className="w-4 h-4" />
-            <span>{formatTime(timerSeconds)}</span>
-          </div>
-
-          <button
-            onClick={handleFinishAttempt}
-            className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-md shadow-indigo-600/20 transition-all flex items-center gap-1.5"
-          >
-            <CheckCircle2 className="w-4 h-4" />
-            <span>Sınavı Bitir</span>
-          </button>
-        </div>
-
       </div>
 
-      {/* Main Question Card */}
-      <div className="glass-panel p-6 sm:p-8 space-y-6 relative border border-[var(--border-color)] shadow-lg">
-        
-        {/* Question Header & Quick Action Buttons */}
-        <div className="flex items-center justify-between border-b border-[var(--border-color)] pb-4">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-bold text-[var(--text-subtle)]">Konu:</span>
-            <span className="text-xs font-semibold px-2 py-0.5 rounded bg-[var(--badge-bg)] text-[var(--text-muted)]">
-              {currentQuestion.topic || 'Genel Soru'}
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            {/* Clear selection button */}
-            {selectedAnswer && (
-              <button
-                onClick={handleClearAnswer}
-                className="px-3 py-1.5 rounded-lg bg-slate-500/10 text-slate-500 hover:bg-slate-500/20 text-xs font-semibold transition-colors flex items-center gap-1"
-              >
-                <XCircle className="w-3.5 h-3.5" />
-                <span>Seçimi Temizle (Boş Bırak)</span>
-              </button>
-            )}
-
-            {/* Flag for later button */}
-            <button
-              onClick={handleToggleFlag}
-              className={`px-3 py-1.5 rounded-lg border text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                isFlagged
-                  ? 'bg-amber-500/15 border-amber-500/50 text-amber-500 font-bold'
-                  : 'bg-[var(--bg-card)] border-[var(--border-color)] text-[var(--text-muted)] hover:border-amber-500/30'
-              }`}
-            >
-              <Flag className={`w-3.5 h-3.5 ${isFlagged ? 'fill-amber-500' : ''}`} />
-              <span>{isFlagged ? 'İşaretlendi' : 'Sonra Bak'}</span>
-            </button>
-          </div>
-        </div>
-
-        {/* Question Body Text */}
-        <div className="text-base sm:text-lg font-medium leading-relaxed text-[var(--text-main)] py-2">
-          {renderFormattedText(currentQuestion.text)}
-        </div>
-
-        {/* Option Choices A, B, C, D, E */}
-        <div className="space-y-3 pt-2">
-          {Object.entries(currentQuestion.options).map(([key, value]) => {
-            const isSelected = selectedAnswer === key;
-            return (
-              <button
-                key={key}
-                onClick={() => handleOptionSelect(key)}
-                className={`w-full p-4 rounded-2xl border text-left text-sm sm:text-base font-medium flex items-center gap-4 transition-all duration-200 group ${
-                  isSelected
-                    ? 'bg-indigo-600 text-white border-indigo-600 shadow-md shadow-indigo-600/20 scale-[1.005]'
-                    : 'bg-[var(--bg-card)] text-[var(--text-main)] border-[var(--border-color)] hover:border-indigo-500/40 hover:bg-[var(--bg-card-hover)]'
-                }`}
-              >
-                <span className={`w-8 h-8 rounded-xl font-bold flex items-center justify-center shrink-0 transition-colors ${
-                  isSelected
-                    ? 'bg-white text-indigo-900 shadow-sm'
-                    : 'bg-[var(--badge-bg)] text-[var(--text-muted)] group-hover:bg-indigo-500/10 group-hover:text-indigo-500'
-                }`}>
-                  {key}
-                </span>
-                <span className="leading-snug">{value}</span>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Bottom Navigation Buttons */}
-        <div className="pt-6 border-t border-[var(--border-color)] flex items-center justify-between gap-4">
-          <button
-            onClick={handlePrev}
-            disabled={!isBlankOnlyMode && currentIndex === 0}
-            className="px-5 py-2.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-[var(--text-main)] hover:bg-[var(--bg-card-hover)] disabled:opacity-40 font-semibold text-xs transition-all flex items-center gap-1.5"
-          >
-            <ChevronLeft className="w-4 h-4" />
-            <span>{isBlankOnlyMode ? 'Önceki Boş Soru' : 'Önceki Soru'}</span>
-          </button>
-
-          <button
-            onClick={handleNext}
-            disabled={!isBlankOnlyMode && currentIndex === questions.length - 1}
-            className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-md shadow-indigo-600/20 transition-all flex items-center gap-1.5"
-          >
-            <span>{isBlankOnlyMode ? 'Sonraki Boş Soru' : 'Sonraki Soru'}</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
-        </div>
-
-      </div>
-
-      {/* Question Palette Matrix (Bottom Grid) */}
-      <div className="glass-panel p-5 space-y-3 border border-[var(--border-color)]">
-        <div className="flex items-center justify-between text-xs">
-          <h4 className="font-bold flex items-center gap-1.5 text-[var(--text-muted)]">
-            <Grid className="w-4 h-4 text-indigo-500" />
-            <span>Soru Navigasyon Matrisi</span>
-          </h4>
-          
-          <div className="flex items-center gap-4 text-[11px] font-medium text-[var(--text-muted)]">
-            <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-indigo-600"></span> Cevaplandı</span>
-            <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-amber-500"></span> İşaretli</span>
-            <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[var(--border-color)]"></span> Boş</span>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-6 sm:grid-cols-10 md:grid-cols-15 gap-2 max-h-36 overflow-y-auto p-1">
-          {questions.map((q, idx) => {
-            const isAns = !!userAnswers[q.id];
-            const isFlag = !!flaggedQuestions[q.id];
-            const isCur = idx === currentIndex;
-
-            let bgClass = 'bg-[var(--bg-card)] text-[var(--text-muted)] border-[var(--border-color)]';
-            if (isAns) bgClass = 'bg-indigo-600 text-white border-indigo-600';
-            else if (isFlag) bgClass = 'bg-amber-500 text-white border-amber-500';
-
-            return (
-              <button
-                key={q.id}
-                onClick={() => setCurrentIndex(idx)}
-                className={`h-8 rounded-lg font-bold text-xs border flex items-center justify-center transition-all duration-150 ${bgClass} ${
-                  isCur ? 'ring-2 ring-indigo-500 ring-offset-2 ring-offset-[var(--bg-main)] scale-110 font-black' : 'hover:scale-105'
-                }`}
-              >
-                {idx + 1}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
+      {/* ─── Smart Blank Modal ─── */}
+      {showBlankModal && (
+        <SmartBlankModal
+          blankIndices={blankQuestionIndices}
+          onGoToBlank={handleGoToBlank}
+          onForceFinish={handleForceFinish}
+          onClose={() => setShowBlankModal(false)}
+        />
+      )}
     </div>
   );
 }

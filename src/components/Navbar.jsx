@@ -1,85 +1,47 @@
-import React from 'react';
-import { Sun, Moon, Monitor, BookOpen, Clock, LogOut, Award } from 'lucide-react';
+import { useCallback } from 'react';
 
-export default function Navbar({ theme, setTheme, activeExam, timerSeconds, isExamActive, onExitExam }) {
-  
-  // Dynamic theme toggle cycle: system -> light -> dark -> system
-  const toggleTheme = () => {
-    if (theme === 'system') setTheme('light');
-    else if (theme === 'light') setTheme('dark');
-    else setTheme('system');
-  };
+/* ─── SVG Icons (inline — no external deps) ─── */
+const SunIcon = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+);
+const MoonIcon = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+);
 
-  const formatTime = (totalSec) => {
-    if (totalSec <= 0) return '00:00:00';
-    const hours = Math.floor(totalSec / 3600);
-    const minutes = Math.floor((totalSec % 3600) / 60);
-    const seconds = totalSec % 60;
-    
-    const pad = (num) => String(num).padStart(2, '0');
-    return hours > 0 
-      ? `${pad(hours)}:${pad(minutes)}:${pad(seconds)}` 
-      : `${pad(minutes)}:${pad(seconds)}`;
-  };
+export default function Navbar({ theme, toggleTheme, onLogoClick }) {
+  const handleLogo = useCallback((e) => {
+    e.preventDefault();
+    onLogoClick?.();
+  }, [onLogoClick]);
 
   return (
-    <header className="glass-panel sticky top-0 z-40 px-4 py-3 mx-4 mt-3 mb-4 shadow-sm transition-all duration-300">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        
-        {/* Brand Logo & Title */}
-        <div className="flex items-center gap-3 cursor-pointer" onClick={() => !isExamActive && window.location.reload()}>
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
-            <BookOpen className="w-5 h-5" />
-          </div>
-          <div>
-            <h1 className="font-bold text-lg leading-tight tracking-tight flex items-center gap-2">
-              KPSS <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-500 font-semibold border border-indigo-500/20">Ön Lisans</span>
-            </h1>
-            <p className="text-xs text-[var(--text-muted)] font-medium">Canlı Sınav & Simülasyon</p>
-          </div>
-        </div>
+    <header className="navbar">
+      <div className="navbar__inner">
+        <a href="#" className="navbar__brand" onClick={handleLogo}>
+          <span className="navbar__logo-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--c-primary)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </span>
+          <span className="navbar__title">
+            KPSS <span className="navbar__title-accent">Ön Lisans</span>
+          </span>
+        </a>
 
-        {/* Center Active Exam Badge (If exam is running) */}
-        {isExamActive && activeExam && (
-          <div className="hidden md:flex items-center gap-4 bg-[var(--bg-card)] px-4 py-1.5 rounded-full border border-[var(--border-color)] shadow-sm">
-            <div className="flex items-center gap-2 text-xs font-semibold text-[var(--text-muted)]">
-              <Award className="w-4 h-4 text-indigo-500" />
-              <span>{activeExam.title}</span>
-            </div>
-            <div className="w-px h-4 bg-[var(--border-color)]" />
-            <div className="flex items-center gap-1.5 text-xs font-bold text-indigo-500">
-              <Clock className="w-4 h-4 animate-pulse text-indigo-500" />
-              <span>{formatTime(timerSeconds)}</span>
-            </div>
-          </div>
-        )}
-
-        {/* Right Actions: Theme Toggle & Exit Button */}
-        <div className="flex items-center gap-3">
-          {/* Theme Switcher Button */}
-          <button
-            onClick={toggleTheme}
-            className="p-2.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-[var(--text-main)] hover:bg-[var(--bg-card-hover)] transition-all duration-200 flex items-center gap-2 text-xs font-medium shadow-sm"
-            title={`Mevcut Tema: ${theme === 'system' ? 'Sistem' : theme === 'light' ? 'Aydınlık' : 'Karanlık'}`}
-          >
-            {theme === 'light' && <Sun className="w-4 h-4 text-amber-500" />}
-            {theme === 'dark' && <Moon className="w-4 h-4 text-indigo-400" />}
-            {theme === 'system' && <Monitor className="w-4 h-4 text-slate-400" />}
-            <span className="hidden sm:inline capitalize">{theme === 'system' ? 'Sistem' : theme === 'light' ? 'Aydınlık' : 'Karanlık'}</span>
-          </button>
-
-          {/* Exit Exam Button */}
-          {isExamActive && (
-            <button
-              onClick={onExitExam}
-              className="px-3.5 py-2 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-500 font-semibold text-xs border border-red-500/20 flex items-center gap-1.5 transition-all duration-200"
-            >
-              <LogOut className="w-4 h-4" />
-              <span className="hidden sm:inline">Sınavı Terk Et</span>
-            </button>
-          )}
-        </div>
-
+        <button
+          id="theme-toggle-btn"
+          className="btn btn--icon navbar__theme-btn"
+          onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Açık temaya geç' : 'Koyu temaya geç'}
+          title={theme === 'dark' ? 'Açık Tema' : 'Koyu Tema'}
+        >
+          {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+        </button>
       </div>
     </header>
   );

@@ -1,45 +1,42 @@
-import React from 'react';
-import { HelpCircle, CheckCircle2, ArrowRight, RotateCcw, AlertTriangle } from 'lucide-react';
-
-export default function SmartBlankModal({ isOpen, blankCount, totalCount, onReviewBlanks, onConfirmFinish }) {
-  if (!isOpen) return null;
-
+export default function SmartBlankModal({ blankIndices, onGoToBlank, onForceFinish, onClose }) {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-      <div className="glass-panel w-full max-w-md bg-[var(--bg-card)] border border-[var(--border-color)] rounded-3xl p-6 shadow-2xl space-y-6 text-center">
-        
-        {/* Icon */}
-        <div className="w-16 h-16 rounded-3xl bg-amber-500/10 text-amber-500 flex items-center justify-center mx-auto border border-amber-500/20 shadow-md shadow-amber-500/10">
-          <HelpCircle className="w-8 h-8" />
+    <div className="modal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
+      <div className="blank-modal surface anim-slide">
+        <div className="blank-modal__header">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--c-warning)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <h3 className="blank-modal__title">Boş Bırakılan Sorular</h3>
         </div>
 
-        {/* Title & Description */}
-        <div className="space-y-2">
-          <h3 className="font-extrabold text-xl tracking-tight">Boş Bırakılan Sorulariniz Var</h3>
-          <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-            Sınavda toplam <span className="font-bold text-amber-500 text-sm">{blankCount}</span> soruyu boş bıraktınız (Toplam {totalCount} Soru). Sınavı tamamlamadan önce boş sorularınıza göz atmak ister misiniz?
-          </p>
+        <p className="blank-modal__text">
+          <strong>{blankIndices.length}</strong> adet soruyu boş bıraktınız. Gözden geçirmek ister misiniz?
+        </p>
+
+        <div className="blank-modal__list">
+          {blankIndices.slice(0, 20).map(idx => (
+            <button
+              key={idx}
+              className="blank-modal__item btn btn--ghost"
+              onClick={() => onGoToBlank(idx)}
+            >
+              Soru {idx + 1}
+            </button>
+          ))}
+          {blankIndices.length > 20 && (
+            <span className="blank-modal__more">+{blankIndices.length - 20} soru daha…</span>
+          )}
         </div>
 
-        {/* Action Buttons */}
-        <div className="space-y-3 pt-2">
-          <button
-            onClick={onReviewBlanks}
-            className="w-full py-3.5 px-4 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center gap-2"
-          >
-            <RotateCcw className="w-4 h-4" />
-            <span>Evet, Boş Soruları İncele</span>
+        <div className="blank-modal__actions">
+          <button className="btn btn--ghost" onClick={onClose}>
+            Geri Dön
           </button>
-
-          <button
-            onClick={onConfirmFinish}
-            className="w-full py-3 px-4 rounded-2xl bg-[var(--bg-card-hover)] hover:bg-[var(--border-color)] text-[var(--text-muted)] font-semibold text-xs transition-colors flex items-center justify-center gap-2"
-          >
-            <CheckCircle2 className="w-4 h-4" />
-            <span>Hayır, Sınavı Şimdi Bitir ve Sonuçları Gör</span>
+          <button className="btn btn--danger-ghost" onClick={onForceFinish}>
+            Sınavı Bitir
           </button>
         </div>
-
       </div>
     </div>
   );
