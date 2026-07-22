@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import SmartBlankModal from './SmartBlankModal';
+import MathText from './MathText';
 
 /* ─── Icons ─── */
 const PauseIcon = () => (
@@ -202,7 +203,7 @@ export default function ExamSimulator({ config, onFinish, onQuit }) {
 
             {/* Question Text */}
             <div className="exam__q-text">
-              <p>{question.text}</p>
+              <p><MathText text={question.text} /></p>
             </div>
 
             {/* Options */}
@@ -217,7 +218,7 @@ export default function ExamSimulator({ config, onFinish, onQuit }) {
                     onClick={() => selectAnswer(key)}
                   >
                     <span className="exam__option-letter">{key}</span>
-                    <span className="exam__option-text">{text}</span>
+                    <span className="exam__option-text"><MathText text={text} /></span>
                   </button>
                 );
               })}

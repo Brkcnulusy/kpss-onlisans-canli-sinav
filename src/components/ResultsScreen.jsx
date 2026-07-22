@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { SUBJECTS } from '../data/examsData';
+import MathText from './MathText';
 
 /* Icons */
 const HomeIcon = () => (
@@ -182,7 +183,7 @@ export default function ResultsScreen({ results, config, answers, onRetry, onHom
                           <span className="badge badge--muted">Soru {config.questions.indexOf(q) + 1}</span>
                           <span className="badge badge--muted">{q.subjectTitle}</span>
                         </div>
-                        <p className="results__answer-q-text">{q.text}</p>
+                        <p className="results__answer-q-text"><MathText text={q.text} /></p>
                         <div className="results__answer-info">
                           {!isEmpty && (
                             <span className={isCorrect ? 'results__ans--correct' : 'results__ans--wrong'}>
@@ -196,7 +197,7 @@ export default function ResultsScreen({ results, config, answers, onRetry, onHom
                           )}
                         </div>
                         {q.explanation && (
-                          <p className="results__explanation">{q.explanation}</p>
+                          <p className="results__explanation"><MathText text={q.explanation} /></p>
                         )}
                       </div>
                     </div>
