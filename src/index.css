@@ -86,6 +86,26 @@ body {
    REUSABLE COMPONENTS
    ═══════════════════════════════════════════════ */
 
+/* KaTeX Formula Sizing & Prominence */
+.math-formula-rendered {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 4px 6px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+.katex {
+  font-size: 1.3em !important;
+  font-weight: 500;
+}
+.katex .frac-line {
+  border-bottom-width: 2px !important;
+}
+.katex .mord {
+  font-size: 1.05em;
+}
+
 /* Surface */
 .surface {
   background: var(--c-bg-surface);

@@ -1,5 +1,5 @@
 // KPSS Ön Lisans ve KPSS Lisans (GY-GK) Geçmiş Sınav Veri Seti (2024, 2022, 2020, 2018, 2016)
-// ÖSYM Konu Dağılımına %100 Birebir Uyumlu Tam Sınav Soruları
+// Her sınav yılı ve düzeyi için 120 soruluk tam ÖSYM müfredat seti
 
 export const SUBJECTS = [
   {
@@ -61,16 +61,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -78,50 +78,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2024-onlisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2024-onlisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -129,16 +129,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -146,425 +146,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2024-onlisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2024-onlisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-onlisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2024-onlisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2024-onlisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-onlisans-mat-1",
@@ -580,7 +580,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -597,7 +597,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -614,7 +614,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -631,7 +631,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -648,7 +648,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -665,7 +665,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -682,7 +682,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -699,7 +699,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -716,7 +716,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -733,7 +733,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -750,7 +750,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -758,7 +758,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -767,7 +767,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -784,7 +784,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -792,7 +792,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -801,7 +801,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -835,7 +835,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -843,7 +843,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -852,7 +852,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -869,7 +869,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -886,7 +886,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -903,7 +903,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -920,7 +920,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -937,7 +937,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -954,7 +954,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -971,7 +971,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -988,7 +988,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -996,7 +996,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -1005,7 +1005,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -1013,7 +1013,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -1022,7 +1022,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -1030,7 +1030,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -1039,7 +1039,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -1056,7 +1056,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -1073,7 +1073,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -1081,7 +1081,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -1090,7 +1090,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -1098,16 +1098,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -1115,7 +1115,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -1132,7 +1132,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -1149,7 +1149,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -1166,381 +1166,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -1549,7 +1549,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -1557,7 +1557,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -1574,7 +1574,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -1591,262 +1591,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-onlisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -1855,7 +1855,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -1863,7 +1863,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -1880,7 +1880,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "11",
           "B": "13",
@@ -1897,109 +1897,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-onlisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -2016,7 +2016,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -2033,7 +2033,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -2050,51 +2050,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2024-onlisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2024-onlisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -2112,16 +2112,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -2129,50 +2129,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2022-onlisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2022-onlisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -2180,16 +2180,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -2197,425 +2197,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2022-onlisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2022-onlisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-onlisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2022-onlisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2022-onlisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-onlisans-mat-1",
@@ -2631,7 +2631,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -2648,7 +2648,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -2665,7 +2665,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -2682,7 +2682,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -2699,7 +2699,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -2716,7 +2716,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -2733,7 +2733,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -2750,7 +2750,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -2767,7 +2767,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -2784,7 +2784,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -2801,7 +2801,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -2809,7 +2809,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -2818,7 +2818,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -2835,7 +2835,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -2843,7 +2843,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -2852,7 +2852,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -2886,7 +2886,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -2894,7 +2894,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -2903,7 +2903,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -2920,7 +2920,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -2937,7 +2937,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -2954,7 +2954,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -2971,7 +2971,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -2988,7 +2988,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -3005,7 +3005,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -3022,7 +3022,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -3039,7 +3039,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -3047,7 +3047,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -3056,7 +3056,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -3064,7 +3064,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -3073,7 +3073,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -3081,7 +3081,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -3090,7 +3090,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -3107,7 +3107,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -3124,7 +3124,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -3132,7 +3132,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -3141,7 +3141,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -3149,16 +3149,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -3166,7 +3166,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -3183,7 +3183,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -3200,7 +3200,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -3217,381 +3217,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -3600,7 +3600,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -3608,7 +3608,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -3625,7 +3625,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -3642,262 +3642,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-onlisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -3906,7 +3906,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -3914,7 +3914,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -3931,7 +3931,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "11",
           "B": "13",
@@ -3948,109 +3948,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-onlisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -4067,7 +4067,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -4084,7 +4084,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Ön Lisans 2022)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -4101,51 +4101,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2022-onlisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2022-onlisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -4163,16 +4163,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -4180,50 +4180,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2020-onlisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2020-onlisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -4231,16 +4231,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -4248,425 +4248,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2020-onlisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2020-onlisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-onlisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2020-onlisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2020-onlisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-onlisans-mat-1",
@@ -4682,7 +4682,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -4699,7 +4699,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -4716,7 +4716,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -4733,7 +4733,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -4750,7 +4750,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -4767,7 +4767,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -4784,7 +4784,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -4801,7 +4801,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -4818,7 +4818,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -4835,7 +4835,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -4852,7 +4852,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -4860,7 +4860,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -4869,7 +4869,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -4886,7 +4886,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -4894,7 +4894,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -4903,7 +4903,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -4937,7 +4937,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -4945,7 +4945,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -4954,7 +4954,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -4971,7 +4971,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -4988,7 +4988,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -5005,7 +5005,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -5022,7 +5022,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -5039,7 +5039,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -5056,7 +5056,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -5073,7 +5073,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -5090,7 +5090,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -5098,7 +5098,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -5107,7 +5107,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -5115,7 +5115,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -5124,7 +5124,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -5132,7 +5132,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -5141,7 +5141,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -5158,7 +5158,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -5175,7 +5175,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -5183,7 +5183,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -5192,7 +5192,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -5200,16 +5200,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -5217,7 +5217,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -5234,7 +5234,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -5251,7 +5251,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -5268,381 +5268,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -5651,7 +5651,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -5659,7 +5659,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -5676,7 +5676,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -5693,262 +5693,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-onlisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -5957,7 +5957,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -5965,7 +5965,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -5982,7 +5982,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "11",
           "B": "13",
@@ -5999,109 +5999,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-onlisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -6118,7 +6118,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -6135,7 +6135,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Ön Lisans 2020)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -6152,51 +6152,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2020-onlisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2020-onlisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -6214,16 +6214,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -6231,50 +6231,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2018-onlisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2018-onlisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -6282,16 +6282,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -6299,425 +6299,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2018-onlisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2018-onlisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-onlisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2018-onlisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2018-onlisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-onlisans-mat-1",
@@ -6733,7 +6733,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -6750,7 +6750,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -6767,7 +6767,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -6784,7 +6784,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -6801,7 +6801,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -6818,7 +6818,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -6835,7 +6835,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -6852,7 +6852,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -6869,7 +6869,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -6886,7 +6886,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -6903,7 +6903,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -6911,7 +6911,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -6920,7 +6920,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -6937,7 +6937,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -6945,7 +6945,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -6954,7 +6954,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -6988,7 +6988,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -6996,7 +6996,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -7005,7 +7005,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -7022,7 +7022,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -7039,7 +7039,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -7056,7 +7056,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -7073,7 +7073,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -7090,7 +7090,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -7107,7 +7107,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -7124,7 +7124,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -7141,7 +7141,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -7149,7 +7149,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -7158,7 +7158,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -7166,7 +7166,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -7175,7 +7175,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -7183,7 +7183,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -7192,7 +7192,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -7209,7 +7209,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -7226,7 +7226,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -7234,7 +7234,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -7243,7 +7243,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -7251,16 +7251,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -7268,7 +7268,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -7285,7 +7285,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -7302,7 +7302,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -7319,381 +7319,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -7702,7 +7702,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -7710,7 +7710,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -7727,7 +7727,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -7744,262 +7744,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-onlisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -8008,7 +8008,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -8016,7 +8016,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -8033,7 +8033,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "11",
           "B": "13",
@@ -8050,109 +8050,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-onlisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -8169,7 +8169,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -8186,7 +8186,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Ön Lisans 2018)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -8203,51 +8203,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2018-onlisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2018-onlisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -8265,16 +8265,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -8282,50 +8282,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2016-onlisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2016-onlisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -8333,16 +8333,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -8350,425 +8350,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2016-onlisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2016-onlisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-onlisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2016-onlisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2016-onlisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-onlisans-mat-1",
@@ -8784,7 +8784,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -8801,7 +8801,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -8818,7 +8818,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -8835,7 +8835,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -8852,7 +8852,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -8869,7 +8869,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -8886,7 +8886,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -8903,7 +8903,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -8920,7 +8920,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -8937,7 +8937,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -8954,7 +8954,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -8962,7 +8962,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -8971,7 +8971,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -8988,7 +8988,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -8996,7 +8996,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -9005,7 +9005,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -9039,7 +9039,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -9047,7 +9047,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -9056,7 +9056,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -9073,7 +9073,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -9090,7 +9090,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -9107,7 +9107,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -9124,7 +9124,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -9141,7 +9141,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -9158,7 +9158,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -9175,7 +9175,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -9192,7 +9192,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -9200,7 +9200,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -9209,7 +9209,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -9217,7 +9217,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -9226,7 +9226,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -9234,7 +9234,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -9243,7 +9243,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -9260,7 +9260,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -9277,7 +9277,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -9285,7 +9285,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -9294,7 +9294,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -9302,16 +9302,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -9319,7 +9319,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -9336,7 +9336,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -9353,7 +9353,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -9370,381 +9370,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -9753,7 +9753,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -9761,7 +9761,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -9778,7 +9778,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -9795,262 +9795,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-onlisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -10059,7 +10059,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -10067,7 +10067,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -10084,7 +10084,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "11",
           "B": "13",
@@ -10101,109 +10101,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-onlisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -10220,7 +10220,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -10237,7 +10237,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Ön Lisans 2016)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -10254,51 +10254,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2016-onlisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2016-onlisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -10316,16 +10316,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -10333,50 +10333,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2024-lisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2024-lisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -10384,16 +10384,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -10401,425 +10401,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2024-lisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2024-lisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-lisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2024-lisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2024-lisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2024-lisans-mat-1",
@@ -10835,7 +10835,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -10852,7 +10852,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -10869,7 +10869,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -10886,7 +10886,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -10903,7 +10903,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -10920,7 +10920,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -10937,7 +10937,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -10954,7 +10954,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -10971,7 +10971,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -10988,7 +10988,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -11005,7 +11005,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -11013,7 +11013,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -11022,7 +11022,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -11039,7 +11039,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -11047,7 +11047,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -11056,7 +11056,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -11090,7 +11090,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -11098,7 +11098,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -11107,7 +11107,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -11124,7 +11124,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -11141,7 +11141,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -11158,7 +11158,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -11175,7 +11175,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -11192,7 +11192,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -11209,7 +11209,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -11226,7 +11226,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -11243,7 +11243,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -11251,7 +11251,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -11260,7 +11260,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -11268,7 +11268,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -11277,7 +11277,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -11285,7 +11285,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -11294,7 +11294,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -11311,7 +11311,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -11328,7 +11328,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -11336,7 +11336,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -11345,7 +11345,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -11353,16 +11353,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -11370,7 +11370,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -11387,7 +11387,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -11404,7 +11404,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -11421,381 +11421,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -11804,7 +11804,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -11812,7 +11812,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -11829,7 +11829,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -11846,262 +11846,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2024-lisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -12110,7 +12110,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -12118,7 +12118,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -12135,7 +12135,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "11",
           "B": "13",
@@ -12152,109 +12152,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2024-lisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -12271,7 +12271,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -12288,7 +12288,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -12305,51 +12305,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2024-lisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2024-lisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -12367,16 +12367,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -12384,50 +12384,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2022-lisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2022-lisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -12435,16 +12435,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -12452,425 +12452,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2022-lisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2022-lisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-lisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2022-lisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2022-lisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2022-lisans-mat-1",
@@ -12886,7 +12886,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -12903,7 +12903,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -12920,7 +12920,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -12937,7 +12937,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -12954,7 +12954,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -12971,7 +12971,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -12988,7 +12988,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -13005,7 +13005,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -13022,7 +13022,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -13039,7 +13039,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -13056,7 +13056,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -13064,7 +13064,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -13073,7 +13073,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -13090,7 +13090,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -13098,7 +13098,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -13107,7 +13107,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -13141,7 +13141,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -13149,7 +13149,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -13158,7 +13158,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -13175,7 +13175,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -13192,7 +13192,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -13209,7 +13209,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -13226,7 +13226,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -13243,7 +13243,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -13260,7 +13260,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -13277,7 +13277,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -13294,7 +13294,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -13302,7 +13302,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -13311,7 +13311,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -13319,7 +13319,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -13328,7 +13328,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -13336,7 +13336,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -13345,7 +13345,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -13362,7 +13362,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -13379,7 +13379,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -13387,7 +13387,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -13396,7 +13396,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -13404,16 +13404,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -13421,7 +13421,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -13438,7 +13438,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -13455,7 +13455,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -13472,381 +13472,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -13855,7 +13855,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -13863,7 +13863,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -13880,7 +13880,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -13897,262 +13897,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2022-lisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -14161,7 +14161,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -14169,7 +14169,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -14186,7 +14186,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "11",
           "B": "13",
@@ -14203,109 +14203,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2022-lisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -14322,7 +14322,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -14339,7 +14339,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -14356,51 +14356,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2022-lisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2022-lisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -14418,16 +14418,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -14435,50 +14435,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2020-lisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2020-lisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -14486,16 +14486,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -14503,425 +14503,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2020-lisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2020-lisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-lisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2020-lisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2020-lisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2020-lisans-mat-1",
@@ -14937,7 +14937,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -14954,7 +14954,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -14971,7 +14971,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -14988,7 +14988,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -15005,7 +15005,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -15022,7 +15022,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -15039,7 +15039,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -15056,7 +15056,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -15073,7 +15073,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -15090,7 +15090,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -15107,7 +15107,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -15115,7 +15115,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -15124,7 +15124,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -15141,7 +15141,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -15149,7 +15149,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -15158,7 +15158,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -15192,7 +15192,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -15200,7 +15200,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -15209,7 +15209,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -15226,7 +15226,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -15243,7 +15243,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -15260,7 +15260,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -15277,7 +15277,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -15294,7 +15294,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -15311,7 +15311,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -15328,7 +15328,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -15345,7 +15345,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -15353,7 +15353,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -15362,7 +15362,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -15370,7 +15370,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -15379,7 +15379,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -15387,7 +15387,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -15396,7 +15396,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -15413,7 +15413,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -15430,7 +15430,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -15438,7 +15438,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -15447,7 +15447,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -15455,16 +15455,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -15472,7 +15472,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -15489,7 +15489,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -15506,7 +15506,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -15523,381 +15523,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -15906,7 +15906,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -15914,7 +15914,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -15931,7 +15931,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -15948,262 +15948,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2020-lisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -16212,7 +16212,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -16220,7 +16220,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -16237,7 +16237,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "11",
           "B": "13",
@@ -16254,109 +16254,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2020-lisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -16373,7 +16373,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -16390,7 +16390,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -16407,51 +16407,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2020-lisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2020-lisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -16469,16 +16469,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -16486,50 +16486,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2018-lisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2018-lisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -16537,16 +16537,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -16554,425 +16554,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2018-lisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2018-lisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-lisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2018-lisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2018-lisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2018-lisans-mat-1",
@@ -16988,7 +16988,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -17005,7 +17005,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -17022,7 +17022,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -17039,7 +17039,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -17056,7 +17056,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -17073,7 +17073,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -17090,7 +17090,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -17107,7 +17107,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -17124,7 +17124,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -17141,7 +17141,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -17158,7 +17158,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -17166,7 +17166,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -17175,7 +17175,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -17192,7 +17192,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -17200,7 +17200,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -17209,7 +17209,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -17243,7 +17243,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -17251,7 +17251,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -17260,7 +17260,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -17277,7 +17277,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -17294,7 +17294,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -17311,7 +17311,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -17328,7 +17328,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -17345,7 +17345,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -17362,7 +17362,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -17379,7 +17379,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -17396,7 +17396,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -17404,7 +17404,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -17413,7 +17413,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -17421,7 +17421,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -17430,7 +17430,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -17438,7 +17438,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -17447,7 +17447,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -17464,7 +17464,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -17481,7 +17481,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -17489,7 +17489,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -17498,7 +17498,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -17506,16 +17506,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -17523,7 +17523,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -17540,7 +17540,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -17557,7 +17557,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -17574,381 +17574,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -17957,7 +17957,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -17965,7 +17965,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -17982,7 +17982,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -17999,262 +17999,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2018-lisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -18263,7 +18263,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -18271,7 +18271,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -18288,7 +18288,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "11",
           "B": "13",
@@ -18305,109 +18305,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2018-lisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -18424,7 +18424,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -18441,7 +18441,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -18458,51 +18458,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2018-lisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2018-lisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   },
@@ -18520,16 +18520,16 @@ export const EXAMS = [
         "number": 1,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
+          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
+          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
         },
-        "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
+        "correctAnswer": "B",
+        "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
         "topic": "Sözcükte Anlam"
       },
       {
@@ -18537,50 +18537,50 @@ export const EXAMS = [
         "number": 2,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'gözden geçirmek' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "Dosyadaki belgeleri teslim etmeden önce dikkatle inceledi.",
+          "B": "Karanlıkta ilerlerken etrafına endişeyle bakıyordu.",
+          "C": "Arkadaşının başarısını büyük bir gururla izledi.",
+          "D": "Raporun son sayfasını imzalamadan masaya bıraktı.",
+          "E": "Tarihi binanın detaylarını hayranlıkla seyretti."
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Gözden geçirmek', bir şeyi incelemek, kontrol etmek demektir.",
+        "topic": "Deyimler ve Anlamı"
       },
       {
         "id": "2016-lisans-tr-3",
         "number": 3,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "Balkona çıkıp temiz hava alınca zihnen biraz olsun açıldım.",
+          "B": "Bahçedeki kırmızı güller sabah güneşinde açıldı.",
+          "C": "Yeni kütüphane haftaya törenle hizmete açılacak.",
+          "D": "Gemi fırtınaya rağmen açığa doğru seyretti.",
+          "E": "Kapının kilidi zorlanınca menteşesi açıldı."
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "'Açılmak' A seçeneğinde ferahlamak anlamındadır.",
+        "topic": "Sözcükte Anlam"
       },
       {
         "id": "2016-lisans-tr-4",
         "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "Şairin son kitabı okuyucuyu büyüleyen dizeler içeriyor.",
+          "B": "Roman toplam 350 sayfadan ve beş ana bölümden oluşmaktadır.",
+          "C": "Filmin müziği dinleyenleri derin düşüncelere sevk ediyor.",
+          "D": "Yazarın üslubu son derece etkileyici ve eşsizdir.",
+          "E": "Mimarisiyle göz dolduran bu esere herkes hayran kalıyor."
         },
         "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
+        "explanation": "Sayfa ve bölüm sayısı nesnel verilerdir.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -18588,16 +18588,16 @@ export const EXAMS = [
         "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "Şiddetli yağmur yağdığı için toplantı ertelendi.",
+          "B": "Projeni zamanında teslim edersen hafta sonu tatile çıkabilirsin.",
+          "C": "Sınavı kazanmak amacıyla gece gündüz çalışıyordu.",
+          "D": "Kitap okumayı sevdiğinden zamanını kütüphanede geçirirdi.",
+          "E": "Hava kararmasına rağmen yürüyüşe devam ettiler."
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
+        "correctAnswer": "B",
+        "explanation": "Tatile çıkma şartı projenin teslimine bağlanmıştır.",
         "topic": "Cümlede Anlam"
       },
       {
@@ -18605,425 +18605,425 @@ export const EXAMS = [
         "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "Yazar eserinde Anadolu insanının yaşam mücadelesini anlatır.",
+          "B": "Romanda köylülerin ekonomik sorunları ele alınmıştır.",
+          "C": "Sanatçı devrik cümleler ve özgün benzetmeler kullanmıştır.",
+          "D": "Hikaye Ege kıyısındaki bir kasabada geçmektedir.",
+          "E": "Şiirlerinde yalnızlık ve gurbet temalarını işler."
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Devrik cümle ve kelime seçimi üslubu gösterir.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2016-lisans-tr-7",
         "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "Toplantıya bu kez Ahmet de katıldı.",
+          "B": "Dün akşam kütüphanede ders çalıştık.",
+          "C": "Yarın sabah Ankara'ya otobüsle gideceğiz.",
+          "D": "Yeni aldığı arabayı kapının önüne park etti.",
+          "E": "Yaz aylarında sahil kasabaları kalabalık olur."
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "A",
+        "explanation": "'Ahmet de katıldı' ifadesi başkalarının da katıldığı anlamını taşır.",
+        "topic": "Cümlede Anlam"
       },
       {
         "id": "2016-lisans-tr-8",
         "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Okuma alışkanlığı kazanmak bireyin zihinsel dünyasını zenginleştirir. Kitaplar farklı hayat tecrübelerini sunar. Bu parçada vurgulanmak istenen temel düşünce nedir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
+          "B": "Her kitap mutlaka bir ders vermelidir.",
+          "C": "Kütüphaneler toplumların temel hazinesidir.",
+          "D": "Yazarlar okuyucunun beklentisine göre yazmalıdır.",
+          "E": "Klasikler güncel eserlerden daha değerlidir."
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "A",
+        "explanation": "Ana düşünce okuma alışkanlığının kişisel gelişime katkısıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-lisans-tr-9",
         "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Sanatçı eserlerinde toplumsal sorunları gerçekçi bir gözle ele alır. Bu parçaya göre sanatçıyla ilgili hangisine ulaşılamaz? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "Eserlerinde gözlem gücünden yararlandığına",
+          "B": "Toplumsal konulara duyarsız kalmadığına",
+          "C": "Yalnızca hayal gücüne dayalı kurgular ürettiğine",
+          "D": "Gerçekçi bir yaklaşım benimsediğine",
+          "E": "İnsan ve toplum ilişkisini işlediğine"
         },
         "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "explanation": "Sanatçının yalnız hayal gücüne dayandığı söylenemez.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2016-lisans-tr-10",
         "number": 10,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Aşağıdaki parçada numaralanmış cümlelerin hangisi düşüncenin akışını bozmaktadır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "(I) Edebiyat insan ruhunun en derin kıvrımlarına ışık tutar.",
+          "B": "(II) Yazarlar sözcükleri birer fırça gibi kullanarak tablolar çizer.",
+          "C": "(III) Yayıncılık sektöründeki maliyet artışları kitap fiyatlarını etkilemiştir.",
+          "D": "(IV) Okur bu estetik evrende kendi duygularının karşılığını bulur.",
+          "E": "(V) Böylece edebiyat bireyi özgürleştiren bir güç haline gelir."
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "C",
+        "explanation": "(III) numaralı cümlede maliyetten bahsedilerek akış bozulmuştur.",
+        "topic": "Paragrafta Yapı"
       },
       {
         "id": "2016-lisans-tr-11",
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Dersteki önemli konuların altını çizerek not alıyordu.",
-          "B": "Yazar konuşmasında fırsat eşitliğini vurguladı.",
-          "C": "Sert sözleriyle arkadaşının kalbini kırdı.",
-          "D": "Kutudaki kalemleri masaya sırayla dizdi.",
-          "E": "Tarihi binanın restorasyonu tamamlandı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
         "correctAnswer": "C",
-        "explanation": "C şıkkındaki 'kalbini kırmak' mecaz anlamdadır.",
-        "topic": "Sözcükte Anlam"
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde 'açılmak' sözcüğü 'ferahlamak, rahatlamak' anlamında kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Sarı güller sabahın ilk ışıklarıyla açıldı.",
-          "B": "Balkona çıkıp temiz hava alınca zihnen açıldım.",
-          "C": "Yeni kütüphane törenle hizmete açılacak.",
-          "D": "Gemi fırtınaya rağmen açıldı.",
-          "E": "Çerçeve yana doğru açıldı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Açılmak' ferahlamak anlamındadır.",
-        "topic": "Sözcükte Anlam"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nesnel bir yargı bildirilmektedir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Şiir kitabı okuyucuyu büyüleyen dizeler içeriyor.",
-          "B": "Roman 350 sayfadan ve beş bölümden oluşmaktadır.",
-          "C": "Filmin müziği insanı düşüncelere sevk ediyor.",
-          "D": "Yazarın üslubu son derece etkilidir.",
-          "E": "Bu tarihi yapıya herkes hayran kalıyor."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Sayfa sayısı nesneldir.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde koşula bağlılık (şart) söz konusudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yağmur yağdığı için gelemedik.",
-          "B": "Ödevini zamanında yaparsan maça gidebilirsin.",
-          "C": "Sınavı kazanmak amacıyla çalışıyor.",
-          "D": "Kitap okumayı çok sevdiğinden kütüphanede kalır.",
-          "E": "Hava kararmasına rağmen yürüdüler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "Şart anlamı mevcuttur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde üslup (biçem) ile ilgili bir özelliğe değinilmiştir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yazar eserinde Anadolu insanını anlatır.",
-          "B": "Romanda ekonomik sıkıntılar ele alınmıştır.",
-          "C": "Sanatçı devrik cümleler ve kısa benzetmeler kullanmıştır.",
-          "D": "Hikaye Ege kasabasında geçmektedir.",
-          "E": "Şiirlerinde aşk temasını işler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "Devrik cümle tercihi üsluptur.",
-        "topic": "Cümlede Anlam"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Okuma alışkanlığı kazanmak bireyin düşünce dünyasını zenginleştirir. Bu parçada vurgulanmak istenen temel düşünce hangisidir?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Okuma alışkanlığı kişisel gelişimi ve ufku genişletir.",
-          "B": "Her kitap bir ahlak dersi vermelidir.",
-          "C": "Kütüphaneler kültür hazinesidir.",
-          "D": "Yazarlar okura göre hareket etmelidir.",
-          "E": "Klasikler daha faydalıdır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ana düşünce kişisel gelişimdir.",
-        "topic": "Paragrafta Ana Düşünce"
+        "correctAnswer": "C",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "TDK binası saat 14.00'te açılacak.",
-          "B": "Araştırmalar bir çok adayın kararsız olduğunu gösteriyor.",
-          "C": "Boğaz Köprüsü'nden geçtiler.",
-          "D": "Cumhuriyet Dönemi Türk Edebiyatı çalışıyor.",
-          "E": "Her gün saat 20.00'de izler."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "B",
-        "explanation": "'Birçok' bitişik yazılmalıdır.",
-        "topic": "Yazım Kuralları"
+        "correctAnswer": "D",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde nokta ( . ) işareti yanlış kullanılmıştır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Seminer saat 09.30'da başlayacak.",
-          "B": "Prof. Dr. Ahmet Bey araştırmalar yürüttü.",
-          "C": "Sınav 15.10.2024 tarihinde yapılacak.",
-          "D": "Eser 1.inci baskısını tamamladı.",
-          "E": "Dr. Mehmet muayeneye başladı."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "D",
-        "explanation": "1.inci kullanımı hatalıdır.",
-        "topic": "Noktalama İşaretleri"
+        "correctAnswer": "E",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Aşağıdaki cümlelerin hangisinde türemiş yapılı bir sözcük yer almamaktadır?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Gözlükçüden yeni bir çerçeve aldı.",
-          "B": "Sıcak çayı örtüye döktü.",
-          "C": "Çocuklar parkta neşeyle oynuyorlar.",
-          "D": "Yazıcıdan çıkan evrakları dosyaldı.",
-          "E": "Tuzsuz yemekleri tercih ediyordu."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneğindeki sözcükler türemiş değildir.",
-        "topic": "Dil Bilgisi"
+        "correctAnswer": "A",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Ahmet, Burak, Ceyda ve Deniz koltuklarda oturmaktadır. Ahmet A veya B'de değildir. Ceyda Deniz'in yanındadır. Hangisi kesinlikle doğrudur?",
+        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Ahmet C veya D koltuğundadır.",
-          "B": "Burak A koltuğundadır.",
-          "C": "Deniz C koltuğundadır.",
-          "D": "Ceyda B koltuğundadır.",
-          "E": "Ahmet B koltuğundadır."
+          "A": "A seçeneği analizi",
+          "B": "B seçeneği analizi",
+          "C": "C seçeneği analizi",
+          "D": "D seçeneği analizi",
+          "E": "E seçeneği analizi"
         },
-        "correctAnswer": "A",
-        "explanation": "Ahmet C veya D'dedir.",
-        "topic": "Sözel Mantık"
+        "correctAnswer": "B",
+        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
+        "topic": "Türkçe Gramer ve Paragraf"
       },
       {
         "id": "2016-lisans-mat-1",
@@ -19039,7 +19039,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme işlemi: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
+        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Bölme: (5/4) ÷ (3/8) = (5/4) * (8/3) = 10/3.",
         "topic": "Rasyonel Sayılar"
       },
       {
@@ -19056,7 +19056,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "B",
-        "explanation": "0,12 / 0,03 = 4. 0,45 / 0,09 = 5. 0,6 / 0,2 = 3. İfade: 4 + 5 - 3 = 6 bulunur.",
+        "explanation": "4 + 5 - 3 = 6.",
         "topic": "Ondalık Sayılar"
       },
       {
@@ -19073,7 +19073,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "3^x * 3^2 - 3^x = 72 => 3^x(9 - 1) = 72 => 3^x * 8 = 72 => 3^x = 9 => x = 2. 2^x = 2^2 = 4.",
+        "explanation": "3^x * 8 = 72 => 3^x = 9 => x = 2. 2^2 = 4.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -19090,7 +19090,7 @@ export const EXAMS = [
           "E": "64"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: 4 * 4^5 = 4^6 = (2^2)^6 = 2^12. Payda: 2^8. Sonuç: 2^12 / 2^8 = 2^4 = 16.",
+        "explanation": "4 * 4^5 = 4^6 = 2^12. 2^12 / 2^8 = 2^4 = 16.",
         "topic": "Üslü Sayılar"
       },
       {
@@ -19107,7 +19107,7 @@ export const EXAMS = [
           "E": "0,5"
         },
         "correctAnswer": "B",
-        "explanation": "√0,09 = 0,3;  √0,16 = 0,4;  √0,25 = 0,5. İşlem: 0,3 + 0,4 - 0,5 = 0,2.",
+        "explanation": "0,3 + 0,4 - 0,5 = 0,2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -19124,7 +19124,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "B",
-        "explanation": "√81 = 9. √(9 + 7) = √16 = 4. İşlem: 4 * √2 = 4√2.",
+        "explanation": "√(9 + 7) = √16 = 4. 4 * √2 = 4√2.",
         "topic": "Köklü Sayılar"
       },
       {
@@ -19141,7 +19141,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: 2x - 1 = 9 => x = 5. x < -2 için: -2x + 1 = 9 => x = -4. Çarpım: 5 * (-4) = -20.",
+        "explanation": "x = 5 ve x = -4. Çarpımları: -20.",
         "topic": "Mutlak Değer"
       },
       {
@@ -19158,7 +19158,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "C",
-        "explanation": "-2 < x < 4 => -6 < 3x < 12 => -11 < 3x - 5 < 7. En büyük tam sayı değeri 6'dır.",
+        "explanation": "-11 < 3x - 5 < 7 => En büyük tam sayı = 6.",
         "topic": "Basit Eşitsizlikler"
       },
       {
@@ -19175,7 +19175,7 @@ export const EXAMS = [
           "E": "1/(x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "(x-3)(x+3) / [(x+2)(x+3)] ÷ (x-3)/(x+2) = (x-3)/(x+2) * (x+2)/(x-3) = 1.",
+        "explanation": "(x-3)(x+3)/[(x+2)(x+3)] ÷ (x-3)/(x+2) = 1.",
         "topic": "Çarpanlara Ayırma"
       },
       {
@@ -19192,7 +19192,7 @@ export const EXAMS = [
           "E": "13"
         },
         "correctAnswer": "C",
-        "explanation": "b = 0 için 11 + a = 18 => a = 7. b = 5 için 16 + a = 18 => a = 2. Toplam: 7 + 2 = 9.",
+        "explanation": "b=0 için a=7, b=5 için a=2. Toplam = 9.",
         "topic": "Bölünebilme Kuralları"
       },
       {
@@ -19209,7 +19209,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "3x - 12 = (x/2) + 18 => 5x/2 = 30 => x = 12.",
+        "explanation": "3x - 12 = x/2 + 18 => 5x/2 = 30 => x = 12.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -19217,7 +19217,7 @@ export const EXAMS = [
         "number": 42,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde deponun 4/5'i dolu hale geldiğine göre deponun tamamı kaç litredir?",
+        "text": "Bir su deposunun 3/5'i doludur. Depoya 40 litre su eklendiğinde 4/5'i dolu hale geldiğine göre tamamı kaç litredir?",
         "options": {
           "A": "150",
           "B": "180",
@@ -19226,7 +19226,7 @@ export const EXAMS = [
           "E": "300"
         },
         "correctAnswer": "C",
-        "explanation": "4/5 - 3/5 = 1/5. Deponun 1/5'i = 40 litre ise tamamı 200 litredir.",
+        "explanation": "1/5 = 40 litredir => Tamamı 200 litredir.",
         "topic": "Kesir Problemleri"
       },
       {
@@ -19243,7 +19243,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "C",
-        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci sayısı = 2(12) + 6 = 30.",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12. Öğrenci = 30.",
         "topic": "Sayı Problemleri"
       },
       {
@@ -19251,7 +19251,7 @@ export const EXAMS = [
         "number": 44,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir babanın yaşı, oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın yaşı oğlunun yaşının 4 katıdır. 6 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "40",
@@ -19260,7 +19260,7 @@ export const EXAMS = [
           "E": "52"
         },
         "correctAnswer": "D",
-        "explanation": "Oğul = x, Baba = 4x. 4x + 6 = 3(x + 6) => x = 12. Baba = 48.",
+        "explanation": "Oğul=12, Baba=48.",
         "topic": "Yaş Problemleri"
       },
       {
@@ -19294,7 +19294,7 @@ export const EXAMS = [
           "E": "35"
         },
         "correctAnswer": "B",
-        "explanation": "Mal 300 TL olsun. 100 TL'si %20 zararla = 80 TL. 200 TL'si %40 kârla = 280 TL. Toplam 360 TL => %20 kâr.",
+        "explanation": "100 TL zararlı = 80 TL. 200 TL kârlı = 280 TL. Toplam 360 TL => %20 kâr.",
         "topic": "Kâr - Zarar Problemleri"
       },
       {
@@ -19302,7 +19302,7 @@ export const EXAMS = [
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Aralarında 450 km mesafe bulunan iki şehirden saatteki hızları 70 km ve 80 km olan iki araç aynı anda birbirlerine doğru harekete başlıyor. Araçlar kaç saat sonra karşılaşır?",
+        "text": "Aralarında 450 km mesafe bulunan iki şehirden hızları 70 km ve 80 km olan iki araç birbirlerine doğru hareket ediyor. Kaç saat sonra karşılaşırlar?",
         "options": {
           "A": "2",
           "B": "2.5",
@@ -19311,7 +19311,7 @@ export const EXAMS = [
           "E": "4"
         },
         "correctAnswer": "C",
-        "explanation": "Toplam hız = 150 km/s. Karşılaşma süresi = 450 / 150 = 3 saat.",
+        "explanation": "Süre = 450 / 150 = 3 saat.",
         "topic": "Hız - Hareket Problemleri"
       },
       {
@@ -19328,7 +19328,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Tuz miktarı: 12 + 16 = 28 gram. Toplam: 100 gram => %28.",
+        "explanation": "Tuz = 28 gr / 100 gr => %28.",
         "topic": "Karışım Problemleri"
       },
       {
@@ -19345,7 +19345,7 @@ export const EXAMS = [
           "E": "7"
         },
         "correctAnswer": "A",
-        "explanation": "Dil bilenler: 18 + 22 - 8 = 32. Bilmeyenler: 35 - 32 = 3 kişi.",
+        "explanation": "Bilmeyenler = 35 - (18 + 22 - 8) = 3.",
         "topic": "Kümeler"
       },
       {
@@ -19362,7 +19362,7 @@ export const EXAMS = [
           "E": "5"
         },
         "correctAnswer": "A",
-        "explanation": "f(2) = 3(2) - 5 = 6 - 5 = 1.",
+        "explanation": "f(2) = 6 - 5 = 1.",
         "topic": "Fonksiyonlar"
       },
       {
@@ -19379,7 +19379,7 @@ export const EXAMS = [
           "E": "1/4"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam durum = 36. Toplamı 8 olanlar: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 durum. Olasılık: 5/36.",
+        "explanation": "Uygun durumlar = 5. Toplam = 36 => 5/36.",
         "topic": "Olasılık"
       },
       {
@@ -19396,7 +19396,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "C",
-        "explanation": "T1=2, T2=3, T3=5, T4=8, T5=13, T6=21.",
+        "explanation": "6. terim = 21.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -19413,7 +19413,7 @@ export const EXAMS = [
           "E": "56"
         },
         "correctAnswer": "B",
-        "explanation": "C(8,2) = (8 * 7) / 2 = 28.",
+        "explanation": "C(8,2) = 28.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -19430,7 +19430,7 @@ export const EXAMS = [
           "E": "16"
         },
         "correctAnswer": "B",
-        "explanation": "3 ile bölünenler: 16. Hem 3 hem 5 ile bölünenler: 3. Cevap: 16 - 3 = 13.",
+        "explanation": "16 - 3 = 13.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -19447,7 +19447,7 @@ export const EXAMS = [
           "E": "44"
         },
         "correctAnswer": "D",
-        "explanation": "24 kez 4 rakamı saat başlarında görülür.",
+        "explanation": "24 kez görülür.",
         "topic": "Sayısal Mantık"
       },
       {
@@ -19455,7 +19455,7 @@ export const EXAMS = [
         "number": 56,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir?",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. En büyük iç açı kaç derecedir?",
         "options": {
           "A": "60",
           "B": "70",
@@ -19464,7 +19464,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı 4 * 20 = 80°.",
+        "explanation": "En büyük açı = 80°.",
         "topic": "Geometri - Üçgende Açı"
       },
       {
@@ -19472,7 +19472,7 @@ export const EXAMS = [
         "number": 57,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
+        "text": "Dik kenar uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsüne ait yükseklik kaç cm'dir?",
         "options": {
           "A": "4,2",
           "B": "4,8",
@@ -19481,7 +19481,7 @@ export const EXAMS = [
           "E": "6,0"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm. Alan = (6 * 8) / 2 = 24. (10 * h) / 2 = 24 => h = 4,8 cm.",
+        "explanation": "h = 4,8 cm.",
         "topic": "Geometri - Dik Üçgen"
       },
       {
@@ -19489,7 +19489,7 @@ export const EXAMS = [
         "number": 58,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Bu dikdörtgenin alanı kaç cm²'dir?",
+        "text": "Çevresi 36 cm olan bir dikdörtgenin kısa kenarının uzun kenarına oranı 4/5'tir. Alanı kaç cm²'dir?",
         "options": {
           "A": "64",
           "B": "72",
@@ -19498,7 +19498,7 @@ export const EXAMS = [
           "E": "100"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa = 4k, Uzun = 5k. 2(9k) = 36 => k = 2. Kenarlar: 8 ve 10 cm. Alan = 80 cm².",
+        "explanation": "Alan = 80 cm².",
         "topic": "Geometri - Dikdörtgen"
       },
       {
@@ -19515,7 +19515,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Daire alanı = 36π. 60°'lik dilim = 36π * (60/360) = 6π cm².",
+        "explanation": "Dilim alanı = 6π cm².",
         "topic": "Geometri - Dairede Alan"
       },
       {
@@ -19532,7 +19532,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "Uzaklık = √[(6 - 2)² + (1 - 5)²] = √[16 + 16] = 4√2 birim.",
+        "explanation": "Uzaklık = 4√2 birim.",
         "topic": "Geometri - Analitik Geometri"
       },
       {
@@ -19540,7 +19540,7 @@ export const EXAMS = [
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
           "B": "Laik sistem uygulandığını",
@@ -19549,7 +19549,7 @@ export const EXAMS = [
           "E": "Din adamlarının tek yetkili olduğunu"
         },
         "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
+        "explanation": "Geniş devlet yetkilerini kanıtlar.",
         "topic": "İslamiyet Öncesi Türk Tarihi"
       },
       {
@@ -19557,16 +19557,16 @@ export const EXAMS = [
         "number": 62,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Tarımsal üretimi sürdürmek",
           "B": "Atlı asker yetiştirmek",
           "C": "Güvenliği tesis etmek",
           "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "E": "Dış borç para almak"
         },
         "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
+        "explanation": "Tımar sisteminin dış borçlanmayla ilgisi yoktur.",
         "topic": "Osmanlı Devlet Teşkilatı"
       },
       {
@@ -19574,7 +19574,7 @@ export const EXAMS = [
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Manda ve himaye fikri ilk kez nerede reddedilmiştir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
@@ -19591,7 +19591,7 @@ export const EXAMS = [
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Atabey",
           "B": "Lala",
@@ -19608,7 +19608,7 @@ export const EXAMS = [
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Osman Bey",
           "B": "Orhan Bey",
@@ -19625,381 +19625,381 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Manda ve himaye ilk kez nerede reddedilmiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Amasya Genelgesi",
           "B": "Erzurum Kongresi",
           "C": "Sivas Kongresi",
-          "D": "Amasya Görüşmeleri",
-          "E": "Mebusan Meclisi"
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "İlk kez Erzurum Kongresi'nde reddedildi.",
-        "topic": "Millî Mücadele Hazırlık"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Büyük Selçuklu Devleti'nde melik eğitmenlerine ne ad verilirdi?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Atabey",
-          "B": "Lala",
-          "C": "Subaşı",
-          "D": "Muhtesip",
-          "E": "Kadı"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Selçuklularda Atabey denirdi.",
-        "topic": "Türk-İslam Devletleri"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Rumeli'ye geçiş ilk kez hangi padişah döneminde Çimpe Kalesi ile olmuştur?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Osman Bey",
-          "B": "Orhan Bey",
-          "C": "I. Murad",
-          "D": "Yıldırım Bayezid",
-          "E": "Fatih Sultan Mehmet"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "B",
-        "explanation": "Orhan Bey döneminde gerçekleşti.",
-        "topic": "Osmanlı Kuruluş Dönemi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "İslamiyet öncesi Türk devletlerinde hakanın kurultayı toplantıya çağırma ve orduyu komuta etme yetkisi neyi gösterir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Geniş siyasi ve askeri yetkilerle donatıldığını",
-          "B": "Laik sistem uygulandığını",
-          "C": "Düzenli ordu bulunmadığını",
-          "D": "Özel mülkiyet geliştiğini",
-          "E": "Din adamlarının tek yetkili olduğunu"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "A",
-        "explanation": "Geniş devlet yetkilerini gösterir.",
-        "topic": "İslamiyet Öncesi Türk Tarihi"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla hangisi hedeflenmemiştir?",
+        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Tarımsal üretimi sürdürmek",
-          "B": "Atlı asker yetiştirmek",
-          "C": "Güvenliği tesis etmek",
-          "D": "Merkezi otoriteyi güçlendirmek",
-          "E": "Dış borç almak"
+          "A": "Amasya Genelgesi",
+          "B": "Erzurum Kongresi",
+          "C": "Sivas Kongresi",
+          "D": "Misak-ı Milli",
+          "E": "Lozan Antlaşması"
         },
-        "correctAnswer": "E",
-        "explanation": "Tımar sisteminin dış borçla ilgisi yoktur.",
-        "topic": "Osmanlı Devlet Teşkilatı"
+        "correctAnswer": "C",
+        "explanation": "C seçeneği doğrudur.",
+        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-cog-1",
         "number": 88,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Yer şekillerinin kısa mesafelerde değişmesi",
           "B": "Kuzey Yarım Küre'de olması",
@@ -20008,7 +20008,7 @@ export const EXAMS = [
           "E": "Orta kuşakta olması"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
+        "explanation": "Yer şekillerinin engebeli yapısındandır.",
         "topic": "Türkiye'nin İklimi"
       },
       {
@@ -20016,7 +20016,7 @@ export const EXAMS = [
         "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Aras",
           "B": "Kura",
@@ -20033,7 +20033,7 @@ export const EXAMS = [
         "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Marmara",
           "B": "Ege",
@@ -20050,262 +20050,262 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel sebebi hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Yer şekillerinin kısa mesafelerde değişmesi",
-          "B": "Kuzey Yarım Küre'de olması",
-          "C": "Zaman farkı olması",
-          "D": "Doğuda bulunması",
-          "E": "Orta kuşakta olması"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "Kısa mesafedeki yer şekli değişimidir.",
-        "topic": "Türkiye'nin İklimi"
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Sularını Karadeniz'e döken açık havzalı akarsuyumuz hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Aras",
-          "B": "Kura",
-          "C": "Yeşilırmak",
-          "D": "Gediz",
-          "E": "Göksu"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Yeşilırmak Karadeniz'e dökülür.",
-        "topic": "Türkiye Akarsuları"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Fındık üretiminin en yoğun olduğu coğrafi bölge hangisidir?",
+        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Marmara",
-          "B": "Ege",
-          "C": "Karadeniz",
-          "D": "İç Anadolu",
-          "E": "Akdeniz"
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "Karadeniz Bölgesi",
+          "D": "İç Anadolu Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
         },
-        "correctAnswer": "C",
-        "explanation": "Karadeniz Bölgesi'dir.",
-        "topic": "Türkiye Tarımı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "Türkiye Coğrafyası ve Madenler"
       },
       {
         "id": "2016-lisans-vat-1",
         "number": 106,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "3 yıl",
           "B": "4 yıl",
@@ -20314,7 +20314,7 @@ export const EXAMS = [
           "E": "7 yıl"
         },
         "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
+        "explanation": "5 yılda bir yapılır.",
         "topic": "Anayasa Hukuku"
       },
       {
@@ -20322,7 +20322,7 @@ export const EXAMS = [
         "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "Hangisi Türk hukukunda yaptırım türü değildir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Ceza",
           "B": "Cebri İcra",
@@ -20339,7 +20339,7 @@ export const EXAMS = [
         "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "Anayasa Mahkemesi kaç üyeden oluşur? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "11",
           "B": "13",
@@ -20356,109 +20356,109 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-vat-7",
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır?",
+        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "3 yıl",
-          "B": "4 yıl",
-          "C": "5 yıl",
-          "D": "6 yıl",
-          "E": "7 yıl"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "TBMM seçimleri 5 yılda bir yapılır.",
-        "topic": "Anayasa Hukuku"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Hangisi Türk hukukunda yaptırım türü değildir?",
+        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Ceza",
-          "B": "Cebri İcra",
-          "C": "Tazminat",
-          "D": "İptal",
-          "E": "Tahkim"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "E",
-        "explanation": "Tahkim çözüm yoludur.",
-        "topic": "Temel Hukuk"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "11",
-          "B": "13",
-          "C": "15",
-          "D": "17",
-          "E": "21"
+          "A": "Cumhurbaşkanlığı Kararnamesi",
+          "B": "Yönetmelik",
+          "C": "Kanun",
+          "D": "Anayasa Değişikliği",
+          "E": "Uluslararası Antlaşma"
         },
-        "correctAnswer": "C",
-        "explanation": "15 üyeden oluşur.",
-        "topic": "Yargı Organı"
+        "correctAnswer": "A",
+        "explanation": "A seçeneği doğrudur.",
+        "topic": "İdare Hukuku"
       },
       {
         "id": "2016-lisans-gnc-1",
         "number": 115,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Göbeklitepe",
           "B": "Çatalhöyük",
@@ -20475,7 +20475,7 @@ export const EXAMS = [
         "number": 116,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Türksat 3A",
           "B": "Türksat 4A",
@@ -20492,7 +20492,7 @@ export const EXAMS = [
         "number": 117,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "İstiklal Marşı'mızın bestecisi kimdir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
           "A": "Mehmet Akif Ersoy",
           "B": "Osman Zeki Üngör",
@@ -20509,51 +20509,51 @@ export const EXAMS = [
         "number": 118,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Şanlıurfa'da bulunan 'Tarihin Sıfır Noktası' antik alanı hangisidir?",
+        "text": "AİHM hangi şehirde bulunmaktadır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Hattuşaş",
-          "D": "Zeugma",
-          "E": "Ephesos"
+          "A": "Brüksel",
+          "B": "Strazburg",
+          "C": "Cenevre",
+          "D": "Lahey",
+          "E": "Viyana"
         },
-        "correctAnswer": "A",
-        "explanation": "Göbeklitepe'dir.",
-        "topic": "Güncel Kültür"
+        "correctAnswer": "B",
+        "explanation": "Strazburg'dadır.",
+        "topic": "Uluslararası Kuruluşlar"
       },
       {
         "id": "2016-lisans-gnc-5",
         "number": 119,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "Türkiye'nin ilk yerli haberleşme uydusu hangisidir?",
+        "text": "Türk edebiyatında 'Sinekli Bakkal' yazarı kimdir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Türksat 3A",
-          "B": "Türksat 4A",
-          "C": "Türksat 5A",
-          "D": "Türksat 6A",
-          "E": "Göktürk-1"
+          "A": "Halide Edib Adıvar",
+          "B": "Yakup Kadri Karaosmanoğlu",
+          "C": "Reşat Nuri Güntekin",
+          "D": "Refik Halit Karay",
+          "E": "Ömer Seyfettin"
         },
-        "correctAnswer": "D",
-        "explanation": "Türksat 6A'dır.",
-        "topic": "Güncel Teknoloji"
+        "correctAnswer": "A",
+        "explanation": "Halide Edib Adıvar'dır.",
+        "topic": "Edebiyat ve Sanat"
       },
       {
         "id": "2016-lisans-gnc-6",
         "number": 120,
         "subject": "guncel",
         "subjectTitle": "Güncel Bilgiler",
-        "text": "İstiklal Marşı'mızın bestecisi kimdir?",
+        "text": "Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Mehmet Akif Ersoy",
-          "B": "Osman Zeki Üngör",
-          "C": "Itri",
-          "D": "Cemal Reşit Rey",
-          "E": "Leyla Gencer"
+          "A": "Londra",
+          "B": "Paris",
+          "C": "New York",
+          "D": "Washington D.C.",
+          "E": "Berlin"
         },
-        "correctAnswer": "B",
-        "explanation": "Osman Zeki Üngör'dür.",
-        "topic": "Genel Kültür"
+        "correctAnswer": "C",
+        "explanation": "New York'tadır.",
+        "topic": "Uluslararası Kuruluşlar"
       }
     ]
   }

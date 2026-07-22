@@ -3,13 +3,12 @@ import katex from 'katex';
 import 'katex/dist/katex.min.css';
 
 /*
- * MathText component renders text containing KaTeX formulas like $$...$$
- * into beautifully formatted mathematical equations.
+ * MathText renders text containing KaTeX formulas ($$...$$ or \(...\))
+ * Uses \displaystyle and CSS scaling so nested fractions & exponents render large and clear.
  */
 export default function MathText({ text, className }) {
   if (!text) return null;
 
-  // Split text by $$...$$ or \(...\) delimiters
   const parts = text.split(/(\$\$.*?\$\$|\\\(.*?\\\))/g);
 
   return (
@@ -28,15 +27,17 @@ export default function MathText({ text, className }) {
 
         if (formula !== null) {
           try {
-            const html = katex.renderToString(formula, {
+            // Force \displaystyle so inner fractions like \frac{\frac{a}{b}}{\frac{c}{d}} remain large and legible
+            const formulaToRender = '\\displaystyle ' + formula.trim();
+            const html = katex.renderToString(formulaToRender, {
               throwOnError: false,
               displayMode: isDisplay,
             });
             return (
               <span
                 key={index}
+                className="math-formula-rendered"
                 dangerouslySetInnerHTML={{ __html: html }}
-                style={{ padding: '0 2px', display: 'inline-inline' }}
               />
             );
           } catch (err) {
