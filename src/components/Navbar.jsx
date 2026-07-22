@@ -29,7 +29,7 @@ export default function Navbar({ theme, toggleTheme, onLogoClick }) {
             </svg>
           </span>
           <span className="navbar__title">
-            KPSS <span className="navbar__title-accent">Ön Lisans</span>
+            KPSS <span className="navbar__title-accent">Ön Lisans & Lisans</span>
           </span>
         </a>
 

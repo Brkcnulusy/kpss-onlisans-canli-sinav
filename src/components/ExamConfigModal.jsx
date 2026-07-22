@@ -19,12 +19,25 @@ const ClockIcon = () => (
 );
 
 export default function ExamConfigModal({ exams, onStart, onClose }) {
+  const [selectedCategory, setSelectedCategory] = useState('onlisans'); // 'onlisans' | 'lisans'
   const [selectedExamId, setSelectedExamId] = useState(null);
   const [selectedSubjects, setSelectedSubjects] = useState([]);
 
+  /* Filter exams by category */
+  const categoryExams = useMemo(() => {
+    return exams.filter(e => (e.category || 'onlisans') === selectedCategory);
+  }, [exams, selectedCategory]);
+
   const selectedExam = useMemo(() => exams.find(e => e.id === selectedExamId), [exams, selectedExamId]);
 
-  /* Subjects that have questions in the selected exam */
+  /* Switch Category */
+  const handleCategoryChange = (cat) => {
+    setSelectedCategory(cat);
+    setSelectedExamId(null);
+    setSelectedSubjects([]);
+  };
+
+  /* Subjects available in the selected exam */
   const availableSubjects = useMemo(() => {
     if (!selectedExam) return [];
     const subIds = new Set(selectedExam.questions.map(q => q.subject));
@@ -79,11 +92,34 @@ export default function ExamConfigModal({ exams, onStart, onClose }) {
           </button>
         </div>
 
-        {/* Step 1: Exam Year */}
+        {/* Step 1: Exam Category (Ön Lisans vs Lisans) */}
         <div className="config-modal__section">
-          <h3 className="config-modal__label">1. Sınav Yılı Seçin</h3>
+          <h3 className="config-modal__label">1. Sınav Düzeyi Seçin</h3>
+          <div className="config-modal__cat-grid">
+            <button
+              id="cat-onlisans-btn"
+              className={`config-modal__cat-btn ${selectedCategory === 'onlisans' ? 'config-modal__cat-btn--active' : ''}`}
+              onClick={() => handleCategoryChange('onlisans')}
+            >
+              <span className="config-modal__cat-title">KPSS Ön Lisans</span>
+              <span className="config-modal__cat-desc">2 Yıllık Mezunlar İçin</span>
+            </button>
+            <button
+              id="cat-lisans-btn"
+              className={`config-modal__cat-btn ${selectedCategory === 'lisans' ? 'config-modal__cat-btn--active' : ''}`}
+              onClick={() => handleCategoryChange('lisans')}
+            >
+              <span className="config-modal__cat-title">KPSS Lisans (GY-GK)</span>
+              <span className="config-modal__cat-desc">4 Yıllık Mezunlar İçin (Genel Yetenek - Genel Kültür)</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Step 2: Exam Year */}
+        <div className="config-modal__section">
+          <h3 className="config-modal__label">2. Sınav Yılı Seçin</h3>
           <div className="config-modal__year-grid">
-            {exams.map(exam => (
+            {categoryExams.map(exam => (
               <button
                 key={exam.id}
                 id={`exam-year-${exam.year}`}
@@ -91,17 +127,17 @@ export default function ExamConfigModal({ exams, onStart, onClose }) {
                 onClick={() => handleExamSelect(exam.id)}
               >
                 <span className="config-modal__year-num">{exam.year}</span>
-                <span className="config-modal__year-label">KPSS Ön Lisans</span>
+                <span className="config-modal__year-label">{selectedCategory === 'lisans' ? 'KPSS Lisans' : 'KPSS Ön Lisans'}</span>
               </button>
             ))}
           </div>
         </div>
 
-        {/* Step 2: Subjects */}
+        {/* Step 3: Subjects */}
         {selectedExam && (
           <div className="config-modal__section anim-fade">
             <div className="config-modal__section-header">
-              <h3 className="config-modal__label">2. Ders Seçimi</h3>
+              <h3 className="config-modal__label">3. Ders Seçimi</h3>
               <button className="btn btn--ghost" onClick={handleSelectAll} style={{ fontSize: '.75rem', padding: '4px 10px' }}>
                 {selectedSubjects.length === availableSubjects.length ? 'Tümünü Kaldır' : 'Tümünü Seç'}
               </button>

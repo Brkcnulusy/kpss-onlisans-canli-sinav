@@ -23,7 +23,7 @@ const ArrowRightIcon = () => (
 const features = [
   { icon: <ClockIcon />,    title: 'Gerçek Süre',         desc: 'ÖSYM formatında 130 dk geri sayım' },
   { icon: <TargetIcon />,   title: 'Net Hesaplama',       desc: '4 yanlış 1 doğruyu götürür kuralı' },
-  { icon: <BarChartIcon />, title: 'Detaylı Analiz',      desc: 'Ders bazlı başarı oranı ve P93 tahmini' },
+  { icon: <BarChartIcon />, title: 'Detaylı Analiz',      desc: 'Ders bazlı başarı oranı ve puan tahmini' },
 ];
 
 export default function HeroScreen({ onStart }) {
@@ -34,18 +34,18 @@ export default function HeroScreen({ onStart }) {
         <div className="hero__orb" aria-hidden="true" />
 
         <div className="hero__content anim-slide">
-          <div className="hero__badge">
-            <span className="badge badge--primary">🎯 Geçmiş Yıl Soruları</span>
+          <div className="hero__badge" style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
+            <span className="badge badge--primary">🎓 KPSS Ön Lisans</span>
+            <span className="badge badge--success">🏛️ KPSS Lisans (GY-GK)</span>
           </div>
 
           <h1 className="hero__title">
-            KPSS Ön Lisans
-            <span className="hero__title-highlight"> Sınav Simülatörü</span>
+            KPSS Ön Lisans & Lisans
+            <span className="hero__title-highlight"> Canlı Sınav Simülatörü</span>
           </h1>
 
           <p className="hero__subtitle">
-            2024, 2022, 2020, 2018, 2016 — Geçmiş yıl ÖSYM sorularını gerçek sınav ortamında çöz,
-            netini hesapla ve tahmini P93 puanını öğren.
+            2024, 2022, 2020, 2018, 2016 — Geçmiş yıl ÖSYM KPSS Ön Lisans ve Lisans (Genel Yetenek & Genel Kültür) sorularını gerçek sınav ortamında çözün, netinizi ve tahmini puanınızı öğrenin.
           </p>
 
           <button id="hero-start-btn" className="btn btn--primary btn--lg hero__cta" onClick={onStart}>
