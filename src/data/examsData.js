@@ -63,11 +63,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -659,7 +659,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -1067,9 +1067,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -2114,11 +2114,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -2710,7 +2710,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -3118,9 +3118,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -4165,11 +4165,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -4761,7 +4761,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -5169,9 +5169,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -6216,11 +6216,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -6812,7 +6812,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -7220,9 +7220,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -8267,11 +8267,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -8863,7 +8863,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -9271,9 +9271,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -10318,11 +10318,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2024)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -10914,7 +10914,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -11322,9 +11322,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -12369,11 +12369,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2022)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -12965,7 +12965,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -13373,9 +13373,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -14420,11 +14420,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2020)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -15016,7 +15016,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -15424,9 +15424,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -16471,11 +16471,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2018)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -17067,7 +17067,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -17475,9 +17475,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
@@ -18522,11 +18522,11 @@ export const EXAMS = [
         "subjectTitle": "Türkçe",
         "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamıyla kullanılmıştır? (KPSS Lisans (GY-GK) 2016)",
         "options": {
-          "A": "Sert rüzgar pencerenin camlarını hafifçe titretiyordu.",
-          "B": "Onun bu soğuk tavırları ortamdaki neşeyi bir anda söndürdü.",
-          "C": "Masadaki su bardağını elinden düşürüp kırdı.",
-          "D": "Sabahın erken saatlerinde tarlaya çalışmaya gittiler.",
-          "E": "Yeni aldığı kitabı bir solukta okuyup bitirdi."
+          "A": "Sert rüzgar pencerenin camlarını <u>hafifçe</u> titretiyordu.",
+          "B": "Onun bu <u>soğuk</u> tavırları ortamdaki neşeyi bir anda söndürdü.",
+          "C": "Masadaki su bardağını elinden <u>düşürüp</u> kırdı.",
+          "D": "Sabahın erken saatlerinde tarlaya çalışmaya <u>gittiler</u>.",
+          "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
         "explanation": "'Soğuk tavır' ifadesi samimiyetsiz, mesafeli anlamında mecaz olarak kullanılmıştır.",
@@ -19118,7 +19118,7 @@ export const EXAMS = [
         "text": "$$\\sqrt{\\sqrt{81} + 7} \\times \\sqrt{2}$$ işleminin sonucu kaçtır?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "8",
           "D": "16",
           "E": "32"
@@ -19526,9 +19526,9 @@ export const EXAMS = [
         "text": "Analitik düzlemde A(2, 5) ve B(6, 1) noktaları arasındaki uzaklık kaç birimdir?",
         "options": {
           "A": "4",
-          "B": "4\\sqrt{2}",
+          "B": "$4\\sqrt{2}$",
           "C": "6",
-          "D": "5\\sqrt{2}",
+          "D": "$5\\sqrt{2}$",
           "E": "8"
         },
         "correctAnswer": "B",
