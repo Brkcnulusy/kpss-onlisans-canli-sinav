@@ -231,340 +231,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2024-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2024-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2024)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2024-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2024)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2024-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2024-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2024)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2024-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2024)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2024-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2024)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2024-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2024)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2024)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2024-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2024)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2024-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2024)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2024-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2024)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2024-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2024)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2024-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2024)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2024-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2024)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2024)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2024)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
         "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-onlisans-mat-1",
@@ -1166,374 +1166,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2024)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2024-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2024)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2024-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2024)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2024-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2024)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2024-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2024)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2024-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2024)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2024-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2024)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2024-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2024)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2024-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2024)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2024-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2024)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2024-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2024)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2024-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2024)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2024-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2024)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2024-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2024)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2024-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2024)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2024-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2024)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2024-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2024)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2024-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2024)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2024-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2024)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2024-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2024)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2024-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2024)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2024-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2024)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2024-onlisans-cog-1",
@@ -1591,255 +1591,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2024-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2024-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2024-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2024-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2024-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2024-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2024)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2024-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2024-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2024)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2024-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2024-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2024)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2024-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2024-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2024-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2024-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2024)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2024-onlisans-vat-1",
@@ -1897,50 +1897,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2024)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2024-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2024)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2024-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2024)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -1948,51 +1948,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2024)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2024-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2024)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2024-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2024)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2024-onlisans-gnc-1",
@@ -2282,340 +2282,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2022-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2022-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2022)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2022-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2022)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2022-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2022-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2022)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2022-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2022)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2022-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2022)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2022-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2022)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2022)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2022-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2022)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2022-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2022)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2022-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2022)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2022-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2022)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2022-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2022)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2022-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2022)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2022)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2022)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-onlisans-mat-1",
@@ -3217,374 +3217,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2022)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2022-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2022)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2022-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2022)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2022-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2022)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2022-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2022)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2022-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2022)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2022-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2022)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2022-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2022)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2022-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2022)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2022-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2022)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2022-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2022)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2022-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2022)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2022-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2022)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2022-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2022)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2022-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2022)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2022-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2022)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2022-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2022)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2022-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2022)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2022-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2022)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2022-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2022)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2022-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2022)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2022-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2022)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2022-onlisans-cog-1",
@@ -3642,255 +3642,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2022-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2022-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2022-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2022-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2022-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2022-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2022)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2022-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2022-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2022)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2022-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2022-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2022)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2022-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2022-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2022-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2022-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2022)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2022-onlisans-vat-1",
@@ -3948,50 +3948,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2022)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2022-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2022)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2022-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2022)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -3999,51 +3999,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2022)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2022-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2022)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2022-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2022)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2022-onlisans-gnc-1",
@@ -4333,340 +4333,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2020-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2020-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2020)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2020-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2020)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2020-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2020-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2020)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2020-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2020)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2020-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2020)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2020-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2020)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2020)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2020-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2020)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2020-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2020)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2020-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2020)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2020-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2020)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2020-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2020)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2020-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2020)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2020)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2020)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-onlisans-mat-1",
@@ -5268,374 +5268,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2020)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2020-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2020)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2020-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2020)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2020-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2020)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2020-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2020)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2020-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2020)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2020-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2020)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2020-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2020)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2020-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2020)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2020-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2020)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2020-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2020)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2020-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2020)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2020-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2020)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2020-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2020)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2020-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2020)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2020-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2020)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2020-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2020)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2020-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2020)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2020-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2020)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2020-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2020)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2020-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2020)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2020-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2020)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2020-onlisans-cog-1",
@@ -5693,255 +5693,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2020-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2020-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2020-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2020-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2020-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2020-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2020)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2020-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2020-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2020)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2020-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2020-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2020)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2020-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2020-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2020-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2020-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2020)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2020-onlisans-vat-1",
@@ -5999,50 +5999,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2020)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2020-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2020)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2020-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2020)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -6050,51 +6050,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2020)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2020-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2020)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2020-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2020)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2020-onlisans-gnc-1",
@@ -6384,340 +6384,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2018-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2018-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2018)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2018-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2018)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2018-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2018-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2018)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2018-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2018)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2018-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2018)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2018-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2018)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2018)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2018-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2018)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2018-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2018)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2018-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2018)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2018-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2018)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2018-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2018)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2018-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2018)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2018)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2018)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-onlisans-mat-1",
@@ -7319,374 +7319,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2018)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2018-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2018)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2018-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2018)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2018-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2018)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2018-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2018)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2018-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2018)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2018-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2018)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2018-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2018)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2018-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2018)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2018-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2018)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2018-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2018)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2018-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2018)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2018-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2018)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2018-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2018)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2018-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2018)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2018-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2018)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2018-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2018)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2018-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2018)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2018-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2018)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2018-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2018)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2018-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2018)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2018-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2018)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2018-onlisans-cog-1",
@@ -7744,255 +7744,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2018-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2018-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2018-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2018-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2018-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2018-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2018)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2018-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2018-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2018)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2018-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2018-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2018)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2018-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2018-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2018-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2018-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2018)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2018-onlisans-vat-1",
@@ -8050,50 +8050,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2018)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2018-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2018)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2018-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2018)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -8101,51 +8101,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2018)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2018-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2018)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2018-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2018)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2018-onlisans-gnc-1",
@@ -8435,340 +8435,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2016-onlisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2016-onlisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Ön Lisans 2016)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2016-onlisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Ön Lisans 2016)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2016-onlisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2016-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Ön Lisans 2016)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2016-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Ön Lisans 2016)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2016-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Ön Lisans 2016)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
         "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2016-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Ön Lisans 2016)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Ön Lisans 2016)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2016-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Ön Lisans 2016)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2016-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Ön Lisans 2016)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2016-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Ön Lisans 2016)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2016-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Ön Lisans 2016)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2016-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Ön Lisans 2016)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2016-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Ön Lisans 2016)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-onlisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Ön Lisans 2016)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-onlisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Ön Lisans 2016)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-onlisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-onlisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-onlisans-mat-1",
@@ -9370,374 +9370,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Ön Lisans 2016)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2016-onlisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Ön Lisans 2016)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2016-onlisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Ön Lisans 2016)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2016-onlisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Ön Lisans 2016)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2016-onlisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Ön Lisans 2016)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2016-onlisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Ön Lisans 2016)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2016-onlisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Ön Lisans 2016)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2016-onlisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Ön Lisans 2016)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2016-onlisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Ön Lisans 2016)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2016-onlisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Ön Lisans 2016)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2016-onlisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Ön Lisans 2016)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2016-onlisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Ön Lisans 2016)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2016-onlisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Ön Lisans 2016)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2016-onlisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Ön Lisans 2016)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2016-onlisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Ön Lisans 2016)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2016-onlisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Ön Lisans 2016)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2016-onlisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Ön Lisans 2016)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2016-onlisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Ön Lisans 2016)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2016-onlisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Ön Lisans 2016)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2016-onlisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Ön Lisans 2016)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2016-onlisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Ön Lisans 2016)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2016-onlisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Ön Lisans 2016)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2016-onlisans-cog-1",
@@ -9795,255 +9795,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2016-onlisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2016-onlisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2016-onlisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2016-onlisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2016-onlisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2016-onlisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Ön Lisans 2016)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2016-onlisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2016-onlisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Ön Lisans 2016)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2016-onlisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2016-onlisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Ön Lisans 2016)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2016-onlisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2016-onlisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2016-onlisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2016-onlisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Ön Lisans 2016)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2016-onlisans-vat-1",
@@ -10101,50 +10101,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Ön Lisans 2016)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2016-onlisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Ön Lisans 2016)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2016-onlisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Ön Lisans 2016)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -10152,51 +10152,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Ön Lisans 2016)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2016-onlisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Ön Lisans 2016)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2016-onlisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Ön Lisans 2016)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2016-onlisans-gnc-1",
@@ -10486,340 +10486,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2024-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2024-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2024)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2024-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2024)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2024-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2024-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2024)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2024-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2024)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2024-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2024-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2024-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2024-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2024-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2024)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2024-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2024-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2024)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2024-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2024-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2024)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
         "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2024-lisans-mat-1",
@@ -11421,374 +11421,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2024-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2024-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2024-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2024)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2024-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2024-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2024-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2024)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2024-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2024-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2024-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2024-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2024-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2024-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2024-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2024)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2024-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2024)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2024-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2024-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2024-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2024-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2024-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2024-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2024-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Lisans 2024)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2024-lisans-cog-1",
@@ -11846,255 +11846,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2024-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2024-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2024-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2024-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2024-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2024-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2024-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2024-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2024-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2024-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2024-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2024-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2024-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2024-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2024-lisans-vat-1",
@@ -12152,50 +12152,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2024)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2024-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2024)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2024-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2024)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -12203,51 +12203,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2024-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2024)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2024-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2024)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Lisans 2024)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2024-lisans-gnc-1",
@@ -12537,340 +12537,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2022-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2022-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2022)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2022-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2022)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2022-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2022-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2022)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2022-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2022)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2022-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2022-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2022-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2022-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2022-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2022)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2022-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2022-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2022)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2022-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2022-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2022)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2022-lisans-mat-1",
@@ -13472,374 +13472,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2022-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2022-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2022-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2022)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2022-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2022-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2022-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2022)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2022-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2022-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2022-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2022-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2022-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2022-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2022-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2022)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2022-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2022)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2022-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2022-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2022-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2022-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2022-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2022-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2022-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Lisans 2022)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2022-lisans-cog-1",
@@ -13897,255 +13897,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2022-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2022-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2022-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2022-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2022-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2022-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2022-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2022-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2022-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2022-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2022-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2022-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2022-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2022-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2022-lisans-vat-1",
@@ -14203,50 +14203,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2022)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2022-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2022)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2022-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2022)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -14254,51 +14254,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2022-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2022)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2022-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2022)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Lisans 2022)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2022-lisans-gnc-1",
@@ -14588,340 +14588,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2020-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2020-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2020)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
         "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2020-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2020)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2020-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2020-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2020)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2020-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2020)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2020-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2020-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2020-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2020-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2020-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2020)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2020-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2020-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2020)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2020-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2020-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2020)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2020-lisans-mat-1",
@@ -15523,374 +15523,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2020-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2020-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2020-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2020)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2020-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2020-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2020-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2020)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2020-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2020-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2020-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2020-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2020-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2020-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2020-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2020)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2020-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2020)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2020-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2020-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2020-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2020-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2020-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2020-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2020-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Lisans 2020)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2020-lisans-cog-1",
@@ -15948,255 +15948,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2020-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2020-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2020-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2020-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2020-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2020-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2020-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2020-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2020-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2020-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2020-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2020-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2020-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2020-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2020-lisans-vat-1",
@@ -16254,50 +16254,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2020)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2020-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2020)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2020-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2020)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -16305,51 +16305,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2020-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2020)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2020-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2020)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Lisans 2020)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2020-lisans-gnc-1",
@@ -16639,340 +16639,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2018-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2018-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2018)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2018-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2018)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2018-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2018-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2018)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2018-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2018)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2018-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2018-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2018-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2018-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2018-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2018)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2018-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2018-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2018)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2018-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2018-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2018)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2018-lisans-mat-1",
@@ -17574,374 +17574,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2018-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2018-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2018-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2018)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2018-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2018-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2018-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2018)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2018-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2018-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2018-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2018-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2018-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2018-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2018-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2018)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2018-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2018)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2018-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2018-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2018-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2018-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2018-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2018-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2018-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Lisans 2018)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2018-lisans-cog-1",
@@ -17999,255 +17999,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2018-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2018-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2018-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2018-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2018-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2018-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2018-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2018-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2018-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2018-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2018-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2018-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2018-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2018-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2018-lisans-vat-1",
@@ -18305,50 +18305,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2018)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2018-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2018)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2018-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2018)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -18356,51 +18356,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2018-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2018)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2018-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2018)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Lisans 2018)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2018-lisans-gnc-1",
@@ -18690,340 +18690,340 @@ export const EXAMS = [
         "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #11 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Toplantı saat 14.30'da başlayacakmış.",
+          "B": "Bu konuda <u>herşeyden</u> önce dürüst olmak gerekir.",
+          "C": "Türk Dil Kurumunun son yayınlarını detaylıca inceledi.",
+          "D": "29 Ekim 1923'te Cumhuriyet ilan edildi.",
+          "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır.",
+        "topic": "Yazım Kuralları"
       },
       {
         "id": "2016-lisans-tr-12",
         "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #12 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde noktalama işareti hatası yapılmıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yazar, son romanında yalnızlık ve yabancılaşma konularını işlemiş.",
+          "B": "Nerede o eski dostluklar, nerede o samimi sohbetler?..",
+          "C": "Akşamüstü eve döndüğümde kapı açıktı; salonda kimse yoktu.",
+          "D": "Tanzimat Dönemi (1839-1876) Türk edebiyatında dönüm noktasıdır.",
+          "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konmaz; soru işareti ve iki nokta (?..) şeklinde kullanılır.",
+        "topic": "Noktalama İşaretleri"
       },
       {
         "id": "2016-lisans-tr-13",
         "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #13 (KPSS Lisans (GY-GK) 2016)",
+        "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ünsüz türemesi",
+          "B": "Ünsüz yumuşaması",
+          "C": "Ünsüz benzeşmesi",
+          "D": "Ünlü düşmesi",
+          "E": "Ünsüz değişimi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır.",
+        "topic": "Ses Bilgisi"
       },
       {
         "id": "2016-lisans-tr-14",
         "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #14 (KPSS Lisans (GY-GK) 2016)",
+        "text": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik, doğanın muhteşem uyanışını müjdeliyordu.' cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Özne - Belirtili Nesne - Yüklem",
+          "B": "Zarf Tamlayıcısı - Özne - Yüklem",
+          "C": "Dolaylı Tümleç - Özne - Belirtili Nesne - Yüklem",
+          "D": "Özne - Zarf Tamlayıcısı - Yüklem",
+          "E": "Zarf Tamlayıcısı - Belirtili Nesne - Yüklem"
         },
         "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne), 'doğanın muhteşem uyanışını' (Belirtili Nesne), 'müjdeliyordu' (Yüklem).",
+        "topic": "Cümlenin Ögeleri"
       },
       {
         "id": "2016-lisans-tr-15",
         "number": 15,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #15 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdaki cümlelerin hangisinde fiilimsi (eylemsi) kullanılmamıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
+          "B": "Yaz mevsiminde bu kentin sokakları son derece sessiz ve sakindi.",
+          "C": "Okuduğu her kitap onun zihinsel ufkunu genişletiyordu.",
+          "D": "Sonunda aradığı huzuru şirin bir sahil kasabasında buldu.",
+          "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
         "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "B seçeneğinde herhangi bir eylemsi (isim-fiil, sıfat-fiil, zarf-fiil) yer almamaktadır.",
+        "topic": "Sözcük Türleri ve Fiilimsiler"
       },
       {
         "id": "2016-lisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #16 (KPSS Lisans (GY-GK) 2016)",
+        "text": "'Sanatçı, eserlerinde sadece kendi iç dünyasını yansıtmakla kalmaz; ---.' Bu cümle düşüncenin akışına göre aşağıdakilerden hangisiyle sürdürülebilir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "aynı zamanda toplumun duygu ve beklentilerine de tercüman olur",
+          "B": "geleneksel kalıplara sıkı sıkıya bağlı kalmayı tercih eder",
+          "C": "günlük hayatın karmaşasından uzak durmaya çalışır",
+          "D": "okuyucunun beklentilerini tamamen göz ardı eder",
+          "E": "edebiyat tarihinin geçmiş dönemlerini detaylıca inceler"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "'...kalmaz; aynı zamanda toplumun duygu ve beklentilerine de tercüman olur' ifadesi düşüncenin akışını tamamlar.",
+        "topic": "Paragrafta Cümle Tamamlama"
       },
       {
         "id": "2016-lisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #17 (KPSS Lisans (GY-GK) 2016)",
+        "text": "(I) Klasik müzik, yüzyıllar boyunca insan ruhunu dinlendiren en köklü müzik türlerinden biridir. (II) Mozart ve Beethoven gibi ustaların eserleri günümüzde de geniş kitlelerce dinlenmektedir. (III) Müzik dinlemek insan beynindeki odaklanma mekanizmasını harekete geçirir. (IV) Düzenli olarak klasik müzik dinleyen bireylerin stres seviyesinde belirgin bir düşüş gözlemlenmiştir. (V) Ayrıca bilim insanları müziğin hafıza üzerindeki olumlu etkilerini araştırmaktadır. Bu parça iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II",
+          "B": "III",
+          "C": "IV",
+          "D": "V",
+          "E": "I"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "I ve II. cümlelerde klasik müziğin geçmişi anlatılırken III. cümleden itibaren müziğin beyin ve zihin üzerindeki etkilerine geçilmiştir.",
+        "topic": "Paragrafı İkiye Bölme"
       },
       {
         "id": "2016-lisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #18 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Mimar Sinan, yapıtlarında estetik ile işlevselliği kusursuz bir şekilde harmanlamıştır. Eserlerinde kullandığı dahi statik hesaplamalar sayesinde binaları yüzyıllardır depremlere meydan okumaktadır. Çıraklık eseri Şehzade Camii, kalfalık eseri Süleymaniye Camii ve ustalık eseri Selimiye Camii Türk-İslam mimarisinin zirve noktalarıdır. Bu parçadan Mimar Sinan ile ilgili aşağıdakilerden hangisine ulaşılamaz? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Eserlerinde görselliğin yanında kullanışlılığa da önem verdiğine",
+          "B": "Mühendislik ve matematiksel hesaplamalarda üstün bir yeteneğe sahip olduğuna",
+          "C": "Eserlerini farklı mesleki gelişim dönemlerine ayırdığına",
+          "D": "Yapılarının zamana ve doğal afetlere karşı dayanıklı olduğuna",
+          "E": "Tüm eserlerini sadece İstanbul sınırları içerisinde inşa ettiğine"
         },
         "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Selimiye Camii Edirne'dedir; parçada tüm eserlerin sadece İstanbul'da inşa edildiğine dair bir bilgi yoktur.",
+        "topic": "Paragrafta Yardımcı Düşünce"
       },
       {
         "id": "2016-lisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #19 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Günümüzde dijital teknolojilerin yaygınlaşmasıyla birlikte bilgiye erişim hızı olağanüstü artmıştır. Ancak bu durum, bilgiyi yüzeysel tüketme tehlikesini de beraberinde getirmektedir. Derinlemesine okuma ve eleştirel düşünme becerileri, ekran odaklı hızlı okuma alışkanlığı karşısında giderek zayıflamaktadır. Bu parçada asıl yakınlan durum aşağıdakilerden hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Dijital cihazların maliyetlerinin yüksek olması",
+          "B": "Bilgiye ulaşma imkanlarının kısıtlanması",
+          "C": "Hızlı bilgi tüketiminin derinlemesine ve eleştirel okumayı zayıflatması",
+          "D": "Gençlerin teknoloji kullanımına aşırı ilgi göstermesi",
+          "E": "Geleneksel kütüphanelerin kapanma noktasına gelmesi"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada temel yakınma konusu, dijitalleşmenin getirdiği hızlı okuma alışkanlığının eleştirel okumayı zayıflatmasıdır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-lisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #20 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Dille kültür arasındaki ilişki etle tırnak gibidir. Bir ulusun dili ne kadar zengin ve canlıysa, kültürel mirası da o derece güçlüdür. Dilini kaybeden bir toplum, ---. Bu yüzden ana dilin korunması ulusal kimliğin devamı için hayati önem taşır. Bu parçada boş bırakılan yere düşüncenin akışına göre hangisi getirilmelidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "zamanla tarihsel ve kültürel kimliğini de yitirmeye mahkûmdur",
+          "B": "ekonomik kalkınmasını daha hızlı gerçekleştirir",
+          "C": "evrensel bilim diline daha kolay uyum sağlar",
+          "D": "farklı kültürlerle iletişim kurmakta zorlanmaz",
+          "E": "edebiyat alanında yeni türlerin doğmasına öncülük eder"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Dille kültür bağı vurgulandığı için dilini kaybeden toplumun kültürel kimliğini de yitireceği ifade edilmelidir.",
+        "topic": "Paragraf Tamamlama"
       },
       {
         "id": "2016-lisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #21 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Güneş yükseldikçe tarladaki başaklar altın sarısı bir renge bürünüyordu. Uzaktan hafif bir rüzgar esiyor, ekinlerin kokusunu vadi boyunca yayıyordu. Kuşların neşeli cıvıltıları, traktörlerin derinden gelen patpat seslerine karışıyordu. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Öyküleme - Betimleme",
+          "B": "Tartışma - Tanımlama",
+          "C": "Örneklendirme - Tanık Gösterme",
+          "D": "Karşılaştırma - Sayısal Verilerden Yararlanma",
+          "E": "Benzetme - Tartışma"
         },
-        "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Duyulara hitap eden ayrıntılarla niteleme yapılmış (betimleme) ve olay/akış işlenmiştir (öyküleme).",
+        "topic": "Anlatım Biçimleri"
       },
       {
         "id": "2016-lisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #22 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Yapay zeka sistemleri günümüzde sanat ve edebiyat alanında da eserler üretmeye başlamıştır. Şiir yazan, tablo çizen veya beste yapan algoritmalar insanları hayrete düşürmektedir. Ancak bir esere 'sanat eseri' ruhunu veren temel öğe, insanın duygu birikimi ve yaşanmışlığıdır. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Yapay zeka gelecekte tüm sanatçıların yerini alacaktır.",
+          "B": "Teknolojik algoritmalar insani duygulardan yoksun olduğu için gerçek sanat ruhunu tam olarak yakalayamaz.",
+          "C": "Sanat eserlerinin değeri sadece kullanılan teknolojiyle ölçülür.",
+          "D": "İnsanlar artık yapay zekanın ürettiği müzikleri dinlemeyi tercih etmektedir.",
+          "E": "Sanat eğitimi yapay zeka mühendisliği ile birleştirilmelidir."
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "B",
+        "explanation": "Parçada yapay zekanın insani duygu ve yaşanmışlıktan yoksun olduğu vurgulanmaktadır.",
+        "topic": "Paragrafta Çıkarım"
       },
       {
         "id": "2016-lisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #23 (KPSS Lisans (GY-GK) 2016)",
+        "text": "(23 ve 24. soruları aşağıdaki parçaya göre cevaplayınız.)\n\n'Anadolu'da geleneksel el sanatlarından biri olan halıcılık, yüzyıllardır motiflerinde binbir çeşit hikaye gizler. Genç kızlar sevinçlerini, hüzünlerini ve umutlarını dokudukları ilmiklere nakış nakış işlerler. Kök boyalarla renklendirilen yün ipler, doğanın tüm canlılığını halıya taşır. Ancak sanayileşme ile birlikte fabrika halılarının yaygınlaşması, el dokuması halıcılığı yok olma tehlikesiyle karşı karşıya getirmiştir.'\n\nBu parçaya göre el dokuması halıların en belirgin özelliği aşağıdakilerden hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Fabrikalarda seri üretilmesi",
+          "B": "Sentetik boyalarla renklendirilmesi",
+          "C": "Dokuyan kişinin duygu ve yaşantılarını motiflerde yansıtması",
+          "D": "Sadece belirli bölgelerde satılması",
+          "E": "Desenlerinin yabancı kültürlerden ithal edilmesi"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Parçada dokuyan kişilerin duygu ve umutlarını ilmiklere işlediği açıkça belirtilmektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2016-lisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #24 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Yukarıdaki parçadan hareketle el dokuması halıcılık ile ilgili aşağıdakilerden hangisi söylenemez? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Doğal malzemeler ve kök boyalar kullanıldığı",
+          "B": "Sanayileşmenin bu sanata olumsuz etki yaptığı",
+          "C": "Geleneksel Anadolu kültürünün bir parçası olduğu",
+          "D": "Günümüzde devlet tarafından zorunlu ders olarak okutulduğu",
+          "E": "Fabrika üretimi halıların rekabeti karşısında gerilediği"
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Parçada halıcılığın okullarda zorunlu ders olarak okutulduğuna dair bir bilgi geçmemektedir.",
+        "topic": "Çoklu Paragraf Soruları"
       },
       {
         "id": "2016-lisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #25 (KPSS Lisans (GY-GK) 2016)",
+        "text": "I. Bu köprüler sayesinde iki kıta arasındaki ulaşım süresi dakikalara inmiştir.\nII. İstanbul, Asya ile Avrupa'yı birbirine bağlayan eşsiz bir coğrafi konuma sahiptir.\nIII. Tarih boyunca bu stratejik konum kenti bir ticaret ve kültür merkezi yapmıştır.\nIV. Günümüzde ise boğaz üzerinde yükselen devasa köprüler bu bağı simgelemektedir.\n\nYukarıdaki numaralanmış cümlelerle anlamlı bir bütün oluşturulduğunda sıralama nasıl olmalıdır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "II - III - IV - I",
+          "B": "I - II - III - IV",
+          "C": "III - I - IV - II",
+          "D": "IV - II - I - III",
+          "E": "II - I - IV - III"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Mantıksal akış II (giriş), III (tarihsel süreç), IV (günümüz köprüleri) ve I (sonuç) şeklindedir.",
+        "topic": "Cümle Sıralama"
       },
       {
         "id": "2016-lisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #26 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Başarılı bir lider, ekibine sadece talimat veren kişi değildir. Gerçek liderlik; çalışanların potansiyelini ortaya çıkaran, onlara güven duyan ve ortak bir vizyon etrafında kenetlenmelerini sağlayan bir ilham kaynağı olabilmektir. Bu parçaya göre ideal liderin temel niteliği nedir? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Katı kurallar koyup tavizsiz uygulamak",
+          "B": "Tüm kararları tek başına almak",
+          "C": "Çalışanlara ilham verip mevcudiyeti geliştirmek",
+          "D": "Sadece finansal hedeflere odaklanmak",
+          "E": "Ekip üyeleri arasındaki rekabeti körüklemek"
         },
         "correctAnswer": "C",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "explanation": "Parçada liderliğin ilham verme ve potansiyel geliştirme yönü vurgulanmıştır.",
+        "topic": "Paragrafta Ana Düşünce"
       },
       {
         "id": "2016-lisans-tr-27",
         "number": 27,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #27 (KPSS Lisans (GY-GK) 2016)",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş bir kütüphaneden Roman, Tarih, Bilim ve Felsefe türünde kitaplar almışlardır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Toplam 5 kitap alınmıştır ve her kişi en az 1 kitap almıştır.\n- Roman türünde 2 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n- Deniz Felsefe kitabı almıştır.\n\nBuna göre Ceyda ve Elif hangi türde kitap almıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Felsefe",
+          "D": "Bilim",
+          "E": "Sosyoloji"
         },
-        "correctAnswer": "D",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "A",
+        "explanation": "Roman türünden 2 kitap alındığından ve Ceyda ile Elif aynı türde kitap aldığından, her ikisi de Roman almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-lisans-tr-28",
         "number": 28,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #28 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Yukarıdaki bilgilere göre Burak hangi türde kitap almıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Roman",
+          "B": "Tarih",
+          "C": "Bilim",
+          "D": "Felsefe",
+          "E": "Psikoloji"
         },
-        "correctAnswer": "E",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "C",
+        "explanation": "Ahmet: Tarih, Deniz: Felsefe, Ceyda & Elif: Roman aldığı için geriye kalan Bilim kitabını Burak almıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-lisans-tr-29",
         "number": 29,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #29 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdakilerden hangisi kesinlikle doğrudur? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Deniz Roman almıştır.",
+          "B": "Ceyda Bilim kitabı almıştır.",
+          "C": "Ahmet ve Deniz aynı türde kitap almıştır.",
+          "D": "Elif Roman almıştır.",
+          "E": "Burak Felsefe almıştır."
         },
-        "correctAnswer": "A",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "D",
+        "explanation": "Elif'in Roman türünde kitap aldığı kesin olarak doğrudur.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-lisans-tr-30",
         "number": 30,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "text": "Türkçe dil bilgisi ve paragraf analizi sorusu #30 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdaki kişi-kitap türü eşleştirmelerinden hangisi yanlıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "A seçeneği analizi",
-          "B": "B seçeneği analizi",
-          "C": "C seçeneği analizi",
-          "D": "D seçeneği analizi",
-          "E": "E seçeneği analizi"
+          "A": "Ahmet - Tarih",
+          "B": "Burak - Bilim",
+          "C": "Ceyda - Roman",
+          "D": "Deniz - Felsefe",
+          "E": "Elif - Tarih"
         },
-        "correctAnswer": "B",
-        "explanation": "Türkçe dil bilgisi kuralı uyarınca doğru cevap şıkkıdır.",
-        "topic": "Türkçe Gramer ve Paragraf"
+        "correctAnswer": "E",
+        "explanation": "Elif Roman almıştır, dolayısıyla Elif - Tarih eşleştirmesi yanlıştır.",
+        "topic": "Sözel Mantık"
       },
       {
         "id": "2016-lisans-mat-1",
@@ -19625,374 +19625,374 @@ export const EXAMS = [
         "number": 66,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #6 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Amasya Genelgesi'nde yer alan 'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.' kararı aşağıdakilerden hangisinin ifadesidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Millî Mücadele'nin gerekçesi",
+          "B": "Millî Mücadele'nin yöntemi",
+          "C": "Manda ve himayenin kabulü",
+          "D": "İstanbul Hükümetine bağlılık",
+          "E": "Düzenli ordunun kurulması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Vatanın bütünlüğünün tehlikede olması Millî Mücadele'nin temel gerekçesidir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2016-lisans-tar-7",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #7 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Mustafa Kemal Paşa 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü hangi zafer üzerine söylemiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "I. İnönü Muharebesi",
+          "B": "II. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "B",
+        "explanation": "Bu tarihi söz İsmet Paşa'ya II. İnönü Zaferi sonrası çekilen telgrafta söylenmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2016-lisans-tar-8",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #8 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Erzurum Kongresi'nde alınan 'Manda ve himaye kabul olunamaz.' kararı ilk kez hangisini doğrulamaktadır? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tam bağımsızlık ilkesini",
+          "B": "Saltanatın kaldırılmasını",
+          "C": "Bölgesel yönetimi",
+          "D": "Meclis hükümeti sistemini",
+          "E": "Laiklik anlayışını"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Manda ve himayenin reddedilmesi koşulsuz tam bağımsızlık hedefini gösterir.",
+        "topic": "Kurtuluş Savaşı Hazırlık"
       },
       {
         "id": "2016-lisans-tar-9",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #9 (KPSS Lisans (GY-GK) 2016)",
+        "text": "TBMM Hükümetinin uluslararası alanda imzaladığı ilk siyasi ve askeri antlaşma hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Ankara Antlaşması",
+          "D": "Lozan Antlaşması",
+          "E": "Mudanya Ateşkesi"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ermenistan ile imzalanan Gümrü Antlaşması TBMM'nin ilk diplomatik başarısıdır.",
+        "topic": "Doğu Cephesi"
       },
       {
         "id": "2016-lisans-tar-10",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #10 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Sakarya Meydan Muharebesi'nden sonra TBMM tarafından Mustafa Kemal Paşa'ya hangi rütbe ve unvan verilmiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Gazi ve Mareşal",
+          "B": "Başkomutan ve Paşa",
+          "C": "Müşir ve Sadrazam",
+          "D": "Reisicumhur ve Orgeneral",
+          "E": "Başvekil ve Kaptan-ı Derya"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Sakarya Zaferi sonrası TBMM tarafından Mareşal rütbesi ve Gazilik unvanı tevcih edilmiştir.",
+        "topic": "Kurtuluş Savaşı Cepheleri"
       },
       {
         "id": "2016-lisans-tar-11",
         "number": 71,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #11 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Lozan Barış Antlaşması'nda çözümü sonraya bırakılan tek sınır konusu hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Irak Sınırı (Musul Sorunu)",
+          "B": "Suriye Sınırı",
+          "C": "Yunanistan Sınırı",
+          "D": "Bulgaristan Sınırı",
+          "E": "Kars Sınırı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Musul sorunu İngiltere ile ikili görüşmelere bırakılmış ve Lozan'da çözülemeyen tek konu olmuştur.",
+        "topic": "Lozan Antlaşması"
       },
       {
         "id": "2016-lisans-tar-12",
         "number": 72,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #12 (KPSS Lisans (GY-GK) 2016)",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen kanunla hangisi gerçekleştirilmiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Tevhid-i Tedrisat Kanunu kabul edildi",
+          "B": "Soyadı Kanunu çıkarıldı",
+          "C": "Harf İnkılabı yapıldı",
+          "D": "Cumhuriyet ilan edildi",
+          "E": "Tekke ve zaviyeler kapatıldı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "3 Mart 1924'te Halifeliğin kaldırılmasıyla birlikte Tevhid-i Tedrisat ve Şeriye-Evkaf Vekaleti kaldırıldı.",
+        "topic": "İnkılap Tarihi"
       },
       {
         "id": "2016-lisans-tar-13",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #13 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Cumhuriyet Dönemi'nde toplumsal alanda eşitliği sağlamak amacıyla yapılan inkılap hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Soyadı Kanunu'nun kabulü",
+          "B": "Aşar vergisinin kaldırılması",
+          "C": "Kabotaj Kanunu'nun kabulü",
+          "D": "Merkez Bankası'nın kurulması",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Ağa, paşa, bey gibi unvanların kaldırılması ve Soyadı Kanunu toplumsal eşitliği pekiştirmiştir.",
+        "topic": "Toplumsal İnkılaplar"
       },
       {
         "id": "2016-lisans-tar-14",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #14 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Atatürk'ün 'Akıl ve bilimi rehber edinme' ilkesi doğrudan hangi Atatürk ilkesi ile ilişkilidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Laiklik",
+          "B": "Devletçilik",
+          "C": "Milliyetçilik",
+          "D": "Halkçılık",
+          "E": "Devletçilik"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Laiklik dinamik, akılcı ve bilimsel düşünceyi esas alan Atatürk ilkesidir.",
+        "topic": "Atatürk İlkeleri"
       },
       {
         "id": "2016-lisans-tar-15",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #15 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Sultan Abdülmecid",
+          "B": "III. Selim",
+          "C": "II. Mahmut",
+          "D": "Sultan Abdülaziz",
+          "E": "II. Abdülhamid"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Tanzimat Dönemi'nde Sultan Abdülmecid döneminde Kaime adı verilen ilk kâğıt para basılmıştır.",
+        "topic": "Osmanlı Tarihi"
       },
       {
         "id": "2016-lisans-tar-16",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #16 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Üretimde sürekliliği sağlamak amacıyla toprağını boş bırakan köylüden Çiftbozan vergisi alınırdı.",
+        "topic": "Osmanlı Sosyo-Ekonomik"
       },
       {
         "id": "2016-lisans-tar-17",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #17 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türk tarihinde ilk düzenli ordu (Yaya ve Müsellem) hangi hükümdar zamanında kurulmuştur? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İlk düzenli Osmanlı ordusu Yaya ve Müsellem adıyla Orhan Bey döneminde teşkilatlanmıştır.",
+        "topic": "Osmanlı Kuruluş"
       },
       {
         "id": "2016-lisans-tar-18",
         "number": 78,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #18 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Atatürk Dönemi Türk dış politikasında Türkiye'nin Milletler Cemiyeti'ne üye olduğu yıl hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türkiye, barışçıl dış politikası sayesinde 1932 yılında Milletler Cemiyeti'ne üye olmuştur.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2016-lisans-tar-19",
         "number": 79,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #19 (KPSS Lisans (GY-GK) 2016)",
+        "text": "II. Dünya Savaşı sırasında müttefik devletlerin Türkiye'yi savaşa sokmak için yaptığı görüşme hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "İnönü ile Churchill arasında gerçekleşen Adana Görüşmeleri Türkiye'nin savaşa girmesi talebini içerir.",
+        "topic": "Çağdaş Türk ve Dünya Tarihi"
       },
       {
         "id": "2016-lisans-tar-20",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #20 (KPSS Lisans (GY-GK) 2016)",
+        "text": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayış hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kut Anlayışı",
+          "B": "Töre",
+          "C": "Kurultay",
+          "D": "Balbal",
+          "E": "Yassı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Eski Türklerde siyasi iktidar ve yönetme hakkının Tanrı vergisi olduğuna inanılması Kut anlayışıdır.",
+        "topic": "İslam Öncesi Türk Tarihi"
       },
       {
         "id": "2016-lisans-tar-21",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #21 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Büyük Selçuklu Devleti ile Bizans arasında yapılan ilk büyük savaş hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasinler Savaşı",
+          "B": "Malazgirt Savaşı",
+          "C": "Miryokefalon Savaşı",
+          "D": "Katlvan Savaşı",
+          "E": "Dandanakan Savaşı"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1048 Pasinler Savaşı Selçuklular ile Bizans arasındaki ilk ciddi meydan muharebesidir.",
+        "topic": "Türk-İslam Tarihi"
       },
       {
         "id": "2016-lisans-tar-22",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #22 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Karahanlılar Dönemi'nde Yusuf Has Hacib tarafından yazılan ve ilk Türkçe Siyasetname kabul edilen eser hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Kutadgu Bilig",
+          "B": "Divânu Lugâti't-Türk",
+          "C": "Atabetü'l-Hakayık",
+          "D": "Divân-ı Hikmet",
+          "E": "Siyasetnâme"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Kutadgu Bilig (Mutluluk Veren Bilgi) Türk-İslam edebiyatının ve ilk siyasetnamesinin baş yapıtıdır.",
+        "topic": "Türk-İslam Kültürü"
       },
       {
         "id": "2016-lisans-tar-23",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #23 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Osmanlı Devleti'nde medreselerde ders veren öğretim üyelerine ne ad verilirdi? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Müderris",
+          "B": "Kadı",
+          "C": "Lala",
+          "D": "Nişancı",
+          "E": "Müfti"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Osmanlı ilmiye sınıfında medresede eğitim veren hocalara Müderris denirdi.",
+        "topic": "Osmanlı Kültür Medeniyet"
       },
       {
         "id": "2016-lisans-tar-24",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #24 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Cumhuriyet Dönemi'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1930",
+          "C": "1933",
+          "D": "1926",
+          "E": "1938"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Türk kadınları 1930'da belediye, 1933'te muhtarlık ve 1934'te milletvekili seçme/seçilme hakkı elde etti (034 kodlaması).",
+        "topic": "Kadın Hakları İnkılabı"
       },
       {
         "id": "2016-lisans-tar-25",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #25 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı kimdir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Yavuz Sultan Selim",
+          "B": "Fatih Sultan Mehmed",
+          "C": "Kanuni Sultan Süleyman",
+          "D": "II. Bayezid",
+          "E": "I. Murad"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Yavuz Sultan Selim Mısır Seferi sonrası Mekke ve Medine'nin hizmetkârı unvanını üstlenmiştir.",
+        "topic": "Osmanlı Yükselme"
       },
       {
         "id": "2016-lisans-tar-26",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #26 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Osmanlı Devleti'nin Batı'nın üstünlüğünü kabul ettiği ilk antlaşma hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "Pasarofça Antlaşması",
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Lale Devri Antlaşması"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "1718 Pasarofça Antlaşması ile Lale Devri başlamış ve Batı'nın üstünlüğü kabul edilmiştir.",
+        "topic": "Osmanlı Duraklama-Gerileme"
       },
       {
         "id": "2016-lisans-tar-27",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "text": "Kurtuluş Savaşı ve İnkılap Tarihi sorusu #27 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Atatürk'ün 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda Balkan Antantı hangi yılda imzalanmıştır? (KPSS Lisans 2016)",
         "options": {
-          "A": "Amasya Genelgesi",
-          "B": "Erzurum Kongresi",
-          "C": "Sivas Kongresi",
-          "D": "Misak-ı Milli",
-          "E": "Lozan Antlaşması"
+          "A": "1934",
+          "B": "1932",
+          "C": "1936",
+          "D": "1938",
+          "E": "1930"
         },
-        "correctAnswer": "C",
-        "explanation": "C seçeneği doğrudur.",
-        "topic": "İnkılap Tarihi ve Atatürk İlkeleri"
+        "correctAnswer": "A",
+        "explanation": "Balkan Paktı (Antantı) 1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı.",
+        "topic": "Atatürk Dönemi Dış Politika"
       },
       {
         "id": "2016-lisans-cog-1",
@@ -20050,255 +20050,255 @@ export const EXAMS = [
         "number": 91,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #4 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
+          "A": "Marmara Bölgesi (Güney Marmara)",
           "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
           "E": "Doğu Anadolu Bölgesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dünya bor rezervinin büyük kısmı Türkiye'de olup Balıkesir, Kütahya, Eskişehir (Marmara/İç Batı) çevresindedir.",
+        "topic": "Madenler"
       },
       {
         "id": "2016-lisans-cog-5",
         "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #5 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'nin en uzun iç akarsuyu olma özelliğine sahip nehrimiz hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sınırlarımız içerisindeki doğup denize dökülen en uzun nehrimiz Kızılırmak'tır.",
+        "topic": "Türkiye Akarsuları"
       },
       {
         "id": "2016-lisans-cog-6",
         "number": 93,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #6 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı bölgelerde hangi kıyı tipi görülür? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Karadeniz ve Akdeniz'de dağlar kıyıya paralel uzandığı için Boyuna Kıyı Tipi hakimdir.",
+        "topic": "Kıyı Tipleri"
       },
       {
         "id": "2016-lisans-cog-7",
         "number": 94,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #7 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de mikrolima alanı olarak bilinen ve zeytin ile narenciye yetiştirilebilen Doğu Karadeniz ili hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Rize",
+          "B": "Trabzon",
+          "C": "Artvin (Çoruh Vadisi)",
+          "D": "Giresun",
+          "E": "Ordu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Rize ve çevresi kış ılıklığı sebebiyle mikroklimal alandır (Rize'de narenciye, Artvin'de zeytin).",
+        "topic": "Türkiye İklimi"
       },
       {
         "id": "2016-lisans-cog-8",
         "number": 95,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #8 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye nüfusunun tarihsel gelişiminde nüfus artış hızının en düşük olduğu dönem hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "1940 - 1945 Dönemi (II. Dünya Savaşı)",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "II. Dünya Savaşı yıllarında erkeklerin askere alınması sebebiyle nüfus artış hızı en düşük seviyeye inmiştir.",
+        "topic": "Nüfus Coğrafyası"
       },
       {
         "id": "2016-lisans-cog-9",
         "number": 96,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #9 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de en fazla demir cevheri çıkarılan ve işlenen ilimiz aşağıdakilerden hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Sivas (Divriği) / Malatya (Hekimhan)",
+          "B": "Kültür / Batman",
+          "C": "Kastamonu (Küre)",
+          "D": "Artvin (Murgul)",
+          "E": "Zonguldak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Sivas-Divriği ve Malatya-Hekimhan Türkiye'nin ana demir yataklarıdır.",
+        "topic": "Madenler"
       },
       {
         "id": "2016-lisans-cog-10",
         "number": 97,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #10 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Köy altı yerleşmelerinden olan 'Dalyan' en çok hangi ekonomik faaliyetle ilgilidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Su Ürünleri ve Balıkçılık",
+          "B": "Büyükbaş Hayvancılık",
+          "C": "Ormancılık",
+          "D": "Tahıl Tarımı",
+          "E": "Madencilik"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Dalyanlar kıyılarda balık avlamak ve yetiştirmek için kurulan geçici/sürekli yerleşmelerdir.",
+        "topic": "Yerleşme Coğrafyası"
       },
       {
         "id": "2016-lisans-cog-11",
         "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #11 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de Jeotermal Enerji santrallerinin ilk kurulduğu ve en yaygın olduğu il hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Denizli (Sarayköy) / Aydın",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kırık hattı ve fay hatlarının yoğun olduğu Denizli-Sarayköy ve Aydın jeotermal enerjide öncüdür.",
+        "topic": "Enerji Kaynakları"
       },
       {
         "id": "2016-lisans-cog-12",
         "number": 99,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #12 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Doğu Anadolu Bölgesi'nde büyükbaş hayvancılığın yaygın olmasının temel iklimsel nedeni hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Yaz yağışları ve gür çayırlar",
+          "B": "Kış kuraklığı",
+          "C": "Akdeniz iklimi etkisi",
+          "D": "Rüzgar şiddeti",
+          "E": "Orman örtüsü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Erzurum-Kars platomuzda yaz yağışlarıyla yeşeren alpin çayırları büyükbaş hayvancılığı geliştirmiştir.",
+        "topic": "Hayvancılık"
       },
       {
         "id": "2016-lisans-cog-13",
         "number": 100,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #13 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de rüzgar erozyonunun en şiddetli görüldüğü bölge hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İç Anadolu Bölgesi (Karapınar çevresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları",
+          "E": "Hakkari Yöresi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuraklık, bitki örtüsü yoksunluğu ve nadas alanları nedeniyle İç Anadolu (Karapınar) rüzgar erozyonunda ilktir.",
+        "topic": "Toprak ve Erozyon"
       },
       {
         "id": "2016-lisans-cog-14",
         "number": 101,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #14 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Aşağıdaki göllerimizden hangisi oluşum yönüyle 'Volkanik Set Gölü' özelliğindedir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Van Gölü / Çıldır Gölü",
+          "B": "Tuz Gölü",
+          "C": "Manyas Gölü",
+          "D": "Bafa (Çamiçi) Gölü",
+          "E": "Tortum Gölü"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Van, Çıldır, Erçek, Nazik gölleri Doğu Anadolu'da volkanik set gölleridir.",
+        "topic": "Türkiye Gölleri"
       },
       {
         "id": "2016-lisans-cog-15",
         "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #15 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de fön rüzgarlarının en belirgin görüldüğü coğrafi alan hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Doğu Karadeniz Kıyıları (Rize-Artvin)",
+          "B": "Ege Grabenleri",
+          "C": "Çukurova",
+          "D": "Trakya Ovası",
+          "E": "Güneydoğu Anadolu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Kuzey Anadolu Dağları'nı aşan hava kütleleri Rize ve Trabzon yamaçlarından inerken fön etkisi yapar.",
+        "topic": "Rüzgarlar"
       },
       {
         "id": "2016-lisans-cog-16",
         "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #16 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan 'Çatalhöyük Neolitik Kenti' hangi ilimizdedir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Konya",
+          "B": "Çorum",
+          "C": "Şanlıurfa",
+          "D": "Denizli",
+          "E": "Nevşehir"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Çatalhöyük Neolitik Kenti Konya ilimizin Çumra ilçesindedir.",
+        "topic": "Turizm Coğrafyası"
       },
       {
         "id": "2016-lisans-cog-17",
         "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #17 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye'de kış mevsiminde ılık ve yağışlı havanın etkili olmasını sağlayan alçak basınç merkezi hangisidir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "İzlanda Alçak Basıncı",
+          "B": "Sibirya Yüksek Basıncı",
+          "C": "Basra Alçak Basıncı",
+          "D": "Asor Yüksek Basıncı",
+          "E": "Muson Basıncı"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "İzlanda dinamik alçak basıncı kışın Türkiye'ye girdiğinde hava ılık ve bol yağışlı geçer.",
+        "topic": "Basınç ve Rüzgarlar"
       },
       {
         "id": "2016-lisans-cog-18",
         "number": 105,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
-        "text": "Türkiye coğrafyası ve maden yatakları sorusu #18 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türkiye sınırları dışına çıkan ve Basra Körfezi'ne dökülen akarsularımız hangileridir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "Karadeniz Bölgesi",
-          "D": "İç Anadolu Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
+          "A": "Fırat ve Dicle",
+          "B": "Kura ve Aras",
+          "C": "Çoruh ve Kura",
+          "D": "Asi ve Bakırçay",
+          "E": "Seyhan ve Ceyhan"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "Türkiye Coğrafyası ve Madenler"
+        "explanation": "Fırat ve Dicle nehirlerimiz Irak'ta birleşip Şattülarap adıyla Basra Körfezi'ne dökülür.",
+        "topic": "Akarsular ve Havzalar"
       },
       {
         "id": "2016-lisans-vat-1",
@@ -20356,50 +20356,50 @@ export const EXAMS = [
         "number": 109,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #4 (KPSS Lisans (GY-GK) 2016)",
+        "text": "1982 Anayasası'na göre Milletvekili seçilme yaşı kaçtır? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "18",
+          "B": "21",
+          "C": "25",
+          "D": "30",
+          "E": "35"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "2017 Anayasa değişikliği ile milletvekili seçilme alt yaşı 18'e indirilmiştir.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2016-lisans-vat-5",
         "number": 110,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #5 (KPSS Lisans (GY-GK) 2016)",
+        "text": "1982 Anayasası'na göre Cumhurbaşkanı Kararnamelerinin yargısal denetimini hangi organ yapar? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Kamu Denetçiliği Kurumu"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Cumhurbaşkanlığı Kararnamelerinin Anayasa'ya uygunluğunu Anayasa Mahkemesi denetler.",
+        "topic": "Yargı Organı"
       },
       {
         "id": "2016-lisans-vat-6",
         "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #6 (KPSS Lisans (GY-GK) 2016)",
+        "text": "İdare hukukunda memurlara verilen disiplin cezalarından hangisine karşı yargı yolu kapalı DEĞİLDİR? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Uyarma cezası",
+          "C": "Kınama cezası",
+          "D": "Aylıktan kesme",
+          "E": "Kademe ilerlemesinin durdurulması"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
+        "explanation": "1982 Anayasası uyarınca uyarma ve kınama dahil tüm disiplin cezalarına karşı yargı yolu açıktır.",
         "topic": "İdare Hukuku"
       },
       {
@@ -20407,51 +20407,51 @@ export const EXAMS = [
         "number": 112,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #7 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Türk Medeni Kanunu'na göre fiil ehliyetine sahip olabilmek için aranan şartlar hangisinde doğru verilmiştir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Ergin olmak, ayırt etme gücüne sahip olmak, kısıtlı olmamak",
+          "B": "Sağ ve tam doğmak",
+          "C": "18 yaşını doldurmak ve üniversite mezunu olmak",
+          "D": "T.C. vatandaşı olmak",
+          "E": "Vasi tayin edilmiş olmak"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Fiil ehliyeti şartları: Sezgin (ayırt etme gücü var), Ergin (reşit) ve Kısıtsız olmaktır.",
+        "topic": "Medeni Hukuk"
       },
       {
         "id": "2016-lisans-vat-8",
         "number": 113,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #8 (KPSS Lisans (GY-GK) 2016)",
+        "text": "Hukuk kurallarının emredici, tamamlayıcı, yorumlayıcı ve tanımlayıcı türleri vardır. Tarafların aksini kararlaştıramayacağı kurallara ne ad verilir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Emredici Hukuk Kuralları",
+          "B": "Tamamlayıcı Hukuk Kuralları",
+          "C": "Yorumlayıcı Hukuk Kuralları",
+          "D": "Yedek Hukuk Kuralları",
+          "E": "Mülga Kurallar"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "Kamu düzenini ve genel ahlakı koruyan, aksine sözleşme yapılamayan kurallar emredicidir.",
+        "topic": "Hukukun Temel Kavramları"
       },
       {
         "id": "2016-lisans-vat-9",
         "number": 114,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
-        "text": "1982 Anayasası idare hukuku sorusu #9 (KPSS Lisans (GY-GK) 2016)",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Lisans 2016)",
         "options": {
-          "A": "Cumhurbaşkanlığı Kararnamesi",
-          "B": "Yönetmelik",
-          "C": "Kanun",
-          "D": "Anayasa Değişikliği",
-          "E": "Uluslararası Antlaşma"
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Millî Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
         },
         "correctAnswer": "A",
-        "explanation": "A seçeneği doğrudur.",
-        "topic": "İdare Hukuku"
+        "explanation": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir; karar Resmi Gazete'de yayımlanır ve aynı gün TBMM onayına sunulur.",
+        "topic": "Anayasa Hukuku"
       },
       {
         "id": "2016-lisans-gnc-1",
@@ -20559,49 +20559,53 @@ export const EXAMS = [
   }
 ];
 
-// Orantılı Sınav Süresi Hesaplama (ÖSYM: 120 Soru = 130 Dk -> Soru başına ~1.0833 Dk)
-export const calculateExamDurationInMinutes = (questionCount) => {
+
+export function calculateExamDurationInMinutes(questionCount) {
   if (!questionCount || questionCount <= 0) return 0;
-  return Math.round(questionCount * (130 / 120));
-};
+  return Math.round((questionCount / 120) * 130);
+}
 
-// ÖSYM Net ve Tahmini Puan Hesaplayıcı
-export const calculateResults = (questions, userAnswers) => {
-  const breakdown = {};
-  SUBJECTS.forEach(sub => {
-    breakdown[sub.id] = { correct: 0, wrong: 0, empty: 0, net: 0 };
-  });
-
+export function calculateResults(questions, userAnswers) {
   let totalCorrect = 0;
   let totalWrong = 0;
   let totalEmpty = 0;
 
-  questions.forEach(q => {
-    const subId = q.subject;
-    const ans = userAnswers[q.id];
+  const breakdown = {
+    turkce: { correct: 0, wrong: 0, empty: 0, net: 0 },
+    matematik: { correct: 0, wrong: 0, empty: 0, net: 0 },
+    tarih: { correct: 0, wrong: 0, empty: 0, net: 0 },
+    cografya: { correct: 0, wrong: 0, empty: 0, net: 0 },
+    vatandaslik: { correct: 0, wrong: 0, empty: 0, net: 0 },
+    guncel: { correct: 0, wrong: 0, empty: 0, net: 0 },
+  };
 
-    if (!ans) {
+  questions.forEach((q) => {
+    const userAns = userAnswers[q.id];
+    const subj = q.subject || 'turkce';
+
+    if (!breakdown[subj]) {
+      breakdown[subj] = { correct: 0, wrong: 0, empty: 0, net: 0 };
+    }
+
+    if (!userAns) {
       totalEmpty++;
-      if (breakdown[subId]) breakdown[subId].empty++;
-    } else if (ans === q.correctAnswer) {
+      breakdown[subj].empty++;
+    } else if (userAns === q.correctAnswer) {
       totalCorrect++;
-      if (breakdown[subId]) breakdown[subId].correct++;
+      breakdown[subj].correct++;
     } else {
       totalWrong++;
-      if (breakdown[subId]) breakdown[subId].wrong++;
+      breakdown[subj].wrong++;
     }
   });
 
-  // Net hesabı: 4 yanlış 1 doğruyu götürür
-  Object.keys(breakdown).forEach(subId => {
-    const sub = breakdown[subId];
-    sub.net = Math.max(0, sub.correct - (sub.wrong / 4));
+  Object.keys(breakdown).forEach((subjKey) => {
+    const b = breakdown[subjKey];
+    b.net = Math.max(0, b.correct - b.wrong * 0.25);
   });
 
-  const totalNet = Math.max(0, totalCorrect - (totalWrong / 4));
-
-  // Tahmini Puan Formülü Kestirimi (Taban ~50 + Net * 0.416)
-  const estimatedP93Score = Number((50 + (totalNet * 0.416)).toFixed(3));
+  const totalNet = Math.max(0, totalCorrect - totalWrong * 0.25);
+  const estimatedP93Score = Math.min(100, Math.max(40, Number((45 + totalNet * 0.45833).toFixed(3))));
 
   return {
     totalCorrect,
@@ -20609,6 +20613,6 @@ export const calculateResults = (questions, userAnswers) => {
     totalEmpty,
     totalNet: Number(totalNet.toFixed(2)),
     estimatedP93Score,
-    breakdown
+    breakdown,
   };
-};
+}
