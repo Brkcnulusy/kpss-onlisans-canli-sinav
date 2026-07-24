@@ -45,7 +45,8 @@ export default function MathText({ text, className }) {
 
           if (formula) {
             try {
-              const html = katex.renderToString(formula, {
+              const formulaToRender = isDisplay ? formula : '\\displaystyle ' + formula;
+              const html = katex.renderToString(formulaToRender, {
                 throwOnError: false,
                 displayMode: isDisplay,
               });
@@ -77,4 +78,3 @@ export default function MathText({ text, className }) {
     </span>
   );
 }
-

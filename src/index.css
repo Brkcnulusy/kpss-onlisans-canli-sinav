@@ -91,12 +91,12 @@ body {
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
-  margin: 2px 4px;
-  font-size: 1.05rem;
+  margin: 3px 4px;
+  font-size: 1.15rem;
   line-height: 1.4;
 }
 .katex {
-  font-size: 1.1em !important;
+  font-size: 1.12em !important;
   font-weight: 500;
 }
 .katex .frac-line {
