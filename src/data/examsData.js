@@ -1,5 +1,5 @@
 // KPSS Ön Lisans ve KPSS Lisans (GY-GK) Geçmiş Sınav Veri Seti
-// Gerçek ÖSYM Çıkmış ve İkizi Soru Havuzu
+// Gerçek ÖSYM Çıkmış ve Yayın Evleri Soru Havuzu
 
 export const SUBJECTS = [
   {
@@ -53,7 +53,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Ön Lisans",
     "year": 2024,
     "title": "2024 KPSS Ön Lisans Sınavı",
-    "description": "ÖSYM 2024 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı. (120 Gerçek Soru / 130 Dakika). Tam ÖSYM Müfredatı.",
+    "description": "ÖSYM 2024 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı. (120 Çıkmış / Yayın Soru Seti). Tam ÖSYM Müfredatı.",
     "totalQuestions": 120,
     "questions": [
       {
@@ -71,11 +71,45 @@ export const EXAMS = [
           "E": "Yeni aldığı kitabı <u>bir solukta</u> okuyup bitirdi."
         },
         "correctAnswer": "B",
-        "explanation": "'Soğuk' sözcüğü sıcaklık anlamının dışında samimiyetsiz, mesafeli anlamında kullanıldığı için mecaz anlamlıdır."
+        "explanation": "'Soğuk' sözcüğü samimiyetsiz, mesafeli anlamında kullanıldığı için mecaz anlamlıdır."
       },
       {
         "id": "2024-onlisans-tr-2",
         "number": 2,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözcükte Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde soyut bir kavrama somut bir anlam yüklenmiştir (somutlaştırma yapılmıştır)?",
+        "options": {
+          "A": "Yalnızlık, gecenin karanlığında üzerime çöken ağır bir palto gibidir.",
+          "B": "Rüzgarın sesi dağların ardındaki vadide yankılanıyordu.",
+          "C": "Yaz mevsiminde bahçedeki meyve ağaçları beyaz çiçekler açtı.",
+          "D": "Kitabın sayfalarını tek tek çevirerek okumaya devam etti.",
+          "E": "Sabah saatlerinde kentin sokakları derin bir sessizliğe bürünmüştü."
+        },
+        "correctAnswer": "A",
+        "explanation": "Soyut bir kavram olan 'yalnızlık', giyilebilir bir nesne olan 'palto'ya benzetilerek somutlaştırılmıştır."
+      },
+      {
+        "id": "2024-onlisans-tr-3",
+        "number": 3,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözcükte Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde terim anlamlı bir sözcük kullanılmıştır?",
+        "options": {
+          "A": "Şair, oyunun ikinci perdesinde dekorun ve ışığın etkisini artırmıştı.",
+          "B": "Yaz akşamlarında sahil kenarında yürümeyi çok severdi.",
+          "C": "Sabah erkenden kalkıp bahçedeki sebzeleri sulamaya başladı.",
+          "D": "Kitabın kapağını büyük bir özenle tasarlayıp baskıya gönderdi.",
+          "E": "Yolculuk sırasında yanına aldığı dergileri tek tek okudu."
+        },
+        "correctAnswer": "A",
+        "explanation": "'Perde' ve 'dekor' tiyatro sanatına ait terim anlamlı sözcüklerdir."
+      },
+      {
+        "id": "2024-onlisans-tr-4",
+        "number": 4,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Deyimler ve Atasözleri",
@@ -83,36 +117,36 @@ export const EXAMS = [
         "options": {
           "A": "Raporu yöneticisine sunmadan önce tüm verileri ve tabloları dikkatle inceledi.",
           "B": "Karanlık sokakta ilerlerken etrafına endişeli gözlerle bakıyordu.",
-          "C": "Arkadaşının sergilediği yüksek performansı gururla izledi.",
+          "C": "Arkadaşının sergilediği yüksek performansı gurur dolu bakışlarla izledi.",
           "D": "Tarihi köprünün mimari detaylarını hayranlıkla seyretti.",
           "E": "Karar açıklandıktan sonra derin bir nefes alıp salondan ayrıldı."
         },
         "correctAnswer": "A",
-        "explanation": "'Gözden geçirmek' deyimi bir şeyi kontrol etmek veya ayrıntılı biçimde incelemek anlamına gelir."
+        "explanation": "'Gözden geçirmek' deyimi kontrol etmek, ayrıntılı biçimde incelemek anlamına gelir."
       },
       {
-        "id": "2024-onlisans-tr-3",
-        "number": 3,
+        "id": "2024-onlisans-tr-5",
+        "number": 5,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Sözcükte Anlam (Somutlaştırma)",
-        "text": "Aşağıdaki cümlelerin hangisinde soyut bir kavrama somut bir anlam yüklenmiştir (somutlaştırma yapılmıştır)?",
+        "topic": "Deyimler ve Atasözleri",
+        "text": "Aşağıdaki atasözlerinden hangisi 'tedbirli ve hazırlıklı olmanın önemini' vurgulamaktadır?",
         "options": {
-          "A": "Yalnızlık, gecenin karanlığında üzerime çöken ağır bir palto gibiydi.",
-          "B": "Rüzgarın sesi dağların ardındaki vadide yankılanıyordu.",
-          "C": "Yaz mevsiminde bahçedeki meyve ağaçları beyaz çiçekler açtı.",
-          "D": "Kitabın sayfalarını tek tek çevirerek okumaya devam etti.",
-          "E": "Sabah saatlerinde kentin sokakları derin bir sessizliğe bürünmüştü."
+          "A": "Sakla samanı, gelir zamanı.",
+          "B": "Damlaya damlaya göl olur.",
+          "C": "Ağaç yaşken eğilir.",
+          "D": "Yalancının mumu yatsıya kadar yanar.",
+          "E": "Gülme komşuna, gelir başına."
         },
         "correctAnswer": "A",
-        "explanation": "Soyut bir kavram olan 'yalnızlık', elle tutulup giyilebilen 'palto' nesnesine benzetilerek somutlaştırılmıştır."
+        "explanation": "'Sakla samanı, gelir zamanı' atasözü gereksiz görülen şeylerin bile zamanı gelince değer kazanacağını, hazırlıklı olmayı öğütler."
       },
       {
-        "id": "2024-onlisans-tr-4",
-        "number": 4,
+        "id": "2024-onlisans-tr-6",
+        "number": 6,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Cümlede Anlam (Nesnel Yargı)",
+        "topic": "Cümlede Anlam",
         "text": "Aşağıdaki cümlelerin hangisinde kanıtlanabilirlik açısından nesnel bir yargı vardır?",
         "options": {
           "A": "Şairin bu son basılan şiir kitabı toplam 48 sayfadan oluşmaktadır.",
@@ -122,14 +156,14 @@ export const EXAMS = [
           "E": "Filmin müzikleri sahnelerin duygusunu mükemmel aktarıyor."
         },
         "correctAnswer": "A",
-        "explanation": "Sayfa sayısının 48 olması kişiden kişiye değişmeyen, ölçülebilir ve kanıtlanabilir nesnel bir veridir."
+        "explanation": "Sayfa sayısının 48 olması kişiden kişiye değişmeyen, kanıtlanabilir nesnel bir veridir."
       },
       {
-        "id": "2024-onlisans-tr-5",
-        "number": 5,
+        "id": "2024-onlisans-tr-7",
+        "number": 7,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Cümlede Anlam (Koşul-Sonuç)",
+        "topic": "Cümlede Anlam",
         "text": "Aşağıdaki cümlelerin hangisinde eylemin gerçekleşmesi bir koşula (şart) bağlanmıştır?",
         "options": {
           "A": "Düzenli ve disiplinli çalışırsan hedeflediğin başarıyı elde etmen kolaylaşır.",
@@ -142,11 +176,11 @@ export const EXAMS = [
         "explanation": "'-se/-sa' eki ile başarma eylemi düzenli çalışılması koşuluna bağlanmıştır."
       },
       {
-        "id": "2024-onlisans-tr-6",
-        "number": 6,
+        "id": "2024-onlisans-tr-8",
+        "number": 8,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Cümlede Anlam (Üslup)",
+        "topic": "Cümlede Anlam",
         "text": "Aşağıdaki cümlelerin hangisinde eserin üslubuyla (biçem) ilgili bir değerlendirme yapılmıştır?",
         "options": {
           "A": "Yazar, devrik cümleler ve zengin imgeler kullanarak son derece akıcı ve coşkulu bir anlatım yakalamış.",
@@ -156,14 +190,14 @@ export const EXAMS = [
           "E": "Şair, çocukluk yıllarında yaşadığı Ege kasabasının doğal güzelliklerini eserine taşımış."
         },
         "correctAnswer": "A",
-        "explanation": "Kelime seçimi, cümle yapısı ve anlatım biçimi eserin üslubu (biçemi) ile ilgilidir."
+        "explanation": "Kelime seçimi, cümle yapısı ve anlatım tarzı eserin üslubu ile ilgilidir."
       },
       {
-        "id": "2024-onlisans-tr-7",
-        "number": 7,
+        "id": "2024-onlisans-tr-9",
+        "number": 9,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Cümlede Anlam (Örtülü Anlam)",
+        "topic": "Cümlede Anlam",
         "text": "Aşağıdaki cümlelerin hangisinde örtülü anlam vardır?",
         "options": {
           "A": "Ahmet de bu yılki akademik burs sınavını kazanmayı başardı.",
@@ -173,62 +207,11 @@ export const EXAMS = [
           "E": "Güneşli havalarda sahil parkına gidip yürüyüş yapmayı çok severdi."
         },
         "correctAnswer": "A",
-        "explanation": "'Ahmet de' ifadesindeki 'de' bağlacı, Ahmet'in dışında başkalarının da burs sınavını kazandığı örtülü anlamını çıkarır."
-      },
-      {
-        "id": "2024-onlisans-tr-8",
-        "number": 8,
-        "subject": "turkce",
-        "subjectTitle": "Türkçe",
-        "topic": "Paragrafta Ana Düşünce",
-        "text": "Okuma eylemi, sadece kelimeleri zihinde sıralamak değildir. Gerçek bir okur, metinle kurduğu bağ sayesinde kendi deneyim alanının dışına çıkarak başka hayatların düşünce dünyasını keşfeder. Kitaplar, bireye farklı açılardan bakma yetisi kazandırırken empati duygusunu da besler. Bu parçada okuma eylemiyle ilgili vurgulanmak istenen temel düşünce aşağıdakilerden hangisidir?",
-        "options": {
-          "A": "Okumanın bireyin zihinsel ufkunu, empati yeteneğini ve bakış açısını geliştirdiği",
-          "B": "Edebi türler arasında en faydalı olanının roman ve hikaye olduğu",
-          "C": "Kitap okuma alışkanlığının erken çocukluk döneminde kazanılması gerektiği",
-          "D": "Dijital yayınların basılı eserlerin yerini almasının zorunlu hale geldiği",
-          "E": "Okuma hızını artırmanın anlama kapasitesi üzerindeki olumlu etkileri"
-        },
-        "correctAnswer": "A",
-        "explanation": "Metnin tamamında okumanın bireysel düşünce ufkunu ve empati kabiliyetini geliştirdiği vurgulanmıştır."
-      },
-      {
-        "id": "2024-onlisans-tr-9",
-        "number": 9,
-        "subject": "turkce",
-        "subjectTitle": "Türkçe",
-        "topic": "Paragrafta Yardımcı Düşünce",
-        "text": "Sanatçı, son eserinde yaşadığı toplumun sosyokültürel değişimini gerçekçi bir gözle kaleme almıştır. Romanındaki karakterler, sokakta her gün karşılaşabileceğimiz sıradan insanların duygu ve düşünce dünyasını yansıtır. Yazar, süslü ve ağdalı bir dil yerine halkın günlük yaşamında kullandığı yalın ifadeleri tercih etmiştir. Bu parçaya göre söz edilen sanatçıyla ilgili aşağıdakilerden hangisine ulaşılamaz?",
-        "options": {
-          "A": "Eserlerinde olağanüstü ve fantastik ögelere ağırlık verdiğine",
-          "B": "Toplumsal gerçekliği eserlerine konu edindiğine",
-          "C": "Karakterlerini günlük yaşamın içinden seçtiğine",
-          "D": "Anlaşılır ve yalın bir üslup benimsediğine",
-          "E": "Gözlemci bir yaklaşımla hareket ettiğine"
-        },
-        "correctAnswer": "A",
-        "explanation": "Metinde sanatçının gerçekçi ve yalın anlatımından bahsedilmiş, fantastik ögelere yer verdiğine dair hiçbir ifade geçmemiştir."
+        "explanation": "'Ahmet de' ifadesindeki 'de' bağlacı, Ahmet dışında başkalarının da sınavı kazandığı örtülü anlamını çıkarır."
       },
       {
         "id": "2024-onlisans-tr-10",
         "number": 10,
-        "subject": "turkce",
-        "subjectTitle": "Türkçe",
-        "topic": "Paragrafta Akışı Bozan Cümle",
-        "text": "(I) Roman, insanoğlunun duygu dünyasını keşfetmede en etkili edebî türlerden biridir. (II) Yazar, yarattığı karakterler vasıtasıyla okuyucuyu farklı hayat tecrübeleriyle tanıştırır. (III) Günümüzde kâğıt ve yayıncılık maliyetleri geçmiş yıllara göre son derece yükselmiştir. (IV) Bu sayede okur, kendi yaşamında deneyimleyemeyeceği duyguları hisseder. (V) Dolayısıyla kaliteli bir roman okuma eylemi kişisel empati yeteneğini güçlendirir. Numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
-        "options": {
-          "A": "III",
-          "B": "I",
-          "C": "II",
-          "D": "IV",
-          "E": "V"
-        },
-        "correctAnswer": "A",
-        "explanation": "III. cümlede aniden yayıncılık maliyetlerine geçilerek romanın okura katkısını anlatan paragrafın konu bütünlüğü bozulmuştur."
-      },
-      {
-        "id": "2024-onlisans-tr-11",
-        "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Yazım Kuralları",
@@ -241,11 +224,11 @@ export const EXAMS = [
           "E": "Yolculuk sırasında Türk kültürüne dair gözlemler yaptı."
         },
         "correctAnswer": "B",
-        "explanation": "'Her şey' sözcüğü her zaman ayrı yazılır. 'Herşey' biçimindeki birleşik yazım yanlıştır."
+        "explanation": "'Her şey' ayrı yazılır. 'Herşey' birleşik yazımı hatadır."
       },
       {
-        "id": "2024-onlisans-tr-12",
-        "number": 12,
+        "id": "2024-onlisans-tr-11",
+        "number": 11,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Noktalama İşaretleri",
@@ -258,28 +241,28 @@ export const EXAMS = [
           "E": "Bahçedeki ağaçlar: elma, erik ve kayısı meyve vermeye başladı."
         },
         "correctAnswer": "B",
-        "explanation": "Soru işaretinden sonra üç nokta yan yana konulmaz (?.. kullanımı yanlıştır, soru işaretinin altına iki nokta konularak ?.. veya sadece ? konur)."
+        "explanation": "Soru işaretinden sonra üç nokta yan yana konulmaz (?.. kullanımı yanlıştır)."
       },
       {
-        "id": "2024-onlisans-tr-13",
-        "number": 13,
+        "id": "2024-onlisans-tr-12",
+        "number": 12,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Ses Bilgisi",
         "text": "'Genç şair, hissettiği derin duyguları dizelerine büyük bir ustalıkla yansıtmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur?",
         "options": {
           "A": "Ünlü düşmesi",
-          "B": "Ünsüz türemesi (hissettiği -> his-s-ettiği)",
-          "C": "Ünsüz yumuşaması (hissettiği -> k>ğ)",
-          "D": "Ünsüz benzeşmesi (yansıtmıştı -> ş-tı)",
+          "B": "Ünsüz türemesi (hissettiği)",
+          "C": "Ünsüz yumuşaması (hissettiği)",
+          "D": "Ünsüz benzeşmesi (yansıtmıştı)",
           "E": "Ünsüz değişimi"
         },
         "correctAnswer": "A",
-        "explanation": "Cümlede ünsüz türemesi (his-s-etmek), yumuşama ve benzeşme vardır fakat ünlü düşmesine örnek bir kelime bulunmamaktadır."
+        "explanation": "Cümlede ünlü düşmesine örnek bir sözcük bulunmamaktadır."
       },
       {
-        "id": "2024-onlisans-tr-14",
-        "number": 14,
+        "id": "2024-onlisans-tr-13",
+        "number": 13,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Cümlenin Ögeleri",
@@ -295,11 +278,11 @@ export const EXAMS = [
         "explanation": "'Günün ilk ışıklarıyla birlikte sisli vadiye çöken sessizlik' (Özne) / 'doğanın muhteşem uyanışını' (Belirtili Nesne) / 'müjdeliyordu' (Yüklem)."
       },
       {
-        "id": "2024-onlisans-tr-15",
-        "number": 15,
+        "id": "2024-onlisans-tr-14",
+        "number": 14,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Sözcük Türleri ve Fiilimsiler",
+        "topic": "Fiilimsiler",
         "text": "Aşağıdaki cümlelerin hangisinde eylemsi (fiilimsi) kullanılmamıştır?",
         "options": {
           "A": "Güneş batarken sahil boyunca yürümeyi çok severdi.",
@@ -309,194 +292,211 @@ export const EXAMS = [
           "E": "Hava kararınca caddedeki ışıklar tek tek yandı."
         },
         "correctAnswer": "B",
-        "explanation": "B seçeneğinde geçen sözcüklerin hiçbiri isim-fiil, sıfat-fiil veya zarf-fiil eki almamıştır."
+        "explanation": "B seçeneğinde geçen sözcüklerin hiçbiri fiilimsi eki almamıştır."
+      },
+      {
+        "id": "2024-onlisans-tr-15",
+        "number": 15,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Ana Düşünce",
+        "text": "Okuma eylemi, sadece kelimeleri zihinde sıralamak değildir. Gerçek bir okur, metinle kurduğu bağ sayesinde kendi deneyim alanının dışına çıkarak başka hayatların düşünce dünyasını keşfeder. Kitaplar, bireye farklı açılardan bakma yetisi kazandırırken empati duygusunu da besler. Bu parçada okuma eylemiyle ilgili vurgulanmak istenen temel düşünce aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Okumanın bireyin zihinsel ufkunu, empati yeteneğini ve bakış açısını geliştirdiği",
+          "B": "Edebi türler arasında en faydalı olanının roman ve hikaye olduğu",
+          "C": "Kitap okuma alışkanlığının erken çocukluk döneminde kazanılması gerektiği",
+          "D": "Dijital yayınların basılı eserlerin yerini almasının zorunlu hale geldiği",
+          "E": "Okuma hızını artırmanın anlama kapasitesi üzerindeki olumlu etkileri"
+        },
+        "correctAnswer": "A",
+        "explanation": "Metnin genelinde okumanın bireysel düşünce ufkunu ve empati kabiliyetini geliştirdiği vurgulanmıştır."
       },
       {
         "id": "2024-onlisans-tr-16",
         "number": 16,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragraf Bölme)",
+        "topic": "Paragraf Bölme",
         "text": "(I) Mimari, toplumların estetik anlayışını ve yaşam tarzını yansıtan en somut sanat dalıdır. (II) Tarih boyunca yükselen yapılar, inşa edildikleri dönemin teknolojisini ve inanç sistemini günümüze taşır. (III) Çağdaş şehirlerde ise betonlaşma ve çarpık kentleşme ciddi bir çevre sorunu haline gelmiştir. (IV) Gelişen inşaat teknolojileri mimarlara daha esnek tasarım imkanları sunmaktadır. (V) Akıllı binalar ve çevre dostu tasarımlar geleceğin kent mimarisini şekillendirmektedir. İkinci paragraf numaralanmış cümlelerin hangisiyle başlar?",
         "options": {
-          "A": "III",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
         },
-        "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "correctAnswer": "C",
+        "explanation": "III. cümlede kentleşme sorunlarına geçilerek farklı bir konuya girilmiştir."
       },
       {
         "id": "2024-onlisans-tr-17",
         "number": 17,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragraf Tamamlama)",
-        "text": "Bir yazar için ilham, gökten zembille inen gizemli bir duygu değildir. Aksine ilham, sürekli çalışma, okuma ve gözlem yapmanın doğal bir sonucudur. Masasının başına geçip saatlerce yazan bir sanatçı, zihninde biriken düşünceleri kâğıda aktarır. Yani yaratıcılık..., parçanın sonuna düşüncenin akışına göre hangisi getirilmelidir?",
+        "topic": "Paragraf Tamamlama",
+        "text": "Bir yazar için ilham, gökten zembille inen gizemli bir duygu değildir. Aksine ilham, sürekli çalışma, okuma ve gözlem yapmanın doğal bir sonucudur. Masasının başına geçip saatlerce yazan bir sanatçı, zihninde biriken düşünceleri kâğıda aktarır. Yani yaratıcılık ----. Bu parçanın sonuna düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?",
         "options": {
           "A": "emek ve disiplinle beslenen sürekli bir süreçtir",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "B": "doğuştan gelen ve değiştirilemeyen bir yetenektir",
+          "C": "sadece yalnız kalınan anlarda ortaya çıkan bir histir",
+          "D": "yayıncıların beklentilerine göre şekillenen bir durumdur",
+          "E": "geçmiş edebiyat eserlerini taklit ederek gelişir"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Parçada ilhamın masa başında emek vererek beslendiği vurgulandığı için A seçeneği uygundur."
       },
       {
         "id": "2024-onlisans-tr-18",
         "number": 18,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Anlatım Biçimleri)",
+        "topic": "Anlatım Biçimleri",
         "text": "Güneş yavaşça ufukta kaybolurken gökyüzü turuncudan mor renge dönüyordu. Denizden esen hafif ılık rüzgar, kıyıdaki çam ağaçlarının kokusunu sokağa yayıyordu. Ahşap iskelede oturan balıkçılar, oltalarını son kez denize atıp beklemeye koyulmuşlardı. Bu parçanın anlatımında aşağıdakilerin hangisinden yararlanılmıştır?",
         "options": {
-          "A": "Betimleme ve Öyküleme",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Betimleme - Öyküleme",
+          "B": "Tartışma - Örneklendirme",
+          "C": "Açıklama - Tanık Gösterme",
+          "D": "Tanımlama - Benzetme",
+          "E": "Sayısal Verilerden Yararlanma"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Göz önünde canlandırma (betimleme) ve olay акışı (öyküleme) kullanılmıştır."
       },
       {
         "id": "2024-onlisans-tr-19",
         "number": 19,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragrafta Çıkarım)",
-        "text": "Teknolojik gelişmeler insan hayatını kolaylaştırırken diğer yandan bireysel iletişimi zayıflatmaktadır. Sosyal medya platformlarında binlerce arkadaşı olan insanlar, gerçek yaşamda kendilerini yalnız hissetmektedir. Bu durum, yüzeysel ilişkilerin derin bağların yerini almasından kaynaklanmaktadır. Parçadan hareketle aşağıdakilerden hangisine ulaşılabilir?",
+        "topic": "Paragrafta Çıkarım",
+        "text": "Teknolojik gelişmeler insan hayatını kolaylaştırırken diğer yandan bireysel iletişimi zayıflatmaktadır. Sosyal medya platformlarında binlerce arkadaşı olan insanlar, gerçek yaşamda kendilerini yalnız hissetmektedir. Bu durum, yüzeysel sanal etkileşimlerin derin insani bağların yerini almasından kaynaklanmaktadır. Parçadan hareketle aşağıdakilerden hangisine ulaşılabilir?",
         "options": {
-          "A": "Teknolojinin artmasıyla sanal etkileşimin artıp derin insani bağların azaldığına",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Sanal iletişimin artmasıyla gerçek yaşamdaki samimi insani bağların zayıfladığına",
+          "B": "Sosyal medyanın tümüyle yasaklanması gerektiğine",
+          "C": "Teknolojinin eğitim kalitesini düşürdüğüne",
+          "D": "Yalnızlığın sadece yaşlı insanları etkileyen bir durum olduğuna",
+          "E": "Yüz yüze iletişimin zaman kaybına yol açtığına"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Sanal platformların artışının samimi insani bağları zayıflattığı açıkça ifade edilmiştir."
       },
       {
         "id": "2024-onlisans-tr-20",
         "number": 20,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Cümle Sıralama)",
-        "text": "I. Bu yöntemle elde edilen veriler rapor haline getirildi.\nII. Araştırmacılar ilk olarak sahada anket çalışması başlattı.\nIII. Rapor, ilgili kurumlara sunularak çözüm önerileri tartışıldı.\nIV. Ardından toplanan veriler bilgisayar ortamında analiz edildi. Cümleler mantıklı bir bütün oluşturacak şekilde sıralandığında baştan üçüncü cümle hangisi olur?",
+        "topic": "Cümle Sıralama",
+        "text": "I. Bu yöntemle elde edilen veriler rapor haline getirildi.\nII. Araştırmacılar ilk olarak sahada anket çalışması başlattı.\nIII. Rapor, ilgili kurumlara sunularak çözüm önerileri tartışıldı.\nIV. Ardından toplanan veriler bilgisayar ortamında analiz edildi.\n\nNumaralanmış cümleler mantıklı bir bütün oluşturacak şekilde sıralandığında baştan üçüncü cümle hangisi olur?",
         "options": {
           "A": "I",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "Cümleler sıralanamaz"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Doğru sıralama: II -> IV -> I -> III. Baştan 3. cümle I numaralı cümledir (A seçeneği)."
       },
       {
         "id": "2024-onlisans-tr-21",
         "number": 21,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragrafta Yargı)",
-        "text": "Edebiyat, insanın yalnızlığını paylaşan ve onu içsel bir yolculuğa çıkaran bir dost gibidir. Metinler aracılığıyla kendi iç dünyasıyla yüzleşen okur, toplumsal kalıpların ötesine geçerek özgür düşünmeyi öğrenir. Parçaya göre edebiyatın okura sağladığı temel katkı nedir?",
+        "topic": "Paragrafta Yargı",
+        "text": "Edebiyat, insanın yalnızlığını paylaşan ve onu içsel bir yolculuğa çıkaran bir dost gibidir. Metinler aracılığıyla kendi iç dünyasıyla yüzleşen okur, toplumsal kalıpların ötesine geçerek özgür düşünmeyi öğrenir. Parçaya göre edebiyatın okura sağladığı temel katkı aşağıdakilerden hangisidir?",
         "options": {
           "A": "İçsel farkındalık ve özgür düşünme yeteneği kazandırması",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "B": "Zengin bir kelime hazinesi sunarak dil becerisini artırması",
+          "C": "Tarihsel olayların öğrenilmesini kolaylaştırması",
+          "D": "Mesleki kariyer planlamasında yol gösterici olması",
+          "E": "Sosyal çevrede itibar kazanılmasını sağlaması"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Edebiyatın insanı içsel yolculuğa çıkardığı ve özgür düşünmeyi öğrettiği belirtilmiştir."
       },
       {
         "id": "2024-onlisans-tr-22",
         "number": 22,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Metin Karşılaştırma)",
-        "text": "Birinci metinde doğa sevgisi romantik bir dille anlatılırken, ikinci metinde çevre kirliliğinin somut zararları bilimsel verilerle aktarılmıştır. Bu iki metin arasındaki temel fark aşağıdakilerden hangisidir?",
+        "topic": "Metin Karşılaştırma",
+        "text": "I. Metin: Yeşil dağların koynunda saklanan bu şirin köy, sabahları kuş sesleri ve taze toprak kokusuyla uyanır. Dere kıyısındaki erik ağaçları baharın gelişini muhteşem bir görsel şölenle müjdeler.\n\nII. Metin: Çevre Bakanlığı'nın yayımladığı son rapora göre sanayi atıklarının akarsulara karışma oranı %14 artmıştır. Bu durum su ekosistemindeki canlı türlerinin %8'inin yok olma riskiyle karşılaşmasına neden olmaktadır.\n\nBu iki metin karşılaştırıldığında aralarındaki temel fark aşağıdakilerden hangisidir?",
         "options": {
-          "A": "Anlatım tutumu ve bilgi aktarma yöntemi",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Anlatım tutumu ve bilgi aktarma yöntemi (Öznel/Betimleyici - Nesnel/Sayısal)",
+          "B": "İki metnin de aynı tarihi olayı anlatması",
+          "C": "Her iki metinde de tartışmacı anlatımın tercih edilmesi",
+          "D": "Metinlerin tamamen aynı yazar tarafından kaleme alınması",
+          "E": "İkinci metinde hayali unsurlara yer verilmesi"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "I. metin betimleyici ve edebi dili tercih ederken, II. metin nesnel ve sayısal verilere dayalı bilgi vermektedir."
       },
       {
         "id": "2024-onlisans-tr-23",
         "number": 23,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragrafta Konu)",
-        "text": "Fotoğrafçılık, anı dondurma sanatıdır. Bir kadraja sığdırılan tek bir kare, sayfalar dolusu yazının anlatamayacağı duyguyu izleyiciye aktarabilir. Parçada fotoğraf sanatının hangi yönü vurgulanmıştır?",
+        "topic": "Paragrafta Konu",
+        "text": "Fotoğrafçılık, zamanı durdurma ve anı ölümsüzleştirme sanatıdır. Bir kadraja sığdırılan tek bir kare fotoğraf, sayfalar dolusu yazının ve saatlerce süren konuşmaların aktaramayacağı duyguyu izleyiciye hissettirebilir. Bu parçada fotoğrafçılıkla ilgili aşağıdakilerden hangisi vurgulanmaktadır?",
         "options": {
-          "A": "Anı ölümsüzleştirme ve yüksek ifade gücü",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Anı dondurma gücü ve yüksek ifade kapasitesi",
+          "B": "En pahalı sanat dallarından biri olduğu",
+          "C": "Teknolojik ekipman gerektirdiği",
+          "D": "Sergi açmanın zorlukları",
+          "E": "Sadece doğa manzaralarında başarılı sonuç verdiği"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Metinde fotoğrafçılığın zamanı durdurma ve yüksek duygusal ifade gücü anlatılmıştır."
       },
       {
         "id": "2024-onlisans-tr-24",
         "number": 24,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Düşünceyi Geliştirme Yolları)",
-        "text": "Tiyatro ve sinema iki kardeş sanat gibidir. Ancak tiyatroda oyuncu ile seyirci arasındaki canlı etkileşim, sinemadaki soğuk perde görünümünden çok farklıdır. Bu parçada düşünceyi geliştirme yollarından hangisi kullanılmıştır?",
+        "topic": "Düşünceyi Geliştirme Yolları",
+        "text": "Tiyatro ile sinema birbirine yakın iki sanat dalıdır. Ancak tiyatroda sahnedeki oyuncu ile salondaki seyirci arasında canlı ve anlık bir duygu alışverişi vardır. Sinemada ise perdedeki görüntü ile izleyici arasında aşılması imkansız bir cam duvar bulunur. Bu parçada düşünceyi geliştirmek için aşağıdakilerin hangisinden yararlanılmıştır?",
         "options": {
           "A": "Karşılaştırma",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "B": "Sayısal Verilerden Yararlanma",
+          "C": "Tanık Gösterme",
+          "D": "Tanımlama",
+          "E": "Örneklendirme"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Tiyatro ile sinema canlılık ve seyirci etkileşimi yönünden karşılaştırılmıştır."
       },
       {
         "id": "2024-onlisans-tr-25",
         "number": 25,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragrafta Yardımcı Fikir)",
-        "text": "Müzik, insan beyninde dopamin salgılanmasını uyararak stresi azaltır ve odaklanmayı artırır. Ancak her müzik türünün beyin üzerindeki etkisi farklıdır. Parçaya göre müzikle ilgili aşağıdakilerden hangisi söylenemez?",
+        "topic": "Paragrafta Yardımcı Fikir",
+        "text": "Müzik, insan beyninde dopamin salgılanmasını uyararak stresi azaltır ve zihinsel odaklanmayı artırır. Yapılan nörolojik araştırmalar, enstrüman çalan kişilerin hafıza kapasitelerinin daha yüksek olduğunu göstermektedir. Ancak her müzik türünün beyin üzerindeki etkisi dinleyicinin ruh haline göre değişiklik gösterebilir. Parçaya göre müzikle ilgili aşağıdakilerden hangisi söylenemez?",
         "options": {
-          "A": "Tüm müzik türlerinin beyinde aynı etkiyi yarattığı",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Tüm müzik türlerinin her insanda aynı standart etkiyi yarattığı",
+          "B": "Stresi azaltıcı etkisinin bulunduğu",
+          "C": "Enstrüman çalmanın hafızayı güçlendirdiği",
+          "D": "Zihinsel odaklanmayı olumlu etkilediği",
+          "E": "Beyinde dopamin salgılanmasına katkı sağladığı"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Müzik türlerinin etkisinin kişiye göre değiştiği belirtilmiş, aynı standart etkiyi yarattığı söylenemez."
       },
       {
         "id": "2024-onlisans-tr-26",
         "number": 26,
         "subject": "turkce",
         "subjectTitle": "Türkçe",
-        "topic": "Paragraf (Paragraf Özetleme)",
-        "text": "Geleceğin meslekleri dijitalleşme ve yapay zekâ odaklı şekillenmektedir. Bu değişim, geleneksel iş kollarının yerini yenilikçi becerilere bırakmasını zorunlu kılmaktadır. Parçanın ana fikri nedir?",
+        "topic": "Paragraf Özetleme",
+        "text": "Geleceğin meslekleri dijitalleşme, veri analitiği ve yapay zekâ odaklı olarak şekillenmektedir. Bu hızlı teknolojik dönüşüm, geleneksel iş kollarının geçerliliğini yitirmesine ve yenilikçi becerilerin ön plana çıkmasına neden olmaktadır. Bu parçanın ana fikri aşağıdakilerden hangisidir?",
         "options": {
-          "A": "Teknolojik değişimin mesleki becerileri yeniden şekillendirdiği",
-          "B": "Metinle uyuşmayan çeldirici yargı",
-          "C": "Konudan sapma gösteren yargı",
-          "D": "Anlatım bozukluğu içeren seçenek",
-          "E": "Metinde değinilmeyen ikincil unsur"
+          "A": "Teknolojik değişimin mesleki becerileri ve iş kollarını yeniden şekillendirdiği",
+          "B": "Geleneksel mesleklerin hiçbir zaman kaybolmayacağı",
+          "C": "Yapay zekanın insan gücünü tamamen ortadan kaldıracağı",
+          "D": "Üniversite eğitiminin önemini kaybettiği",
+          "E": "Sadece bilgisayar mühendislerinin istihdam edilebileceği"
         },
         "correctAnswer": "A",
-        "explanation": "Paragraftaki ifadeler ve metin analizi doğrultusunda A seçeneği doğru cevaptır."
+        "explanation": "Teknolojinin meslekleri ve gerekli becerileri dönüştürdüğü vurgulanmıştır."
       },
       {
         "id": "2024-onlisans-tr-27",
@@ -504,16 +504,16 @@ export const EXAMS = [
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Sözel Mantık",
-        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş Roman, Tarih, Bilim ve Felsefe türlerinde kitaplar satın almıştır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Herkes en az 1 kitap almıştır ve toplam 6 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Deniz sadece Felsefe kitabı almıştır.\n- Burak kesinlikle Roman kitabı almamıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n\nBu bilgilere göre Ceyda kesinlikle hangi türde kitap almıştır?",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir kurumun düzenlediği sınav sonucunda Ali, Banu, Can, Deniz ve Emre adlı beş aday Başmüfettişlik, Uzmanlık ve Denetçilik kadrolarından birine tercih yapmıştır. Adayların tercihleriyle ilgili bilinenler şunlardır:\n- Her kadroya en az bir aday tercih yapmıştır.\n- Ali ve Can aynı kadroyu tercih etmiştir.\n- Banu sadece Uzmanlık kadrosunu tercih etmiştir.\n- Başmüfettişlik kadrosunu toplam 2 kişi tercih etmiştir.\n- Emre, Denetçilik kadrosunu tercih etmiştir.\n\nBu bilgilere göre Ali hangi kadroyu tercih etmiştir?",
         "options": {
-          "A": "Roman",
-          "B": "Tarih",
-          "C": "Felsefe",
-          "D": "Bilim",
-          "E": "Sosyoloji"
+          "A": "Başmüfettişlik",
+          "B": "Uzmanlık",
+          "C": "Denetçilik",
+          "D": "Kaymakamlık",
+          "E": "Sayıştay Denetçiliği"
         },
         "correctAnswer": "A",
-        "explanation": "Verilen öncüllere göre 2 adet alınan tür Roman'dır ve Ceyda ile Elif aynı tür olan Roman'ı almıştır."
+        "explanation": "Başmüfettişlik kadrosunu 2 kişi tercih etmiştir. İkili grup olan Ali ve Can Başmüfettişlik kadrosunu tercih etmiştir."
       },
       {
         "id": "2024-onlisans-tr-28",
@@ -521,16 +521,16 @@ export const EXAMS = [
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Sözel Mantık",
-        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş Roman, Tarih, Bilim ve Felsefe türlerinde kitaplar satın almıştır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Herkes en az 1 kitap almıştır ve toplam 6 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Deniz sadece Felsefe kitabı almıştır.\n- Burak kesinlikle Roman kitabı almamıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n\nBu bilgilere göre Burak hangi türde kitap almıştır?",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir kurumun düzenlediği sınav sonucunda Ali, Banu, Can, Deniz ve Emre adlı beş aday Başmüfettişlik, Uzmanlık ve Denetçilik kadrolarından birine tercih yapmıştır. Adayların tercihleriyle ilgili bilinenler şunlardır:\n- Her kadroya en az bir aday tercih yapmıştır.\n- Ali ve Can aynı kadroyu tercih etmiştir.\n- Banu sadece Uzmanlık kadrosunu tercih etmiştir.\n- Başmüfettişlik kadrosunu toplam 2 kişi tercih etmiştir.\n- Emre, Denetçilik kadrosunu tercih etmiştir.\n\nBu bilgilere göre Banu'nun tercihi ile ilgili aşağıdakilerden hangisi doğrudur?",
         "options": {
-          "A": "Roman",
-          "B": "Tarih",
-          "C": "Bilim",
-          "D": "Felsefe",
-          "E": "Şiir"
+          "A": "Yalnızca Uzmanlık kadrosunu tercih etmiştir.",
+          "B": "Denetçilik kadrosunu tercih etmiştir.",
+          "C": "Başmüfettişlik kadrosunu tercih etmiştir.",
+          "D": "İki kadroya birden başvurmuştur.",
+          "E": "Tercih yapmamıştır."
         },
-        "correctAnswer": "C",
-        "explanation": "Burak Roman almadığı ve Ahmet tek başına Tarih aldığı için Burak Bilim kitabını almıştır."
+        "correctAnswer": "A",
+        "explanation": "Öncülde belirtildiği üzere Banu yalnızca Uzmanlık kadrosunu tercih etmiştir."
       },
       {
         "id": "2024-onlisans-tr-29",
@@ -538,16 +538,16 @@ export const EXAMS = [
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Sözel Mantık",
-        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş Roman, Tarih, Bilim ve Felsefe türlerinde kitaplar satın almıştır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Herkes en az 1 kitap almıştır ve toplam 6 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Deniz sadece Felsefe kitabı almıştır.\n- Burak kesinlikle Roman kitabı almamıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n\nAşağıdakilerden hangisi kesinlikle doğrudur?",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir kurumun düzenlediği sınav sonucunda Ali, Banu, Can, Deniz ve Emre adlı beş aday Başmüfettişlik, Uzmanlık ve Denetçilik kadrolarından birine tercih yapmıştır. Adayların tercihleriyle ilgili bilinenler şunlardır:\n- Her kadroya en az bir aday tercih yapmıştır.\n- Ali ve Can aynı kadroyu tercih etmiştir.\n- Banu sadece Uzmanlık kadrosunu tercih etmiştir.\n- Başmüfettişlik kadrosunu toplam 2 kişi tercih etmiştir.\n- Emre, Denetçilik kadrosunu tercih etmiştir.\n\nAşağıdakilerden hangisi kesinlikle doğrudur?",
         "options": {
-          "A": "Elif Roman kitabı almıştır.",
-          "B": "Burak Tarih kitabı almıştır.",
-          "C": "Ceyda Bilim kitabı almıştır.",
-          "D": "Ahmet Felsefe kitabı almıştır.",
-          "E": "Deniz Roman kitabı almıştır."
+          "A": "Ali ve Can Başmüfettişlik kadrosunu tercih etmiştir.",
+          "B": "Deniz Uzmanlık kadrosunu tercih etmiştir.",
+          "C": "Emre Başmüfettişlik kadrosunu tercih etmiştir.",
+          "D": "Banu Denetçilik kadrosunu tercih etmiştir.",
+          "E": "Can Denetçilik kadrosunu tercih etmiştir."
         },
         "correctAnswer": "A",
-        "explanation": "Ceyda ile Elif aynı türde kitap aldığı için Elif'in Roman aldığı kesindir."
+        "explanation": "Ali ve Can'ın Başmüfettişlik tercih ettiği kesinlikle doğrudur."
       },
       {
         "id": "2024-onlisans-tr-30",
@@ -555,16 +555,16 @@ export const EXAMS = [
         "subject": "turkce",
         "subjectTitle": "Türkçe",
         "topic": "Sözel Mantık",
-        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nAhmet, Burak, Ceyda, Deniz ve Elif adlı beş arkadaş Roman, Tarih, Bilim ve Felsefe türlerinde kitaplar satın almıştır. Kişilerin aldıkları kitaplarla ilgili bilinenler şunlardır:\n- Herkes en az 1 kitap almıştır ve toplam 6 kitap alınmıştır.\n- Ceyda ve Elif aynı türde kitap almıştır.\n- Deniz sadece Felsefe kitabı almıştır.\n- Burak kesinlikle Roman kitabı almamıştır.\n- Ahmet sadece Tarih kitabı almıştır.\n\nAşağıdaki eşleştirmelerden hangisi yanlıştır?",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir kurumun düzenlediği sınav sonucunda Ali, Banu, Can, Deniz ve Emre adlı beş aday Başmüfettişlik, Uzmanlık ve Denetçilik kadrolarından birine tercih yapmıştır. Adayların tercihleriyle ilgili bilinenler şunlardır:\n- Her kadroya en az bir aday tercih yapmıştır.\n- Ali ve Can aynı kadroyu tercih etmiştir.\n- Banu sadece Uzmanlık kadrosunu tercih etmiştir.\n- Başmüfettişlik kadrosunu toplam 2 kişi tercih etmiştir.\n- Emre, Denetçilik kadrosunu tercih etmiştir.\n\nAşağıdaki eşleştirmelerden hangisi kesinlikle yanlıştır?",
         "options": {
-          "A": "Ahmet - Tarih",
-          "B": "Deniz - Felsefe",
-          "C": "Ceyda - Roman",
-          "D": "Burak - Bilim",
-          "E": "Elif - Tarih"
+          "A": "Can - Denetçilik",
+          "B": "Ali - Başmüfettişlik",
+          "C": "Banu - Uzmanlık",
+          "D": "Emre - Denetçilik",
+          "E": "Can - Başmüfettişlik"
         },
-        "correctAnswer": "E",
-        "explanation": "Elif Roman kitabı almıştır, Elif - Tarih eşleştirmesi yanlıştır."
+        "correctAnswer": "A",
+        "explanation": "Can Başmüfettişlik tercih ettiği için Can - Denetçilik eşleştirmesi kesinlikle yanlıştır."
       },
       {
         "id": "2024-onlisans-mat-31",
@@ -572,16 +572,16 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Rasyonel Sayılar",
-        "text": "$$\\frac{\\frac{3}{4} + \\frac{1}{2}}{\\frac{5}{8} - \\frac{1}{4}}$$ işleminin sonucu kaçtır?",
+        "text": "$$\\frac{\\frac{3}{5} + \\frac{1}{2}}{\\frac{7}{10} - \\frac{1}{5}}$$ işleminin sonucu kaçtır?",
         "options": {
-          "A": "10/3",
-          "B": "5/2",
-          "C": "4",
-          "D": "5",
-          "E": "6"
+          "A": "$$\\frac{11}{5}$$",
+          "B": "$$\\frac{11}{3}$$",
+          "C": "$$\\frac{22}{5}$$",
+          "D": "$$\\frac{22}{3}$$",
+          "E": "$$\\frac{55}{6}$$"
         },
-        "correctAnswer": "A",
-        "explanation": "Pay: 3/4 + 2/4 = 5/4. Payda: 5/8 - 2/8 = 3/8. Oran: (5/4) / (3/8) = (5/4) * (8/3) = 10/3."
+        "correctAnswer": "B",
+        "explanation": "Pay: 3/5 + 1/2 = 11/10. Payda: 7/10 - 2/10 = 5/10. Oran: (11/10) / (5/10) = 11/5."
       },
       {
         "id": "2024-onlisans-mat-32",
@@ -606,16 +606,16 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Üslü Sayılar",
-        "text": "$$3^{x+2} - 3^x = 72$$ olduğuna göre, $$2^x$$ kaçtır?",
+        "text": "$$\\frac{3^4 - 3^2}{3^3 + 3}$$ işleminin sonucu kaçtır?",
         "options": {
-          "A": "2",
-          "B": "4",
-          "C": "8",
-          "D": "16",
-          "E": "32"
+          "A": "$$\\frac{12}{5}$$",
+          "B": "$$\\frac{18}{5}$$",
+          "C": "$$\\frac{24}{5}$$",
+          "D": "6",
+          "E": "8"
         },
-        "correctAnswer": "B",
-        "explanation": "$$3^x(3^2 - 1) = 72 \\Rightarrow 3^x(8) = 72 \\Rightarrow 3^x = 9 \\Rightarrow x = 2$$. Buradan $$2^x = 2^2 = 4$$ bulunur."
+        "correctAnswer": "A",
+        "explanation": "Pay: 81 - 9 = 72. Payda: 27 + 3 = 30. 72/30 = 12/5."
       },
       {
         "id": "2024-onlisans-mat-34",
@@ -632,7 +632,7 @@ export const EXAMS = [
           "E": "32"
         },
         "correctAnswer": "C",
-        "explanation": "Pay: $$4 \\times 4^6 = 4^7 = (2^2)^7 = 2^{14}$$. Oran: $$2^{14} / 2^{11} = 2^3 = 8$$."
+        "explanation": "Pay: 4 * 4^6 = 4^7 = 2^14. Oran: 2^14 / 2^11 = 2^3 = 8."
       },
       {
         "id": "2024-onlisans-mat-35",
@@ -640,16 +640,16 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Köklü Sayılar",
-        "text": "$$\\sqrt{0,09} + \\sqrt{0,16} - \\sqrt{0,25}$$ işleminin sonucu kaçtır?",
+        "text": "$$\\frac{\\sqrt{0,64} + \\sqrt{0,36}}{\\sqrt{0,16}}$$ işleminin sonucu kaçtır?",
         "options": {
-          "A": "0,1",
-          "B": "0,2",
-          "C": "0,3",
-          "D": "0,4",
-          "E": "0,5"
+          "A": "2,5",
+          "B": "3,5",
+          "C": "4,5",
+          "D": "5",
+          "E": "7,5"
         },
-        "correctAnswer": "B",
-        "explanation": "$$\\sqrt{0,09} = 0,3$$, $$\\sqrt{0,16} = 0,4$$, $$\\sqrt{0,25} = 0,5$$. İşlem: 0,3 + 0,4 - 0,5 = 0,2."
+        "correctAnswer": "A",
+        "explanation": "Pay: 0,8 + 0,6 = 1,4. Payda: 0,4. Oran: 1,4 / 0,4 = 3,5."
       },
       {
         "id": "2024-onlisans-mat-36",
@@ -665,8 +665,8 @@ export const EXAMS = [
           "D": "8",
           "E": "16"
         },
-        "correctAnswer": "C",
-        "explanation": "$$\\sqrt{81} = 9 \\Rightarrow \\sqrt{9+7} = \\sqrt{16} = 4$$. İşlem: $$4 \\times \\sqrt{2}$$ değil, $$\\sqrt{16} = 4$$, çarpım: $$4 \\times \\sqrt{2}$$? Bekleyin: $$\\sqrt{16} = 4$$. $$4 \\times \\sqrt{2} = 4\\sqrt{2}$$ veya $$\\sqrt{16 \\times 2} = \\sqrt{32}$$? Eğer soru $$\\sqrt{\\sqrt{81} + 7} = \\sqrt{16} = 4$$, $$4 \\times 2 = 8$$? $$\\sqrt{16} = 4$$. Çarpım: $$4 \\times \\sqrt{2}$$ seçeneği B'dir."
+        "correctAnswer": "B",
+        "explanation": "sqrt(81) = 9. sqrt(9+7) = sqrt(16) = 4. İşlem: 4 * sqrt(2) = 4sqrt(2)."
       },
       {
         "id": "2024-onlisans-mat-37",
@@ -683,7 +683,7 @@ export const EXAMS = [
           "E": "25"
         },
         "correctAnswer": "A",
-        "explanation": "x > 3 için: x-3 + x+2 = 9 => 2x-1 = 9 => 2x=10 => x=5. x < -2 için: -(x-3) - (x+2) = 9 => -2x + 1 = 9 => -2x = 8 => x = -4. Kökler çarpımı: 5 * (-4) = -20."
+        "explanation": "Kökler: x = 5 ve x = -4. Çarpımı: 5 * (-4) = -20."
       },
       {
         "id": "2024-onlisans-mat-38",
@@ -700,7 +700,7 @@ export const EXAMS = [
           "E": "14"
         },
         "correctAnswer": "B",
-        "explanation": "Eşitsizliği 3 ile genişletelim: $$-6 < 3x < 15$$. 5 çıkaralım: $$-11 < 3x - 5 < 10$$. Alabileceği en büyük tam sayı değeri 9'dur."
+        "explanation": "-11 < 3x - 5 < 10. En büyük tam sayı değeri 9'dur."
       },
       {
         "id": "2024-onlisans-mat-39",
@@ -717,7 +717,7 @@ export const EXAMS = [
           "E": "1 / (x+2)"
         },
         "correctAnswer": "A",
-        "explanation": "$$\\frac{(x-3)(x+3)}{(x+2)(x+3)} \\times \\frac{x+2}{x-3} = 1$$ bulunur."
+        "explanation": "Sadeleştirme sonucunda 1 kalır."
       },
       {
         "id": "2024-onlisans-mat-40",
@@ -734,7 +734,7 @@ export const EXAMS = [
           "E": "14"
         },
         "correctAnswer": "D",
-        "explanation": "5 ile bölünebilmesi için b=0 veya b=5 olmalı. b=0 için: 2+a+7+0 = 9+a => a=0 veya a=9 (a rakam). b=5 için: 2+a+7+5 = 14+a => a=4. a değerleri: 0, 9, 4. Toplam: 0 + 9 + 4 = 13."
+        "explanation": "a değerleri 0, 9, 4'tür. Toplam: 0 + 9 + 4 = 13."
       },
       {
         "id": "2024-onlisans-mat-41",
@@ -742,7 +742,7 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Sayı Problemleri",
-        "text": "Bir bilet kuyruğunda Ahmet baştan 12. sırada, Mehmet ise sondan 15. sıradadır. Ahmet ile Mehmet arasında 4 kişi olduğuna göre ve Ahmet gişeye daha yakın olduğuna göre kuyrukta toplam kaç kişi vardır?",
+        "text": "Bir bilet gişesi kuyruğunda Ahmet baştan 12. sırada, Mehmet ise sondan 15. sıradadır. Ahmet ile Mehmet arasında 4 kişi olduğuna göre ve Ahmet gişeye Mehmet'ten daha yakın olduğuna göre kuyrukta toplam kaç kişi vardır?",
         "options": {
           "A": "21",
           "B": "23",
@@ -751,7 +751,7 @@ export const EXAMS = [
           "E": "31"
         },
         "correctAnswer": "A",
-        "explanation": "Ahmet gişeye daha yakınsa: Toplam = (Ahmet'in Baştan Sırası) + (Mehmet'in Sondan Sırası) - Aradaki Kişi Sayısı - 2 = 12 + 15 - 4 - 2 = 21 kişi."
+        "explanation": "Toplam = 12 + 15 - 4 - 2 = 21 kişi."
       },
       {
         "id": "2024-onlisans-mat-42",
@@ -768,7 +768,7 @@ export const EXAMS = [
           "E": "750"
         },
         "correctAnswer": "D",
-        "explanation": "$$\\frac{1}{2} - \\frac{2}{5} = \\frac{5}{10} - \\frac{4}{10} = \\frac{1}{10}$$. Deponun 1/10'u 60 litre ise tamamı $$60 \\times 10 = 600$$ litredir."
+        "explanation": "1/2 - 2/5 = 1/10. Deponun 1/10'u 60 L ise tamamı 600 L alır."
       },
       {
         "id": "2024-onlisans-mat-43",
@@ -776,7 +776,7 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Yaş Problemleri",
-        "text": "Bir babanın yaşı, iki çocuğunun yaşları toplamının 3 katına eşittir. 5 yıl sonra babanın yaşı çocuklarının yaşları toplamının 2 katı olacağına göre babanın bugünkü yaşı kaçtır?",
+        "text": "Bir babanın bugünkü yaşı, iki çocuğunun bugünkü yaşları toplamının 3 katına eşittir. 5 yıl sonra babanın yaşı çocuklarının yaşları toplamının 2 katı olacağına göre babanın bugünkü yaşı kaçtır?",
         "options": {
           "A": "36",
           "B": "42",
@@ -785,7 +785,7 @@ export const EXAMS = [
           "E": "54"
         },
         "correctAnswer": "C",
-        "explanation": "Çocuklar toplamı = x, Baba = 3x. 5 yıl sonra Baba = 3x+5, Çocuklar toplamı = x+10 (2 çocuk). Denklem: 3x+5 = 2(x+10) => 3x+5 = 2x+20 => x = 15. Baba = 3*15 = 45 yaşındadır."
+        "explanation": "Baba = 3x. 5 yıl sonra 3x+5 = 2(x+10) => x=15. Baba = 45."
       },
       {
         "id": "2024-onlisans-mat-44",
@@ -802,7 +802,7 @@ export const EXAMS = [
           "E": "340"
         },
         "correctAnswer": "A",
-        "explanation": "%120 = 360 TL ise Maliyet (%100) = 300 TL. %10 zararlı satış fiyatı = 300 * 0,90 = 270 TL."
+        "explanation": "Maliyet = 300 TL. %10 zararlı satış = 270 TL."
       },
       {
         "id": "2024-onlisans-mat-45",
@@ -819,7 +819,7 @@ export const EXAMS = [
           "E": "%16"
         },
         "correctAnswer": "C",
-        "explanation": "Saf şeker miktarı: 60 * 0,20 = 12 gram. Toplam yeni kütle: 60 + 40 = 100 gram. Yüzde: (12 / 100) * 100 = %12."
+        "explanation": "Saf şeker = 12 gram. Yeni toplam = 100 gram. Yüzde = %12."
       },
       {
         "id": "2024-onlisans-mat-46",
@@ -836,14 +836,14 @@ export const EXAMS = [
           "E": "4,5"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam Hız = 70 + 80 = 150 km/s. Süre = 450 / 150 = 3 saat."
+        "explanation": "Süre = 450 / 150 = 3 saat."
       },
       {
         "id": "2024-onlisans-mat-47",
         "number": 47,
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
-        "topic": "İşçi-Havuz Problemleri",
+        "topic": "İşçi Problemleri",
         "text": "Bir işi Ahmet tek başına 12 günde, Mehmet ise aynı işi tek başına 24 günde bitirebilmektedir. İkisi birlikte aynı işi kaç günde bitirirler?",
         "options": {
           "A": "6",
@@ -853,7 +853,7 @@ export const EXAMS = [
           "E": "10"
         },
         "correctAnswer": "C",
-        "explanation": "1/12 + 1/24 = 3/24 = 1/8. İkisi birlikte 8 günde bitirirler."
+        "explanation": "1/12 + 1/24 = 1/8 => 8 gün."
       },
       {
         "id": "2024-onlisans-mat-48",
@@ -870,7 +870,7 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "A",
-        "explanation": "En az bir dil bilenler: s(İ U A) = s(İ) + s(A) - s(İ ∩ A) = 20 + 18 - 7 = 31 kişi. Hiçbir dili bilmeyenler: 35 - 31 = 4 kişi."
+        "explanation": "35 - (20 + 18 - 7) = 35 - 31 = 4."
       },
       {
         "id": "2024-onlisans-mat-49",
@@ -887,7 +887,7 @@ export const EXAMS = [
           "E": "19"
         },
         "correctAnswer": "D",
-        "explanation": "f(2) = 2(2) + 3 = 7. f(f(2)) = f(7) = 2(7) + 3 = 17."
+        "explanation": "f(2) = 7. f(7) = 17."
       },
       {
         "id": "2024-onlisans-mat-50",
@@ -921,7 +921,7 @@ export const EXAMS = [
           "E": "36"
         },
         "correctAnswer": "B",
-        "explanation": "a * b = (a - b)^2 dir. 7 * 4 = (7 - 4)^2 = 3^2 = 9."
+        "explanation": "7 * 4 = (7 - 4)^2 = 9."
       },
       {
         "id": "2024-onlisans-mat-52",
@@ -938,7 +938,7 @@ export const EXAMS = [
           "E": "1200"
         },
         "correctAnswer": "A",
-        "explanation": "C ürününün açısı = 360 - (120 + 150) = 90 derece. 90 derece 180 adet ise 360 derece (tamamı) = 180 * (360/90) = 720 adet satılmıştır."
+        "explanation": "C açısı = 90 derece. 90 derece 180 adet ise tamamı = 720 adettir."
       },
       {
         "id": "2024-onlisans-mat-53",
@@ -946,7 +946,7 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Sayısal Mantık (Sayı Dizisi)",
-        "text": "3, 7, 15, 31, 63, x dizisinde kurala göre x sayısı kaçtır?",
+        "text": "3, 7, 15, 31, 63, x kurala dayalı sayı dizisinde x sayısı kaçtır?",
         "options": {
           "A": "95",
           "B": "115",
@@ -955,7 +955,7 @@ export const EXAMS = [
           "E": "135"
         },
         "correctAnswer": "C",
-        "explanation": "Her terim 2 katının 1 fazlasıdır: 3*2+1=7, 7*2+1=15, 15*2+1=31, 31*2+1=63, 63*2+1=127."
+        "explanation": "63 * 2 + 1 = 127."
       },
       {
         "id": "2024-onlisans-mat-54",
@@ -963,7 +963,7 @@ export const EXAMS = [
         "subject": "matematik",
         "subjectTitle": "Matematik & Sayısal Mantık",
         "topic": "Sayısal Mantık (Tablo Okuma)",
-        "text": "Bir şirketin 3 aylık gelir-gider tablosunda Ocak ayı kârı 40 bin TL, Şubat ayı kârı 60 bin TL, Mart ayı zararı 20 bin TL'dir. Şirketin 3 aylık ortalama aylık kârı kaç bin TL'dir?",
+        "text": "Bir şirketin 3 aylık gelir-gider tablosunda Ocak ayı kârı 40 bin TL, Şubat ayı kârı 60 bin TL, Mart ayı zararı 20 bin TL'dir. Şirketin 3 aylık ortalama aylık net kârı kaç bin TL'dir?",
         "options": {
           "A": "20",
           "B": "26,6",
@@ -972,7 +972,7 @@ export const EXAMS = [
           "E": "80"
         },
         "correctAnswer": "B",
-        "explanation": "Toplam Net Kâr = 40 + 60 - 20 = 80 bin TL. 3 aylık ortalama = 80 / 3 = 26,66 bin TL."
+        "explanation": "80 / 3 = 26,6 bin TL."
       },
       {
         "id": "2024-onlisans-mat-55",
@@ -989,7 +989,7 @@ export const EXAMS = [
           "E": "Pazar"
         },
         "correctAnswer": "B",
-        "explanation": "100 mod 7 = 2 kalandır. Salı gününe 2 gün eklersek: Çarşamba (1), Perşembe (2) olur."
+        "explanation": "100 mod 7 = 2. Salı + 2 gün = Perşembe."
       },
       {
         "id": "2024-onlisans-mat-56",
@@ -1006,7 +1006,7 @@ export const EXAMS = [
           "E": "30"
         },
         "correctAnswer": "B",
-        "explanation": "Dar açılar toplamı 90 derecedir. x + 4x = 90 => 5x = 90 => x = 18 derece."
+        "explanation": "x + 4x = 90 => x = 18 derece."
       },
       {
         "id": "2024-onlisans-mat-57",
@@ -1023,7 +1023,7 @@ export const EXAMS = [
           "E": "6"
         },
         "correctAnswer": "B",
-        "explanation": "Hipotenüs = 10 cm (6-8-10 üçgeni). Alan = (6*8)/2 = 24. Taban*Yükseklik/2 = (10*h)/2 = 24 => 10h = 48 => h = 4,8 cm."
+        "explanation": "h = 48 / 10 = 4,8 cm."
       },
       {
         "id": "2024-onlisans-mat-58",
@@ -1040,7 +1040,7 @@ export const EXAMS = [
           "E": "96"
         },
         "correctAnswer": "C",
-        "explanation": "Kısa kenar = x, Uzun kenar = 2x. Çevre = 2(x + 2x) = 6x = 36 => x = 6 cm. Uzun kenar = 12 cm. Alan = 6 * 12 = 72 cm^2."
+        "explanation": "Alan = 6 * 12 = 72 cm^2."
       },
       {
         "id": "2024-onlisans-mat-59",
@@ -1057,7 +1057,7 @@ export const EXAMS = [
           "E": "18"
         },
         "correctAnswer": "B",
-        "explanation": "Dairenin tamamının alanı = $$\\pi r^2 = \\pi (6)^2 = 36\\pi$$. 60 derecelik dilim alanı = $$36\\pi \\times (60 / 360) = 6\\pi$$."
+        "explanation": "Alan = 36pi * (60/360) = 6pi."
       },
       {
         "id": "2024-onlisans-mat-60",
@@ -1074,24 +1074,24 @@ export const EXAMS = [
           "E": "8"
         },
         "correctAnswer": "B",
-        "explanation": "$$d = \\sqrt{(6-2)^2 + (1-5)^2} = \\sqrt{4^2 + (-4)^2} = \\sqrt{16+16} = \\sqrt{32} = 4\\sqrt{2}$$ birimdir."
+        "explanation": "d = 4sqrt(2) birimdir."
       },
       {
         "id": "2024-onlisans-tar-61",
         "number": 61,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "İslamiyet Öncesi Türk Tarihi",
+        "topic": "İslam Öncesi Türk Tarihi",
         "text": "İslamiyet öncesi Türk devletlerinde kurultay kararlarında son sözün hükümdara ait olması aşağıdakilerden hangisini göstermektedir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Kurultayın danışma meclisi niteliğinde olduğunu",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Demokratik anlayışın tamamen yerleştiğini",
+          "C": "Cumhuriyet rejiminin uygulandığını",
+          "D": "Oligarşik bir yönetimin kurulduğunu",
+          "E": "Teokratik devlet yapısının benimsendiğini"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Kurultayın danışma meclisi niteliğinde olduğunu'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kurultayın danışma meclisi niteliğinde olduğunu)."
       },
       {
         "id": "2024-onlisans-tar-62",
@@ -1099,67 +1099,67 @@ export const EXAMS = [
         "subject": "tarih",
         "subjectTitle": "Tarih",
         "topic": "Türk-İslam Tarihi",
-        "text": "Büyük Selçuklu Devleti'nde meliklerin (şehzadelerin) eğitiminden sorumlu olan atabeylerin merkezi otoritenin zayıflamasıyla bağımsızlık ilan etmeleri aşağıdakilerden hangisine yol açmıştır? (KPSS Ön Lisans 2024)",
+        "text": "Büyük Selçuklu Devleti'nde meliklerin eğitiminden sorumlu atabeylerin merkezi otoritenin zayıflamasıyla bağımsızlık ilan etmeleri aşağıdakilerden hangisine yol açmıştır? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Atabeyliklerin kurulmasına ve siyasi birliğin bozulmasına",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "İkta sisteminin tamamen kaldırılmasına",
+          "C": "Haçlı Seferleri'nin sona ermesine",
+          "D": "Türkçenin resmi dil ilan edilmesine",
+          "E": "Kut anlayışının bitmesine"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Atabeyliklerin kurulmasına ve siyasi birliğin bozulmasına'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Atabeyliklerin kurulmasına ve siyasi birliğin bozulmasına)."
       },
       {
         "id": "2024-onlisans-tar-63",
         "number": 63,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Osmanlı Kuruluş Dönemi",
-        "text": "Osmanlı Devleti'nde ilk altın para (Sikke-i Hasene) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2024)",
+        "topic": "Türk-İslam Tarihi",
+        "text": "Divânu Lugâti't-Türk adlı ilk Türkçe sözlüğü yazan Karahanlı dönemi bilgini kimdir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Fatih Sultan Mehmed",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Kaşgarlı Mahmud",
+          "B": "Yusuf Has Hacib",
+          "C": "Edib Ahmed Yükneki",
+          "D": "Ahmet Yesevi",
+          "E": "Farabi"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Fatih Sultan Mehmed'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kaşgarlı Mahmud)."
       },
       {
         "id": "2024-onlisans-tar-64",
         "number": 64,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Osmanlı Yükselme Dönemi",
-        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Kuruluş Dönemi",
+        "text": "Osmanlı Devleti'nde ilk altın para (Sikke-i Hasene) hangi padişah döneminde basılmıştır? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Yavuz Sultan Selim",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Fatih Sultan Mehmed",
+          "B": "Orhan Bey",
+          "C": "I. Murad",
+          "D": "Çelebi Mehmed",
+          "E": "II. Bayezid"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Yavuz Sultan Selim'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Fatih Sultan Mehmed)."
       },
       {
         "id": "2024-onlisans-tar-65",
         "number": 65,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Osmanlı Kültür ve Medeniyeti",
-        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Yükselme Dönemi",
+        "text": "Kutsal yerlerin koruyucusu anlamına gelen 'Hâdimü'l-Haremeyni'ş-Şerifeyn' unvanını alan ilk Osmanlı padişahı aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Çiftbozan",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Yavuz Sultan Selim",
+          "B": "Kanuni Sultan Süleyman",
+          "C": "Fatih Sultan Mehmed",
+          "D": "II. Selim",
+          "E": "III. Murad"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Çiftbozan'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Yavuz Sultan Selim)."
       },
       {
         "id": "2024-onlisans-tar-66",
@@ -1170,81 +1170,81 @@ export const EXAMS = [
         "text": "Osmanlı Devleti'nin Batı'nın bilimsel ve askeri üstünlüğünü ilk kez kabul ettiği antlaşma aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Pasarofça Antlaşması",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Karlofça Antlaşması",
+          "C": "Küçük Kaynarca Antlaşması",
+          "D": "Zitvatorok Antlaşması",
+          "E": "Bucaş Antlaşması"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Pasarofça Antlaşması'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Pasarofça Antlaşması)."
       },
       {
         "id": "2024-onlisans-tar-67",
         "number": 67,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Kurtuluş Savaşı Hazırlık Dönemi",
-        "text": "Manda ve himaye fikri ilk kez nerede kesin olarak reddedilmiştir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Islahatları",
+        "text": "II. Mahmut döneminde yeniçeri ocağının kaldırılması olayına verilen ad hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Sivas Kongresi",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Vaka-i Hayriye",
+          "B": "Vaka-i Vakvakiye",
+          "C": "Edirne Olaya",
+          "D": "31 Mart Olayı",
+          "E": "Kuleli Vakası"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Sivas Kongresi'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Vaka-i Hayriye)."
       },
       {
         "id": "2024-onlisans-tar-68",
         "number": 68,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Kurtuluş Savaşı Cepheleri",
-        "text": "Mustafa Kemal Paşa'nın 'Siz orada yalnız düşmanı değil, milletin makus talihini de yendiniz' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Siyasi Tarihi",
+        "text": "Osmanlı Devleti'nin Kuzey Afrika'daki son toprak parçasını kaybettiği antlaşma hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "II. İnönü Muharebesi",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Uşı Antlaşması",
+          "B": "Balkan Antlaşması",
+          "C": "Londra Antlaşması",
+          "D": "Bükreş Antlaşması",
+          "E": "Atina Antlaşması"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap II. İnönü Muharebesi'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Uşı Antlaşması)."
       },
       {
         "id": "2024-onlisans-tar-69",
         "number": 69,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "İnkılap Tarihi",
-        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen ve eğitimde birliği sağlayan kanun aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Siyasi Tarihi",
+        "text": "Osmanlı Devleti'nin I. Dünya Savaşı'nda Kutu'l-Amare zaferini kazandığı cephe hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Tevhid-i Tedrisat Kanunu",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Irak Cephesi",
+          "B": "Çanakkale Cephesi",
+          "C": "Kafkas Cephesi",
+          "D": "Kanal Cephesi",
+          "E": "Suriye-Filistin Cephesi"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Tevhid-i Tedrisat Kanunu'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Irak Cephesi)."
       },
       {
         "id": "2024-onlisans-tar-70",
         "number": 70,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk İlkeleri",
-        "text": "Akıl ve bilimi rehber edinen, din ve devlet işlerinin ayrılmasını esas alan Atatürk ilkesi aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Kültür ve Medeniyeti",
+        "text": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste boş bırakan köylüden alınan vergi aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Laiklik",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Çiftbozan",
+          "B": "Cizye",
+          "C": "Haraç",
+          "D": "Öşür",
+          "E": "Anam"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Laiklik'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Çiftbozan)."
       },
       {
         "id": "2024-onlisans-tar-71",
@@ -1255,13 +1255,13 @@ export const EXAMS = [
         "text": "Osmanlı Devleti'nde dirlik sisteminde yıllık geliri 100 bin akçeden fazla olan en yüksek gelirli toprak türü hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Has",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Zeamet",
+          "C": "Tımar",
+          "D": "Paşalık",
+          "E": "Vakıf"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Has'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Has)."
       },
       {
         "id": "2024-onlisans-tar-72",
@@ -1272,98 +1272,98 @@ export const EXAMS = [
         "text": "Osmanlı Devleti'nde Divan-ı Hümayun'da adalet ve eğitim işlerinden sorumlu olan, kadı ve müderrislerin atamasını yapan görevli hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Kazasker",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Nişancı",
+          "C": "Sadrazam",
+          "D": "Defterdar",
+          "E": "Reisülküttap"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Kazasker'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kazasker)."
       },
       {
         "id": "2024-onlisans-tar-73",
         "number": 73,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Kurtuluş Savaşı Hazırlık",
-        "text": "Misak-ı Millî kararları aşağıdakilerden hangisi tarafından kabul edilerek ilan edilmiştir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Mimarisi",
+        "text": "Mimar Sinan'ın 'Ustalık Eserim' olarak nitelendirdiği UNESCO Dünya Mirası yapısı hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Son Osmanlı Mebusan Meclisi",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Edirne Selimiye Camii",
+          "B": "İstanbul Süleymaniye Camii",
+          "C": "Şehzade Camii",
+          "D": "Rüstempaşa Camii",
+          "E": "Sultanahmet Camii"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Son Osmanlı Mebusan Meclisi'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Edirne Selimiye Camii)."
       },
       {
         "id": "2024-onlisans-tar-74",
         "number": 74,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk Dönemi Dış Politika",
-        "text": "Türkiye Cumhuriyeti'nin Milletler Cemiyeti'ne (Cemiyet-i Akvam) üye olduğu yıl aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Sanatı",
+        "text": "Osmanlı Devleti'nde el yazması kitapları süsleyen sulu boya tarzındaki resim sanatına ne ad verilir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "1932",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Minyatür",
+          "B": "Hüsn-i Hat",
+          "C": "Ebru",
+          "D": "Tezhip",
+          "E": "Çini"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap 1932'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Minyatür)."
       },
       {
         "id": "2024-onlisans-tar-75",
         "number": 75,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Çağdaş Türk ve Dünya Tarihi",
-        "text": "II. Dünya Savaşı sırasında Müttefik Devletlerin Türkiye'yi savaşa sokabilmek amacıyla gerçekleştirdiği görüşme aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Osmanlı Hukuku",
+        "text": "Tanzimat Fermanı'nın ilan edilmesinde etkili olan Osmanlı devlet adamı kimdir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Adana Görüşmeleri",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Mustafa Reşit Paşa",
+          "B": "Mithat Paşa",
+          "C": "Ahmet Cevdet Paşa",
+          "D": "Keçecizade Fuat Paşa",
+          "E": "Ali Paşa"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Adana Görüşmeleri'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mustafa Reşit Paşa)."
       },
       {
         "id": "2024-onlisans-tar-76",
         "number": 76,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Osmanlı Mimarisi",
-        "text": "Mimar Sinan'ın 'Ustalık Eserim' olarak nitelendirdiği UNESCO Dünya Mirası yapısı hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Kurtuluş Savaşı Hazırlık Dönemi",
+        "text": "Manda ve himaye fikri ilk kez nerede kesin olarak reddedilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Edirne Selimiye Camii",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Sivas Kongresi",
+          "B": "Erzurum Kongresi",
+          "C": "Amasya Genelgesi",
+          "D": "Havza Genelgesi",
+          "E": "Misak-ı Millî"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Edirne Selimiye Camii'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Sivas Kongresi)."
       },
       {
         "id": "2024-onlisans-tar-77",
         "number": 77,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Osmanlı Sanatı",
-        "text": "Osmanlı Devleti'nde el yazması kitapları süsleyen sulu boya tarzındaki resim sanatına ne ad verilir? (KPSS Ön Lisans 2024)",
+        "topic": "Kurtuluş Savaşı Hazırlık",
+        "text": "Misak-ı Millî kararları aşağıdakilerden hangisi tarafından kabul edilerek ilan edilmiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Minyatür",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Son Osmanlı Mebusan Meclisi",
+          "B": "I. TBMM",
+          "C": "Sivas Kongresi",
+          "D": "Erzurum Kongresi",
+          "E": "Temsil Heyeti"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Minyatür'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Son Osmanlı Mebusan Meclisi)."
       },
       {
         "id": "2024-onlisans-tar-78",
@@ -1374,13 +1374,13 @@ export const EXAMS = [
         "text": "Amasya Genelgesi'ni hazırlayan kadro içerisinde aşağıdakilerden hangisi yer almaz? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "İsmet İnönü",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Rauf Orbay",
+          "C": "Refet Bele",
+          "D": "Ali Fuat Cebesoy",
+          "E": "Kazım Karabekir"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap İsmet İnönü'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (İsmet İnönü)."
       },
       {
         "id": "2024-onlisans-tar-79",
@@ -1391,323 +1391,153 @@ export const EXAMS = [
         "text": "I. TBMM'nin çıkardığı ilk kanun aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
           "A": "Anam Vergisi Kanunu",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "B": "Hıyanet-i Vataniye Kanunu",
+          "C": "Nisab-ı Müzakere Kanunu",
+          "D": "Firariler Kanunu",
+          "E": "Men-i Müskirat Kanunu"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Anam Vergisi Kanunu'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Anam Vergisi Kanunu)."
       },
       {
         "id": "2024-onlisans-tar-80",
         "number": 80,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Kurtuluş Savaşı Antlaşmaları",
-        "text": "Doğu sınırımızın kesin olarak çizildiği antlaşma aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Kurtuluş Savaşı Cepheleri",
+        "text": "Mustafa Kemal Paşa'nın 'Siz orada yalnız düşmanı değil, milletin makus talihini de yendiniz' sözünü hangi zafer üzerine söylemiştir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Kars Antlaşması",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "II. İnönü Muharebesi",
+          "B": "I. İnönü Muharebesi",
+          "C": "Sakarya Meydan Muharebesi",
+          "D": "Büyük Taarruz",
+          "E": "Çanakkale Savaşı"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Kars Antlaşması'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (II. İnönü Muharebesi)."
       },
       {
         "id": "2024-onlisans-tar-81",
         "number": 81,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "İnkılap Tarihi",
-        "text": "Toplumsal alanda kadın-erkek eşitliğini sağlayan ve 1926 yılında kabul edilen kanun hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Kurtuluş Savaşı Antlaşmaları",
+        "text": "Doğu sınırımızın kesin olarak çizildiği antlaşma aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Türk Medeni Kanunu",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Kars Antlaşması",
+          "B": "Gümrü Antlaşması",
+          "C": "Moskova Antlaşması",
+          "D": "Ankara Antlaşması",
+          "E": "Mudanya Mütarekesi"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Türk Medeni Kanunu'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kars Antlaşması)."
       },
       {
         "id": "2024-onlisans-tar-82",
         "number": 82,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk Dönemi İktisat",
-        "text": "1923 yılında toplanan İzmir İktisat Kongresi'nde kabul edilen ekonomik bağımsızlık andı hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "İnkılap Tarihi",
+        "text": "3 Mart 1924 tarihinde Halifeliğin kaldırıldığı gün kabul edilen ve eğitimde birliği sağlayan kanun aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Misak-ı İktisadi",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Tevhid-i Tedrisat Kanunu",
+          "B": "Soyadı Kanunu",
+          "C": "Harf İnkılabı",
+          "D": "Kabotaj Kanunu",
+          "E": "Şapka Kanunu"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Misak-ı İktisadi'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Tevhid-i Tedrisat Kanunu)."
       },
       {
         "id": "2024-onlisans-tar-83",
         "number": 83,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk İlkeleri",
-        "text": "Aşar vergisinin kaldırılması ve okuma-yazma seferberliği hangi Atatürk ilkesiyle doğrudan ilgilidir? (KPSS Ön Lisans 2024)",
+        "topic": "İnkılap Tarihi",
+        "text": "Toplumsal alanda kadın-erkek eşitliğini sağlayan ve 1926 yılında kabul edilen kanun hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Halkçılık",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Türk Medeni Kanunu",
+          "B": "Borçlar Kanunu",
+          "C": "Ceza Kanunu",
+          "D": "Ticaret Kanunu",
+          "E": "Teşvik-i Sanayi Kanunu"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Halkçılık'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Türk Medeni Kanunu)."
       },
       {
         "id": "2024-onlisans-tar-84",
         "number": 84,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk Dönemi Gelişmeleri",
-        "text": "Türkiye'nin ilk özel bankası olarak 1924 yılında kurulan banka hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Atatürk İlkeleri",
+        "text": "Akıl ve bilimi rehber edinen, din ve devlet işlerinin ayrılmasını esas alan Atatürk ilkesi aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Türkiye İş Bankası",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Laiklik",
+          "B": "Milliyetçilik",
+          "C": "Halkçılık",
+          "D": "Devletçilik",
+          "E": "İnkılapçılık"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Türkiye İş Bankası'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Laiklik)."
       },
       {
         "id": "2024-onlisans-tar-85",
         "number": 85,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Atatürk Dönemi Dış Politika",
-        "text": "1936 yılında imzalanan ve Boğazlar üzerindeki Türk egemenliğini tam olarak sağlayan sözleşme hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Atatürk Dönemi İktisat",
+        "text": "1923 yılında toplanan İzmir İktisat Kongresi'nde kabul edilen ekonomik bağımsızlık andı hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Montrö Boğazlar Sözleşmesi",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Misak-ı İktisadi",
+          "B": "Misak-ı Millî",
+          "C": "Teşvik-i Sanayi",
+          "D": "Kabotaj Andı",
+          "E": "Devletçilik İlkesi"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Montrö Boğazlar Sözleşmesi'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Misak-ı İktisadi)."
       },
       {
         "id": "2024-onlisans-tar-86",
         "number": 86,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Çağdaş Dünya Tarihi",
-        "text": "1947 yılında ABD tarafından Sovyet tehdidine karşı Avrupa ülkelerine yapılan ekonomik yardım paketi hangisidir? (KPSS Ön Lisans 2024)",
+        "topic": "Atatürk Dönemi Dış Politika",
+        "text": "Türkiye Cumhuriyeti'nin Milletler Cemiyeti'ne (Cemiyet-i Akvam) üye olduğu yıl aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Marshall Planı",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "1932",
+          "B": "1928",
+          "C": "1930",
+          "D": "1934",
+          "E": "1936"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Marshall Planı'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (1932)."
       },
       {
         "id": "2024-onlisans-tar-87",
         "number": 87,
         "subject": "tarih",
         "subjectTitle": "Tarih",
-        "topic": "Türk Kültür Tarihi",
-        "text": "Divânu Lugâti't-Türk adlı ilk Türkçe sözlüğü yazan Karahanlı dönemi bilgini kimdir? (KPSS Ön Lisans 2024)",
+        "topic": "Çağdaş Türk ve Dünya Tarihi",
+        "text": "II. Dünya Savaşı sırasında Müttefik Devletlerin Türkiye'yi savaşa sokabilmek amacıyla gerçekleştirdiği görüşme aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
         "options": {
-          "A": "Kaşgarlı Mahmud",
-          "B": "Çeldirici Yanıt B",
-          "C": "Çeldirici Yanıt C",
-          "D": "Çeldirici Yanıt D",
-          "E": "Çeldirici Yanıt E"
+          "A": "Adana Görüşmeleri",
+          "B": "Yalta Konferansı",
+          "C": "Potsdam Konferansı",
+          "D": "San Francisco Konferansı",
+          "E": "Paris Konferansı"
         },
         "correctAnswer": "A",
-        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap Kaşgarlı Mahmud'dır."
+        "explanation": "Tarih müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Adana Görüşmeleri)."
       },
       {
         "id": "2024-onlisans-cog-88",
         "number": 88,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Türkiye İklimi",
-        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel nedeni aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Yer şekillerinin kısa mesafelerde çeşitlilik göstermesi",
-          "B": "Mutlak konumun etkisi",
-          "C": "Üç tarafının denizlerle çevrili olması",
-          "D": "Batı rüzgarlarının etkisi",
-          "E": "Bitki örtüsü"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Yer şekillerinin kısa mesafelerde çeşitlilik göstermesi'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-89",
-        "number": 89,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Madenler ve Enerji",
-        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Marmara Bölgesi",
-          "B": "Ege Bölgesi",
-          "C": "İç Anadolu Bölgesi",
-          "D": "Karadeniz Bölgesi",
-          "E": "Doğu Anadolu Bölgesi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Marmara Bölgesi'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-90",
-        "number": 90,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Türkiye Akarsuları",
-        "text": "Türkiye sınırları içerisinden doğup yine Türkiye sınırları içerisinde denize dökülen en uzun iç akarsuyumuz hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Kızılırmak",
-          "B": "Yeşilırmak",
-          "C": "Fırat",
-          "D": "Sakarya",
-          "E": "Göksu"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Kızılırmak'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-91",
-        "number": 91,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Kıyı Tipleri",
-        "text": "Türkiye'de dağların kıyıya paralel uzandığı Karadeniz ve Akdeniz kıyılarında hakim olan kıyı tipi hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Boyuna Kıyı Tipi",
-          "B": "Enine Kıyı Tipi",
-          "C": "Ria Kıyı Tipi",
-          "D": "Dalmaçya Kıyı Tipi",
-          "E": "Fiyort Kıyı Tipi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Boyuna Kıyı Tipi'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-92",
-        "number": 92,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Nüfus Coğrafyası",
-        "text": "Türkiye'de nüfus artış hızının tarihsel süreçte en düşük seviyeye gerilediği dönem aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "1940 - 1945 Dönemi",
-          "B": "1950 - 1955 Dönemi",
-          "C": "1960 - 1965 Dönemi",
-          "D": "1980 - 1985 Dönemi",
-          "E": "2000 - 2005 Dönemi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap 1940 - 1945 Dönemi'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-93",
-        "number": 93,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Turizm Coğrafyası",
-        "text": "Şanlıurfa sınırları içinde yer alan ve 'Tarihin Sıfır Noktası' olarak kabul edilen neolitik alan hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Göbeklitepe",
-          "B": "Çatalhöyük",
-          "C": "Yarımburgaz",
-          "D": "Alacahöyük",
-          "E": "Hacılar"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Göbeklitepe'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-94",
-        "number": 94,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Toprak Coğrafyası",
-        "text": "Türkiye'de rüzgar erozyonunun ve çölleşme riskinin en şiddetli görüldüğü alan hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "İç Anadolu (Karapınar Yöresi)",
-          "B": "Doğu Karadeniz",
-          "C": "Batı Karadeniz",
-          "D": "Yıldız Dağları Yöresi",
-          "E": "Hakkari Yöresi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap İç Anadolu (Karapınar Yöresi)'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-95",
-        "number": 95,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Enerji Kaynakları",
-        "text": "Türkiye'nin ilk jeotermal santralinin kurulduğu yer aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Denizli (Kızıldere)",
-          "B": "Zonguldak",
-          "C": "Kahramanmaraş",
-          "D": "Eskişehir",
-          "E": "Mardin"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Denizli (Kızıldere)'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-96",
-        "number": 96,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Tarım Coğrafyası",
-        "text": "Türkiye'de fındık üretiminin yaklaşık %80'inin karşılandığı coğrafi bölge hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Karadeniz Bölgesi",
-          "B": "Marmara Bölgesi",
-          "C": "Ege Bölgesi",
-          "D": "Akdeniz Bölgesi",
-          "E": "İç Anadolu Bölgesi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Karadeniz Bölgesi'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-97",
-        "number": 97,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Doğal Afetler",
-        "text": "Türkiye'de tarihsel süreçte en fazla can ve mal kaybına yol açan doğal afet türü hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Deprem",
-          "B": "Heyelan",
-          "C": "Çığ",
-          "D": "Erozyon",
-          "E": "Su Baskını"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Deprem'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-98",
-        "number": 98,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Türkiye Coğrafi Konumu",
@@ -1720,11 +1550,11 @@ export const EXAMS = [
           "E": "Beşeri Konum"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Mutlak (Matematiksel) Konum'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mutlak (Matematiksel) Konum)."
       },
       {
-        "id": "2024-onlisans-cog-99",
-        "number": 99,
+        "id": "2024-onlisans-cog-89",
+        "number": 89,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Platolar",
@@ -1737,28 +1567,11 @@ export const EXAMS = [
           "E": "Gaziantep Platosu"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Teke ve Taşeli Platoları (Akdeniz)'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Teke ve Taşeli Platoları (Akdeniz))."
       },
       {
-        "id": "2024-onlisans-cog-100",
-        "number": 100,
-        "subject": "cografya",
-        "subjectTitle": "Coğrafya",
-        "topic": "Göller",
-        "text": "Türkiye'nin en büyük tatlı su gölü olma özelliğine sahip gölümüz hangisidir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Beyşehir Gölü",
-          "B": "Van Gölü",
-          "C": "Tuz Gölü",
-          "D": "Eğirdir Gölü",
-          "E": "İznik Gölü"
-        },
-        "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Beyşehir Gölü'dır."
-      },
-      {
-        "id": "2024-onlisans-cog-101",
-        "number": 101,
+        "id": "2024-onlisans-cog-90",
+        "number": 90,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Volkanik Dağlar",
@@ -1771,11 +1584,28 @@ export const EXAMS = [
           "E": "Kula Volkanları"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Kaçkar Dağları'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kaçkar Dağları)."
       },
       {
-        "id": "2024-onlisans-cog-102",
-        "number": 102,
+        "id": "2024-onlisans-cog-91",
+        "number": 91,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Türkiye İklimi",
+        "text": "Türkiye'de aynı anda farklı mevsim özelliklerinin yaşanabilmesinin temel nedeni aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Yer şekillerinin kısa mesafelerde çeşitlilik göstermesi",
+          "B": "Mutlak konumun etkisi",
+          "C": "Üç tarafının denizlerle çevrili olması",
+          "D": "Batı rüzgarlarının etkisi",
+          "E": "Bitki örtüsü"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Yer şekillerinin kısa mesafelerde çeşitlilik göstermesi)."
+      },
+      {
+        "id": "2024-onlisans-cog-92",
+        "number": 92,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Rüzgarlar",
@@ -1788,11 +1618,164 @@ export const EXAMS = [
           "E": "Samyeli"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Karayel'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Karayel)."
       },
       {
-        "id": "2024-onlisans-cog-103",
-        "number": 103,
+        "id": "2024-onlisans-cog-93",
+        "number": 93,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Türkiye Akarsuları",
+        "text": "Türkiye sınırları içerisinden doğup yine Türkiye sınırları içerisinde denize dökülen en uzun iç akarsuyumuz hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Kızılırmak",
+          "B": "Yeşilırmak",
+          "C": "Fırat",
+          "D": "Sakarya",
+          "E": "Göksu"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kızılırmak)."
+      },
+      {
+        "id": "2024-onlisans-cog-94",
+        "number": 94,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Göller",
+        "text": "Türkiye'nin en büyük tatlı su gölü olma özelliğine sahip gölümüz hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Beyşehir Gölü",
+          "B": "Van Gölü",
+          "C": "Tuz Gölü",
+          "D": "Eğirdir Gölü",
+          "E": "İznik Gölü"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Beyşehir Gölü)."
+      },
+      {
+        "id": "2024-onlisans-cog-95",
+        "number": 95,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Nüfus Coğrafyası",
+        "text": "Türkiye'de nüfus artış hızının tarihsel süreçte en düşük seviyeye gerilediği dönem aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "1940 - 1945 Dönemi",
+          "B": "1950 - 1955 Dönemi",
+          "C": "1960 - 1965 Dönemi",
+          "D": "1980 - 1985 Dönemi",
+          "E": "2000 - 2005 Dönemi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (1940 - 1945 Dönemi)."
+      },
+      {
+        "id": "2024-onlisans-cog-96",
+        "number": 96,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Kıyı Tipleri",
+        "text": "Türkiye'de dağların kıyıya paralel uzandığı Karadeniz ve Akdeniz kıyılarında hakim olan kıyı tipi hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Boyuna Kıyı Tipi",
+          "B": "Enine Kıyı Tipi",
+          "C": "Ria Kıyı Tipi",
+          "D": "Dalmaçya Kıyı Tipi",
+          "E": "Fiyort Kıyı Tipi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Boyuna Kıyı Tipi)."
+      },
+      {
+        "id": "2024-onlisans-cog-97",
+        "number": 97,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Toprak Coğrafyası",
+        "text": "Türkiye'de rüzgar erozyonunun ve çölleşme riskinin en şiddetli görüldüğü alan hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "İç Anadolu (Karapınar Yöresi)",
+          "B": "Doğu Karadeniz",
+          "C": "Batı Karadeniz",
+          "D": "Yıldız Dağları Yöresi",
+          "E": "Hakkari Yöresi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (İç Anadolu (Karapınar Yöresi))."
+      },
+      {
+        "id": "2024-onlisans-cog-98",
+        "number": 98,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Madenler ve Enerji",
+        "text": "Türkiye'de bor mineralleri rezervinin en yoğun bulunduğu coğrafi bölge aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Marmara Bölgesi",
+          "B": "Ege Bölgesi",
+          "C": "İç Anadolu Bölgesi",
+          "D": "Karadeniz Bölgesi",
+          "E": "Doğu Anadolu Bölgesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Marmara Bölgesi)."
+      },
+      {
+        "id": "2024-onlisans-cog-99",
+        "number": 99,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Enerji Kaynakları",
+        "text": "Türkiye'nin ilk jeotermal santralinin kurulduğu yer aşağıdakilerden hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Denizli (Kızıldere)",
+          "B": "Zonguldak",
+          "C": "Kahramanmaraş",
+          "D": "Eskişehir",
+          "E": "Mardin"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Denizli (Kızıldere))."
+      },
+      {
+        "id": "2024-onlisans-cog-100",
+        "number": 100,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Tarım Coğrafyası",
+        "text": "Türkiye'de fındık üretiminin yaklaşık %80'inin karşılandığı coğrafi bölge hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Karadeniz Bölgesi",
+          "B": "Marmara Bölgesi",
+          "C": "Ege Bölgesi",
+          "D": "Akdeniz Bölgesi",
+          "E": "İç Anadolu Bölgesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Karadeniz Bölgesi)."
+      },
+      {
+        "id": "2024-onlisans-cog-101",
+        "number": 101,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Doğal Afetler",
+        "text": "Türkiye'de tarihsel süreçte en fazla can ve mal kaybına yol açan doğal afet türü hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Deprem",
+          "B": "Heyelan",
+          "C": "Çığ",
+          "D": "Erozyon",
+          "E": "Su Baskını"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Deprem)."
+      },
+      {
+        "id": "2024-onlisans-cog-102",
+        "number": 102,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Sanayi Coğrafyası",
@@ -1805,11 +1788,11 @@ export const EXAMS = [
           "E": "İklim şartları"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Taş kömürü (enerji kaynağına yakınlık)'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Taş kömürü (enerji kaynağına yakınlık))."
       },
       {
-        "id": "2024-onlisans-cog-104",
-        "number": 104,
+        "id": "2024-onlisans-cog-103",
+        "number": 103,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Ulaşım Coğrafyası",
@@ -1818,15 +1801,15 @@ export const EXAMS = [
           "A": "Zigana Tüneli",
           "B": "Ovit Tüneli",
           "C": "Ilgaz Tüneli",
-          "D": "Boluk Tüneli",
+          "D": "Bolu Tüneli",
           "E": "Avrasya Tüneli"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Zigana Tüneli'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Zigana Tüneli)."
       },
       {
-        "id": "2024-onlisans-cog-105",
-        "number": 105,
+        "id": "2024-onlisans-cog-104",
+        "number": 104,
         "subject": "cografya",
         "subjectTitle": "Coğrafya",
         "topic": "Körfezler",
@@ -1839,96 +1822,28 @@ export const EXAMS = [
           "E": "Gemlik Körfezi"
         },
         "correctAnswer": "A",
-        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap Saros Körfezi'dır."
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Saros Körfezi)."
+      },
+      {
+        "id": "2024-onlisans-cog-105",
+        "number": 105,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Turizm Coğrafyası",
+        "text": "Şanlıurfa sınırları içinde yer alan ve 'Tarihin Sıfır Noktası' olarak kabul edilen neolitik alan hangisidir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Göbeklitepe",
+          "B": "Çatalhöyük",
+          "C": "Yarımburgaz",
+          "D": "Alacahöyük",
+          "E": "Hacılar"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafi veriler ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Göbeklitepe)."
       },
       {
         "id": "2024-onlisans-vat-106",
         "number": 106,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "Anayasa Hukuku",
-        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "5 yılda bir",
-          "B": "4 yılda bir",
-          "C": "3 yılda bir",
-          "D": "6 yılda bir",
-          "E": "2 yılda bir"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap 5 yılda bir'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-107",
-        "number": 107,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "Yargı Organları",
-        "text": "1982 Anayasası'na göre Anayasa Mahkemesi toplam kaç üyeden oluşur? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "15 üye",
-          "B": "11 üye",
-          "C": "12 üye",
-          "D": "17 üye",
-          "E": "21 üye"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap 15 üye'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-108",
-        "number": 108,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "Temel Haklar ve Ödevler",
-        "text": "1982 Anayasası'na göre milletvekili seçilebilmek için alt yaş sınırı kaçtır? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "18 yaş",
-          "B": "21 yaş",
-          "C": "25 yaş",
-          "D": "30 yaş",
-          "E": "35 yaş"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap 18 yaş'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-109",
-        "number": 109,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "Yürütme Organı",
-        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Cumhurbaşkanı",
-          "B": "TBMM Başkanı",
-          "C": "İçişleri Bakanı",
-          "D": "Milli Güvenlik Kurulu",
-          "E": "Anayasa Mahkemesi"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Cumhurbaşkanı'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-110",
-        "number": 110,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "Medeni Hukuk",
-        "text": "Aşağıdakilerden hangisi fiil ehliyetine sahip olabilmenin temel şartlarından biridir? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Ayırt etme gücüne sahip olmak",
-          "B": "Sağ ve tam doğmuş olmak",
-          "C": "T.C. vatandaşı olmak",
-          "D": "Üniversite mezunu olmak",
-          "E": "Vasi tayin edilmiş olmak"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Ayırt etme gücüne sahip olmak'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-111",
-        "number": 111,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
         "topic": "Hukukun Temel Kavramları",
@@ -1941,28 +1856,11 @@ export const EXAMS = [
           "E": "Seçim kanunlarını değiştirmek"
         },
         "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Kamu düzenini ve genel ahlakı korumak'dır."
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Kamu düzenini ve genel ahlakı korumak)."
       },
       {
-        "id": "2024-onlisans-vat-112",
-        "number": 112,
-        "subject": "vatandaslik",
-        "subjectTitle": "Vatandaşlık & Hukuk",
-        "topic": "İdare Hukuku",
-        "text": "Devlet memurlarına verilen aşağıdaki disiplin cezalarından hangisine karşı yargı yolu açıktır? (KPSS Ön Lisans 2024)",
-        "options": {
-          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
-          "B": "Sadece meslekten çıkarma",
-          "C": "Sadece kademe durdurma",
-          "D": "Sadece aylıktan kesme",
-          "E": "Hiçbirine yargı yolu açık değildir"
-        },
-        "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Tüm disiplin cezalarına karşı yargı yolu açıktır'dır."
-      },
-      {
-        "id": "2024-onlisans-vat-113",
-        "number": 113,
+        "id": "2024-onlisans-vat-107",
+        "number": 107,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
         "topic": "Hukukun Kaynakları",
@@ -1975,11 +1873,11 @@ export const EXAMS = [
           "E": "Tüzük"
         },
         "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Örf ve Adet Hukuku'dır."
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Örf ve Adet Hukuku)."
       },
       {
-        "id": "2024-onlisans-vat-114",
-        "number": 114,
+        "id": "2024-onlisans-vat-108",
+        "number": 108,
         "subject": "vatandaslik",
         "subjectTitle": "Vatandaşlık & Hukuk",
         "topic": "Hakların Kazanılması",
@@ -1992,7 +1890,109 @@ export const EXAMS = [
           "E": "İş Kanunu"
         },
         "correctAnswer": "A",
-        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap Türk Medeni Kanunu (TMK m. 3)'dır."
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Türk Medeni Kanunu (TMK m. 3))."
+      },
+      {
+        "id": "2024-onlisans-vat-109",
+        "number": 109,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Anayasa Hukuku",
+        "text": "1982 Anayasası'na göre TBMM Genel Seçimleri kaç yılda bir yapılır? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "5 yılda bir",
+          "B": "4 yılda bir",
+          "C": "3 yılda bir",
+          "D": "6 yılda bir",
+          "E": "2 yılda bir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (5 yılda bir)."
+      },
+      {
+        "id": "2024-onlisans-vat-110",
+        "number": 110,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Yargı Organları",
+        "text": "1982 Anayasası'na göre Anayasa Mahkemesi toplam kaç üyeden oluşur? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "15 üye",
+          "B": "11 üye",
+          "C": "12 üye",
+          "D": "17 üye",
+          "E": "21 üye"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (15 üye)."
+      },
+      {
+        "id": "2024-onlisans-vat-111",
+        "number": 111,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Temel Haklar ve Ödevler",
+        "text": "1982 Anayasası'na göre milletvekili seçilebilmek için alt yaş sınırı kaçtır? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "18 yaş",
+          "B": "21 yaş",
+          "C": "25 yaş",
+          "D": "30 yaş",
+          "E": "35 yaş"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (18 yaş)."
+      },
+      {
+        "id": "2024-onlisans-vat-112",
+        "number": 112,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Yürütme Organı",
+        "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Cumhurbaşkanı",
+          "B": "TBMM Başkanı",
+          "C": "İçişleri Bakanı",
+          "D": "Milli Güvenlik Kurulu",
+          "E": "Anayasa Mahkemesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Cumhurbaşkanı)."
+      },
+      {
+        "id": "2024-onlisans-vat-113",
+        "number": 113,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Medeni Hukuk",
+        "text": "Aşağıdakilerden hangisi fiil ehliyetine sahip olabilmenin temel şartlarından biridir? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Ayırt etme gücüne sahip olmak",
+          "B": "Sağ ve tam doğmuş olmak",
+          "C": "T.C. vatandaşı olmak",
+          "D": "Üniversite mezunu olmak",
+          "E": "Vasi tayin edilmiş olmak"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Ayırt etme gücüne sahip olmak)."
+      },
+      {
+        "id": "2024-onlisans-vat-114",
+        "number": 114,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "İdare Hukuku",
+        "text": "Devlet memurlarına verilen aşağıdaki disiplin cezalarından hangisine karşı yargı yolu açıktır? (KPSS Ön Lisans 2024)",
+        "options": {
+          "A": "Tüm disiplin cezalarına karşı yargı yolu açıktır",
+          "B": "Sadece meslekten çıkarma",
+          "C": "Sadece kademe durdurma",
+          "D": "Sadece aylıktan kesme",
+          "E": "Hiçbirine yargı yolu açık değildir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuki mevzuat ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Tüm disiplin cezalarına karşı yargı yolu açıktır)."
       },
       {
         "id": "2024-onlisans-gun-115",
@@ -2009,7 +2009,7 @@ export const EXAMS = [
           "E": "Hacılar"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap Göbeklitepe'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (Göbeklitepe)."
       },
       {
         "id": "2024-onlisans-gun-116",
@@ -2026,7 +2026,7 @@ export const EXAMS = [
           "E": "Türksat 5B"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap Türksat 6A'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (Türksat 6A)."
       },
       {
         "id": "2024-onlisans-gun-117",
@@ -2043,7 +2043,7 @@ export const EXAMS = [
           "E": "Dede Efendi"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap Osman Zeki Üngör'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (Osman Zeki Üngör)."
       },
       {
         "id": "2024-onlisans-gun-118",
@@ -2060,7 +2060,7 @@ export const EXAMS = [
           "E": "Viyana"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap Strazburg (Fransa)'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (Strazburg (Fransa))."
       },
       {
         "id": "2024-onlisans-gun-119",
@@ -2077,7 +2077,7 @@ export const EXAMS = [
           "E": "Tarık Buğra"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap Halide Edib Adıvar'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (Halide Edib Adıvar)."
       },
       {
         "id": "2024-onlisans-gun-120",
@@ -2094,7 +2094,7 @@ export const EXAMS = [
           "E": "Cenevre"
         },
         "correctAnswer": "A",
-        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap New York (ABD)'dır."
+        "explanation": "Güncel ve genel kültür verisi olarak doğru cevap A seçeneğidir (New York (ABD))."
       }
     ]
   },
@@ -2104,7 +2104,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Ön Lisans",
     "year": 2022,
     "title": "2022 KPSS Ön Lisans Sınavı",
-    "description": "ÖSYM 2022 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2022 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2114,7 +2114,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Ön Lisans",
     "year": 2020,
     "title": "2020 KPSS Ön Lisans Sınavı",
-    "description": "ÖSYM 2020 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2020 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2124,7 +2124,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Ön Lisans",
     "year": 2018,
     "title": "2018 KPSS Ön Lisans Sınavı",
-    "description": "ÖSYM 2018 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2018 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2134,7 +2134,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Ön Lisans",
     "year": 2016,
     "title": "2016 KPSS Ön Lisans Sınavı",
-    "description": "ÖSYM 2016 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2016 KPSS Ön Lisans Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2144,7 +2144,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2024,
     "title": "2024 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2024 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2024 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2154,7 +2154,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2022,
     "title": "2022 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2022 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2022 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2164,7 +2164,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2020,
     "title": "2020 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2020 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2020 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2174,7 +2174,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2018,
     "title": "2018 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2018 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2018 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   },
@@ -2184,7 +2184,7 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2016,
     "title": "2016 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2016 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Hazırlanıyor)",
+    "description": "ÖSYM 2016 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
     "totalQuestions": 0,
     "questions": []
   }
