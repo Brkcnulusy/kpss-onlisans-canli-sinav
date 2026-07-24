@@ -45,9 +45,7 @@ export default function MathText({ text, className }) {
 
           if (formula) {
             try {
-              // Force \displaystyle so fractions & square roots render large and clear
-              const formulaToRender = '\\displaystyle ' + formula;
-              const html = katex.renderToString(formulaToRender, {
+              const html = katex.renderToString(formula, {
                 throwOnError: false,
                 displayMode: isDisplay,
               });
