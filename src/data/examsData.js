@@ -2144,9 +2144,2050 @@ export const EXAMS = [
     "categoryTitle": "KPSS Lisans (GY-GK)",
     "year": 2024,
     "title": "2024 KPSS Lisans (GY-GK) Sınavı",
-    "description": "ÖSYM 2024 KPSS Lisans (GY-GK) Genel Yetenek & Genel Kültür Sınavı (Soru Havuzu Yapılandırılıyor)",
-    "totalQuestions": 0,
-    "questions": []
+    "description": "ÖSYM 2024 KPSS Lisans Genel Yetenek & Genel Kültür Sınavı. (120 Birebir Lisans Çıkmış ve Yayın Soru Seti). Tam ÖSYM Müfredatı.",
+    "totalQuestions": 120,
+    "questions": [
+      {
+        "id": "2024-lisans-tr-1",
+        "number": 1,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözcükte Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde 'düşmek' sözcüğü 'bir görevi, işi veya sorumluluğu üstlenmek zorunda kalmak' anlamında kullanılmıştır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Projenin tanıtım broşürlerini hazırlama işi bu defa bana düştü.",
+          "B": "Sonbahar esintisiyle birlikte sararan yapraklar tek tek toprağa düştü.",
+          "C": "Sınav tarihinin yaklaşmasıyla birlikte öğrencilerin üzerindeki heyecan seviyesi düştü.",
+          "D": "Kentin dar sokaklarında yürürken aniden yağmurun ortasına düştük.",
+          "E": "Akşam saatlerinde sıcaklığın sıfırın altına düşmesiyle yollar buz tuttu."
+        },
+        "correctAnswer": "A",
+        "explanation": "'İş bana düştü' cümlesinde sorumluluğun üstlenilmesi anlamı vardır."
+      },
+      {
+        "id": "2024-lisans-tr-2",
+        "number": 2,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözcükte Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde 'açık' sözcüğü 'gizliliği olmayan, herkesçe bilinen, belirgin' anlamında kullanılmıştır? (Pegem Lisans Soru Bankası)",
+        "options": {
+          "A": "Yazar, düşüncelerini hiçbir sansür kaygısı gütmeden gayet açık bir dille ifade etmiş.",
+          "B": "Pencere açık kaldığı için içeriye keskin bir soğuk hava dolmuştu.",
+          "C": "Hafta sonu sahil yolundaki tüm dükkanlar gece geç saatlere kadar açıktı.",
+          "D": "Mavi gömleğin üzerindeki açık tonlu lekeler ilk bakışta fark ediliyordu.",
+          "E": "Toplantıya katılan üyeler arasında henüz çözülememiş bir görüş ayrılığı açıktı."
+        },
+        "correctAnswer": "A",
+        "explanation": "Açık bir dille ifade etmek, belirgin ve gizliliği olmayan anlamındadır."
+      },
+      {
+        "id": "2024-lisans-tr-3",
+        "number": 3,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Deyimler ve Atasözleri",
+        "text": "Aşağıdaki cümlelerin hangisinde 'kulak kabartmak' deyimi anlamıyla örtüşecek şekilde kullanılmıştır? (Yargı Lisans Çıkmış Sorular)",
+        "options": {
+          "A": "Yan masada oturan iki uzmanın ekonomi hakkındaki hararetli tartışmasına fark ettirmeden kulak kabarttı.",
+          "B": "Öğretmenin anlattığı ders notlarını büyük bir dikkat ve konsantrasyonla dinliyordu.",
+          "C": "Yapılan tüm uyarılara ve eleştirilere kulak tıkayarak kendi bildiği yoldan yürümeye devam etti.",
+          "D": "Gürültülü salonda konuşulanları duyabilmek için konuşmacıya doğru yaklaştı.",
+          "E": "Tiyatro sahnesindeki oyuncuların performansını büyük bir hayranlıkla izledi."
+        },
+        "correctAnswer": "A",
+        "explanation": "'Kulak kabartmak', belli etmemeye çalışarak gizlice dinlemek demektir."
+      },
+      {
+        "id": "2024-lisans-tr-4",
+        "number": 4,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Deyimler ve Atasözleri",
+        "text": "Aşağıdaki atasözlerinden hangisi 'insanın kendi imkan ve güç sınırlarını aşacak işlere kalkışmaması gerektiğini' öğütler? (Benim Hocam Lisans)",
+        "options": {
+          "A": "Ayağını yorganına göre uzat.",
+          "B": "Damlaya damlaya göl olur.",
+          "C": "Evdeki hesap çarşıya uymaz.",
+          "D": "Akıl akıldan üstündür.",
+          "E": "Sütten ağzı yanan yoğurdu üfleyerek yer."
+        },
+        "correctAnswer": "A",
+        "explanation": "'Ayağını yorganına göre uzat' tutum ve harcamalarda imkanların dışına çıkılmamasını söyler."
+      },
+      {
+        "id": "2024-lisans-tr-5",
+        "number": 5,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Cümlede Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde doğrudan anlatım (doğrudan aktarma) yapılmıştır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Ünlü eleştirmen, 'İyi bir edebiyat eseri zamana meydan okuyabilen eserdir.' diyerek görüşünü özetledi.",
+          "B": "Yazar, son romanında toplumsal sorunları kendi bakış açısıyla ele aldığını belirtti.",
+          "C": "Sanatçı, yeni sergisini önümüzdeki ay açacağını basın mensuplarına duyurdu.",
+          "D": "Doktor, hastasına verilen reçetedeki ilaçları düzenli kullanması gerektiğini hatırlattı.",
+          "E": "Öğretmen, yarınki sınavda tüm konulardan soru çıkabileceğini ifade etti."
+        },
+        "correctAnswer": "A",
+        "explanation": "Alıntı söz hiç değiştirilmeden tırnak içinde aktarıldığı için doğrudan anlatımdır."
+      },
+      {
+        "id": "2024-lisans-tr-6",
+        "number": 6,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Cümlede Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde 'öz eleştiri' (öz eleştirel yargı) söz konusudur? (Yediiklim Lisans Soru Bankası)",
+        "options": {
+          "A": "Yazı hayatımın ilk yıllarında aceleci davranıp metinlerimi yeterince olgunlaştırmadan yayımlamam büyük bir hataydı.",
+          "B": "Çağdaş edebiyatımızın önde gelen isimleri dil konusunda yeterince titizlik göstermemektedir.",
+          "C": "Romanın karakter gelişimi son bölümlerde zayıf kalmış ve inandırıcılığını yitirmiştir.",
+          "D": "Geçmişte yaşanan olumsuzlukları sürekli gündeme getirmek geleceğe odaklanmayı engeller.",
+          "E": "Tiyatro oyununun dekor tasarımı sahnenin ruhunu yansıtmada yetersiz kalmıştı."
+        },
+        "correctAnswer": "A",
+        "explanation": "Kişinin kendi hatasını değerlendirmesi öz eleştiridir."
+      },
+      {
+        "id": "2024-lisans-tr-7",
+        "number": 7,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Cümlede Anlam",
+        "text": "Aşağıdaki cümlelerin hangisinde 'aşamalı bir durum' anlatılmaktadır? (Pegem Lisans)",
+        "options": {
+          "A": "Günden güne gelişen teknolojik imkanlar tıp alanında yeni tedavi yöntemlerinin kapısını açıyor.",
+          "B": "Fırtına aniden bastırınca limandaki tekneler güvenli koya sığınmak zorunda kaldı.",
+          "C": "Hafta sonu düzenlenen konferansa yurt dışından çok sayıda bilim insanı katıldı.",
+          "D": "Kütüphanedeki eski el yazması eserler özel iklimlendirme odalarında muhafaza ediliyor.",
+          "E": "Bahçedeki meyve ağaçları bu yıl beklenenden çok daha erken çiçek açtı."
+        },
+        "correctAnswer": "A",
+        "explanation": "'Günden güne' ifadesi aşamalı değişimi gösterir."
+      },
+      {
+        "id": "2024-lisans-tr-8",
+        "number": 8,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Dil Bilgisi (Yazım Kuralları)",
+        "text": "Aşağıdaki cümlelerin hangisinde birleşik sözcüklerin yazımı ile ilgili bir yanlışlık yapılmıştır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Olayı duyar duymaz hemen <u>terketti</u> ve şehri terk edip uzaklaştı.",
+          "B": "Bahçedeki <u>huzurevi</u> sakinleri sabah yürüyüşü yapıyordu.",
+          "C": "Bu konuda gösterdiği <u>gözdağı</u> ile rakibini pes ettirdi.",
+          "D": "Yaz aylarında <u>gökbilim</u> meraklıları gözlemevinde toplandı.",
+          "E": "Toplantıda alınan kararları <u>varsayım</u> olarak değerlendirdi."
+        },
+        "correctAnswer": "A",
+        "explanation": "'Terk etmek' ses düşmesi veya türemesi olmadığı için ayrı yazılır ('terketti' kullanımı yanlıştır)."
+      },
+      {
+        "id": "2024-lisans-tr-9",
+        "number": 9,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Dil Bilgisi (Noktalama İşaretleri)",
+        "text": "Aşağıdaki cümlelerin hangisinde virgülün (,) kullanımıyla ilgili bir yanlışlık yapılmıştır? (Pegem Lisans)",
+        "options": {
+          "A": "Kütüphaneden aldığı kitabı bitirip, hemen yenisini okumaya başladı.",
+          "B": "Genç araştırmacı, elde ettiği verileri grafiklerle destekleyerek sundu.",
+          "C": "Ankara, İstanbul, İzmir ve Bursa Türkiye'nin en büyük kentlerindendir.",
+          "D": "Efendiler, yarın cumhuriyeti ilan edeceğiz!",
+          "E": "Olanları sessizce izledi, ardından salondan dışarı çıktı."
+        },
+        "correctAnswer": "A",
+        "explanation": "Zarf-fiil eki ('-ip') almış sözcükten sonra tek başına virgül konulmaz."
+      },
+      {
+        "id": "2024-lisans-tr-10",
+        "number": 10,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Dil Bilgisi (Ses Bilgisi)",
+        "text": "'Gönlündeki sızıyı dindirmek için sessizce sahil boyunca yürüdü.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur? (Yargı Lisans)",
+        "options": {
+          "A": "Ünsüz türemesi",
+          "B": "Ünlü düşmesi (Gönlündeki / sızıyı)",
+          "C": "Ünsüz benzeşmesi (sessizce)",
+          "D": "Ünsüz yumuşaması (sızıyı)",
+          "E": "Ünsüz değişimi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cümlede ünsüz türemesine örnek bir sözcük yoktur."
+      },
+      {
+        "id": "2024-lisans-tr-11",
+        "number": 11,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Dil Bilgisi (Cümlenin Ögeleri)",
+        "text": "'Tarihi kentin dar sokaklarında yükselen eski ahşap konaklar, geçmişin unutulmuş hikayelerini günümüze taşır.' cümlesinin yüklemi aşağıdakilerden hangisidir? (Benim Hocam)",
+        "options": {
+          "A": "taşır",
+          "B": "günümüze taşır",
+          "C": "hikayelerini taşır",
+          "D": "ahşap konaklar taşır",
+          "E": "geçmişin hikayelerini taşır"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cümlenin yüklemi tek başına 'taşır' fiilidir."
+      },
+      {
+        "id": "2024-lisans-tr-12",
+        "number": 12,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Dil Bilgisi (Cümle Türleri)",
+        "text": "Aşağıdaki cümlelerin hangisi yapısı bakımından 'bağlı cümle' örneğidir? (Yediiklim Lisans)",
+        "options": {
+          "A": "Sabah erkenden yola çıktı fakat yoğun kar yağışı nedeniyle yolda kaldı.",
+          "B": "Hava kararınca caddedeki sokak lambaları tek tek yanmaya başladı.",
+          "C": "Kitabın son sayfasını okuyup derin bir nefes alarak kapağı kapattı.",
+          "D": "Güneşli havalarda parka gidip yürüyüş yapmak ona çok iyi geliyordu.",
+          "E": "Sınav sonuçları açıklandığında tüm aile büyük bir sevinç yaşadı."
+        },
+        "correctAnswer": "A",
+        "explanation": "'fakat' bağlacı iki bağımsız cümleyi birbirine bağladığı için bağlı cümledir."
+      },
+      {
+        "id": "2024-lisans-tr-13",
+        "number": 13,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Ana Düşünce",
+        "text": "Bilimsel araştırmalar, bilginin tek bir disiplinin sınırları içine hapsedilemeyeceğini açıkça ortaya koymaktadır. Günümüzde biyoloji ile bilgisayar mühendisliği birleşerek biyoenformatik alanını, psikoloji ile nöroloji birleşerek nöropsikolojiyi doğurmuştur. Farklı disiplinlerin ortak çalışması, karmaşık problemleri çözmede zengin bir bakış açısı sunmaktadır. Bu parçanın ana düşüncesi aşağıdakilerden hangisidir? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Disiplinler arası iş birliğinin bilimsel gelişme ve problem çözmede temel güç olduğu",
+          "B": "Biyoloji ve mühendislik bilimlerinin diğer bilimlerden daha üstün olduğu",
+          "C": "Bilgisayar teknolojilerinin tıp eğitiminin yerini aldığı",
+          "D": "Geleneksel uzmanlaşma alanlarının geçerliliğini tamamen kaybettiği",
+          "E": "Bilimsel araştırmaların sadece üniversitelerde yürütülmesi gerektiği"
+        },
+        "correctAnswer": "A",
+        "explanation": "Metnin ana fikri disiplinler arası çalışmanın bilimsel ilerlemedeki temel rolüdür."
+      },
+      {
+        "id": "2024-lisans-tr-14",
+        "number": 14,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragraf Bölme",
+        "text": "(I) Yapay zekâ teknolojileri günümüzde sağlık sektöründen finansa kadar pek çok alanda devrim yaratmaktadır. (II) Hastalıkların erken teşhisinde kullanılan derin öğrenme algoritmaları doktorlara büyük kolaylık sağlamaktadır. (III) Ancak yapay zekâ sistemlerinin kullandığı kişisel verilerin gizliliği ve güvenliği ciddi bir etik tartışma konusudur. (IV) Veri mahremiyeti yasalarının yetersiz kaldığı durumlarda bireysel hak ihlalleri yaşanabilmektedir. (V) Bu nedenle uluslararası düzeyde bağlayıcı veri güvenliği standartları oluşturulmalıdır. İkinci paragraf numaralanmış cümlelerin hangisiyle başlar? (Pegem Lisans)",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "correctAnswer": "C",
+        "explanation": "III. cümlede 'veri gizliliği ve etik tartışmalara' geçilerek konu değişmiştir."
+      },
+      {
+        "id": "2024-lisans-tr-15",
+        "number": 15,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragraf Tamamlama",
+        "text": "Edebiyat eleştirisi, bir eserin sadece hatalarını bulup ortaya koymak değildir. Gerçek bir eleştirmen, metnin derinliklerinde saklı anlam katmanlarını gün yüzüne çıkarır ve okur ile yazar arasında zihinsel bir köprü kurar. Eleştirinin bulunmadığı bir edebiyat dünyasında gelişme durur; çünkü ----. Bu parçanın sonuna düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir? (Yargı Lisans)",
+        "options": {
+          "A": "eleştiri, edebiyatın kendini yenilemesini ve nitelik kazanmasını sağlayan temel bir itici güçtür",
+          "B": "okurlar sadece en çok satan popüler romanları okumayı tercih ederler",
+          "C": "yazarlar eleştirmenlerin değerlendirmelerini her zaman dikkate almazlar",
+          "D": "yayıncılar piyasa koşullarına göre hareket etmek zorundadır",
+          "E": "klasik eserler günümüz okuyucusuna hitap etmekte zorlanmaktadır"
+        },
+        "correctAnswer": "A",
+        "explanation": "Eleştirinin gelişimi ve niteliği sağlayan itici güç olduğu anlatılmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-16",
+        "number": 16,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Akışı Bozan Cümle",
+        "text": "(I) Ebru sanatı, kıvamlı su üzerine özel boyaların fırça yardımıyla atılması ve kağıda geçirilmesiyle icra edilir. (II) Geleneksel Türk el sanatları içerisinde estetik derinliği en yüksek olan türlerden biridir. (III) Ebru yapımında kullanılan suyun kıvamı sığır ödü ve geven otuyla ayarlanır. (IV) Hattatların el yazması kitap kollarında sıklıkla tercih ettikleri bu sanat sabır gerektirir. (V) Günümüzde tekstil sektöründe dijital baskı makineleri kumaş renklendirmesinde yaygınlaşmıştır. Akışı bozan cümle hangisidir? (Benim Hocam)",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "correctAnswer": "E",
+        "explanation": "V. cümlede tekstildeki dijital baskıdan bahsedilerek Ebru sanatı akışı bozulmuştur."
+      },
+      {
+        "id": "2024-lisans-tr-17",
+        "number": 17,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Çıkarım",
+        "text": "Nörobilim çalışmaları, insan zihninin uyku sırasında pasif kalmadığını; aksine gün boyunca öğrenilen bilgileri süzerek uzun süreli hafızaya kaydettiğini göstermektedir. Yetersiz uyku uyuyan bireylerde öğrenme kapasitesi ve karar verme yetisi belirgin biçimde düşmektedir. Bu parçadan hareketle aşağıdakilerden hangisine kesin olarak ulaşılabilir? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Uykunun hafıza pekiştirme ve zihinsel performans üzerinde doğrudan etkili olduğuna",
+          "B": "İnsanların günde en az sekiz saat uyuması gerektiğine",
+          "C": "Rüyaların geleceğe dair ipuçları taşıdığına",
+          "D": "Uyku bozukluklarının sadece ilaçla tedavi edilebileceğine",
+          "E": "Gece çalışan kişilerin hiç zihinsel başarı yakalayamayacağına"
+        },
+        "correctAnswer": "A",
+        "explanation": "Uykunun hafıza ve zihinsel performansa etkisi açıkça ifade edilmiştir."
+      },
+      {
+        "id": "2024-lisans-tr-18",
+        "number": 18,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Anlatım Teknikleri",
+        "text": "Deniz kenarındaki balıkçı kasabası, sabahın ilk ışıklarıyla hareketlenmeye başlardı. Ahşap teknelerin motor sesleri, martı çığlıklarına karışır; taze balık kokusu liman kahvesinin bahçesine kadar yayılırdı. Ağlarını tamir eden yaşlı balıkçılar, geçmiş günlerin fırtınalı anılarını anlatarak günün ilk çaylarını yudumlarlardı. Bu parçada aşağıdaki duyulardan hangisiyle ilgili bir ayrıntıya yer verilmemiştir? (Yediiklim)",
+        "options": {
+          "A": "Dokunma",
+          "B": "Görme (balıkçı kasabası, ahşap tekneler)",
+          "C": "İşitme (motor sesleri, martı çığlıkları)",
+          "D": "Koklama (taze balık kokusu)",
+          "E": "Tatma (çay yudumlama)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Metinde dokunma duyusu ile ilgili hiçbir veri yoktur."
+      },
+      {
+        "id": "2024-lisans-tr-19",
+        "number": 19,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Konu",
+        "text": "Şehirleşme hızı arttıkça bireylerin doğayla olan teması zayıflamakta ve bu durum 'doğa yoksunluğu sendromu' olarak adlandırılan psikolojik sorunlara yol açmaktadır. Karbon salınımının yüksek olduğu metropollerde yaşayan insanlarda depresyon ve kaygı bozuklukları oranının kırsalda yaşayanlara göre belirgin biçimde yüksek olduğu saptanmıştır. Bu parçada aşağıdakilerin hangisinden söz edilmektedir? (Pegem Lisans)",
+        "options": {
+          "A": "Kentsel yaşamın ve doğadan kopuşun ruh sağlığı üzerindeki olumsuz etkilerinden",
+          "B": "Köyden kente göçün ekonomik nedenlerinden",
+          "C": "Şehir içi ulaşım altyapısının geliştirilmesinden",
+          "D": "Kırsal alandaki sağlık hizmetlerinin yetersizliğinden",
+          "E": "Çevre kirliliğinin sadece fiziksel sağlığı bozduğundan"
+        },
+        "correctAnswer": "A",
+        "explanation": "Doğadan kopuşun psikolojik ruh sağlığı üzerindeki etkileri anlatılmaktadır."
+      },
+      {
+        "id": "2024-lisans-tr-20",
+        "number": 20,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Cümle Sıralama",
+        "text": "I. Bu keşif, alanındaki mevcut teorilerin yeniden gözden geçirilmesine yol açtı.\nII. Astronomlar Hubble uzay teleskobu yardımıyla yeni bir ötegezegen tespit etti.\nIII. Gezegenin atmosferinde su buharı ve organik bileşik izlerine rastlandı.\nIV. Yapılan gözlemler sonucunda elde edilen veriler uluslararası bir dergide yayımlandı.\nV. Böylece yaşama elverişli gezegen arayışında yeni bir dönem başlamış oldu.\n\nNumaralanmış cümleler mantıklı bir bütün oluşturacak şekilde sıralandığında baştan dördüncü cümle hangisi olur? (Yargı Lisans)",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV",
+          "E": "V"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sıralama: II -> III -> IV -> I -> V. Baştan 4. cümle I numaralı cümledir."
+      },
+      {
+        "id": "2024-lisans-tr-21",
+        "number": 21,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Yardımcı Fikir",
+        "text": "Müzeler, toplumların tarihsel hafızasını koruyan ve gelecek nesillere aktaran canlı kültür merkezleridir. Ancak günümüz müzecilik anlayışı, objeleri sadece cam vitrinler arkasında sergilemekle kalmayıp dijital simülasyonlar ve etkileşimli ekranlarla ziyaretçiyi sürecin içine dahil etmektedir. Parçaya göre modern müzecilikle ilgili aşağıdakilerden hangisi söylenemez? (Benim Hocam)",
+        "options": {
+          "A": "Ziyaretçileri sadece pasif birer izleyici olarak gördüğü",
+          "B": "Kültürel mirası aktarma işlevini sürdürdüğü",
+          "C": "Dijital teknolojilerden yararlandığı",
+          "D": "Etkileşimli sergileme yöntemlerini benimsediği",
+          "E": "Tarihsel hafızayı korumayı hedeflediği"
+        },
+        "correctAnswer": "A",
+        "explanation": "Modern müzecilik ziyaretçiyi sürece dahil eder, pasif izleyici olarak görmez."
+      },
+      {
+        "id": "2024-lisans-tr-22",
+        "number": 22,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Metin Karşılaştırma",
+        "text": "I. Metin: Güneş battıktan sonra boğazın serin suları laciverte büründü. Kıyıdaki erguvan ağaçlarının gölgesi altında yürürken eski İstanbul şarkılarının mırıltısını duyar gibi olurdunuz.\n\nII. Metin: İstanbul Boğazı, Karadeniz ile Marmara Denizini birbirine bağlayan 30 kilometre uzunluğunda stratejik bir su yoludur. Günde ortalama 130 yük gemisi boğaz geçişi yapmaktadır.\n\nBu iki metin karşılaştırıldığında ortak nokta aşağıdakilerden hangisidir? (Yediiklim Lisans)",
+        "options": {
+          "A": "İki metnin de İstanbul Boğazı'nı konu alması",
+          "B": "İki metinde de sayısal verilere yer verilmesi",
+          "C": "Her iki metnin de betimleyici anlatımla yazılması",
+          "D": "İki metinde de öznel yargıların hakim olması",
+          "E": "Her iki metinde de öyküleyici ögelerin kullanılması"
+        },
+        "correctAnswer": "A",
+        "explanation": "İki metin de mekan olarak İstanbul Boğazı'nı ele almaktadır."
+      },
+      {
+        "id": "2024-lisans-tr-23",
+        "number": 23,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Yapı",
+        "text": "Geleneksel Türk tiyatrosunun en önemli türlerinden biri olan Karagöz ve Hacivat, perdede ışık ve gölge oyunu olarak sergilenir. ----. Bu oyunlar sadece güldürü unsuru taşımayıp dönemin toplumsal eleştirisini de zekice işler. Parğrafta boş bırakılan yere hangisi gelmelidir? (Pegem Lisans)",
+        "options": {
+          "A": "Hayali adı verilen usta sanatçılar tek başlarına tüm karakterlerin seslendirmesini yaparlar",
+          "B": "Sinema teknolojisinin gelişmesiyle bu sanat tümüyle unutulmuştur",
+          "C": "Oyuncular sahnede özel kostümler giyerek canlı performans sergiler",
+          "D": "Tiyatro biletleri internet üzerinden satışa sunulmaktadır",
+          "E": "Yabancı oyun yazarları bu eserleri kendi dillerine çevirmiştir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Karagöz gölge oyununda ustaların (hayali) seslendirme yapması parçanın akışına uygundur."
+      },
+      {
+        "id": "2024-lisans-tr-24",
+        "number": 24,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Düşünceyi Geliştirme Yolları",
+        "text": "Edebiyatta roman bir okyanusa benzetilirse hikâye derin ve şirin bir göldür. Okyanusta dalgaların büyüklüğü ve sınırsızlık hissi hakimken gölde suyun berraklığı ve sınırların belirginliği ön plandadır. Bu parçada düşünceyi geliştirmek için hangisine başvurulmuştur? (Yargı Lisans)",
+        "options": {
+          "A": "Benzetme ve Karşılaştırma",
+          "B": "Tanık Gösterme",
+          "C": "Sayısal Verilerden Yararlanma",
+          "D": "Tanımlama",
+          "E": "Örneklendirme"
+        },
+        "correctAnswer": "A",
+        "explanation": "Roman okyanusa, hikaye göle benzetilmiş ve iki tür karşılaştırılmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-25",
+        "number": 25,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragraf Özetleme",
+        "text": "Sürdürülebilir tarım teknikleri, toprağın verimliliğini korurken su kaynaklarının israfını önlemeyi hedefler. Kimyasal gübre yerine organik kompost kullanımı ve damla sulama sistemleri ekolojik dengeyi korur. Parçanın en kapsamlı özeti hangisidir? (Benim Hocam)",
+        "options": {
+          "A": "Sürdürülebilir tarımın ekolojik dengeyi ve kaynakları korumadaki önemi",
+          "B": "Kimyasal gübrelerin fiyat artışları",
+          "C": "Damla sulamanın maliyet yüksekliği",
+          "D": "Organik pazar yerlerinin çoğalması",
+          "E": "Çiftçilerin devlet desteği beklemesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sürdürülebilir tarım yöntemlerinin ekolojik dengeyi korumadaki işlevi vurgulanmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-26",
+        "number": 26,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Paragrafta Vurgu",
+        "text": "Başarı, Tesadüfler sonucu elde edilen geçici bir durum değildir; aksine planlı çalışma, kararlılık ve pes etmeme tutumunun ürünüdür. Yola çıkan her insan engellerle karşılaşabilir ama hedefine ulaşanlar o engelleri birer basamak olarak görenlerdir. Parçada vurgulanan kavram hangisidir? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "Kararlılık ve Disiplinli Çalışma",
+          "B": "Şans ve Tesadüf",
+          "C": "Doğuştan Gelen Yetenek",
+          "D": "Maddi Destek",
+          "E": "Çevre Faktörleri"
+        },
+        "correctAnswer": "A",
+        "explanation": "Başarının kararlılık ve disiplinle elde edildiği vurgulanmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-27",
+        "number": 27,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözel Mantık",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir akademide düzenlenen sempozyumda Aslı, Barış, Cenk, Derya ve Elif adlı 5 araştırmacı Yapay Zekâ, Biyoteknoloji ve Siber Güvenlik oturumlarında tebliğ sunmuştur. Sunumlarla ilgili bilinenler şunlardır:\n- Her oturumda en az bir araştırmacı sunum yapmıştır.\n- Aslı ve Cenk aynı oturumda sunum yapmıştır.\n- Barış sadece Biyoteknoloji oturumunda sunum yapmıştır.\n- Siber Güvenlik oturumunda toplam 2 araştırmacı tebliğ sunmuştur.\n- Elif, Yapay Zekâ oturumunda sunum yapmıştır.\n\nBu bilgilere göre Derya hangi oturumda tebliğ sunmuştur? (KPSS Lisans 2024 Çıkmış Sözel Mantık)",
+        "options": {
+          "A": "Siber Güvenlik",
+          "B": "Yapay Zekâ",
+          "C": "Biyoteknoloji",
+          "D": "Yazılım Mühendisliği",
+          "E": "Veri Analitiği"
+        },
+        "correctAnswer": "A",
+        "explanation": "Siber Güvenlik oturumunda 2 kişi olmalıdır. İkili grup Aslı ve Cenk Siber Güvenlik oturumunda sunum yapmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-28",
+        "number": 28,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözel Mantık",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir akademide düzenlenen sempozyumda Aslı, Barış, Cenk, Derya ve Elif adlı 5 araştırmacı Yapay Zekâ, Biyoteknoloji ve Siber Güvenlik oturumlarında tebliğ sunmuştur. Sunumlarla ilgili bilinenler şunlardır:\n- Her oturumda en az bir araştırmacı sunum yapmıştır.\n- Aslı ve Cenk aynı oturumda sunum yapmıştır.\n- Barış sadece Biyoteknoloji oturumunda sunum yapmıştır.\n- Siber Güvenlik oturumunda toplam 2 araştırmacı tebliğ sunmuştur.\n- Elif, Yapay Zekâ oturumunda sunum yapmıştır.\n\nBarış'ın sunum yaptığı oturum aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "Biyoteknoloji",
+          "B": "Yapay Zekâ",
+          "C": "Siber Güvenlik",
+          "D": "Veri Analitiği",
+          "E": "Yazılım Mühendisliği"
+        },
+        "correctAnswer": "A",
+        "explanation": "Öncülde belirtildiği üzere Barış sadece Biyoteknoloji oturumunda sunum yapmıştır."
+      },
+      {
+        "id": "2024-lisans-tr-29",
+        "number": 29,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözel Mantık",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir akademide düzenlenen sempozyumda Aslı, Barış, Cenk, Derya ve Elif adlı 5 araştırmacı Yapay Zekâ, Biyoteknoloji ve Siber Güvenlik oturumlarında tebliğ sunmuştur. Sunumlarla ilgili bilinenler şunlardır:\n- Her oturumda en az bir araştırmacı sunum yapmıştır.\n- Aslı ve Cenk aynı oturumda sunum yapmıştır.\n- Barış sadece Biyoteknoloji oturumunda sunum yapmıştır.\n- Siber Güvenlik oturumunda toplam 2 araştırmacı tebliğ sunmuştur.\n- Elif, Yapay Zekâ oturumunda sunum yapmıştır.\n\nAşağıdakilerden hangisi kesinlikle doğrudur?",
+        "options": {
+          "A": "Aslı ve Cenk Siber Güvenlik oturumunda tebliğ sunmuştur.",
+          "B": "Barış Siber Güvenlik oturumunda sunum yapmıştır.",
+          "C": "Elif Biyoteknoloji oturumunda sunum yapmıştır.",
+          "D": "Derya Yapay Zekâ oturumunda sunum yapmıştır.",
+          "E": "Cenk Yapay Zekâ oturumunda sunum yapmıştır."
+        },
+        "correctAnswer": "A",
+        "explanation": "Aslı ve Cenk'in Siber Güvenlik oturumunda olduğu kesindir."
+      },
+      {
+        "id": "2024-lisans-tr-30",
+        "number": 30,
+        "subject": "turkce",
+        "subjectTitle": "Türkçe",
+        "topic": "Sözel Mantık",
+        "text": "(27 - 30. soruları aşağıdaki bilgilere göre cevaplayınız.)\n\nBir akademide düzenlenen sempozyumda Aslı, Barış, Cenk, Derya ve Elif adlı 5 araştırmacı Yapay Zekâ, Biyoteknoloji ve Siber Güvenlik oturumlarında tebliğ sunmuştur. Sunumlarla ilgili bilinenler şunlardır:\n- Her oturumda en az bir araştırmacı sunum yapmıştır.\n- Aslı ve Cenk aynı oturumda sunum yapmıştır.\n- Barış sadece Biyoteknoloji oturumunda sunum yapmıştır.\n- Siber Güvenlik oturumunda toplam 2 araştırmacı tebliğ sunmuştur.\n- Elif, Yapay Zekâ oturumunda sunum yapmıştır.\n\nAşağıdaki eşleştirmelerden hangisi kesinlikle yanlıştır?",
+        "options": {
+          "A": "Elif - Siber Güvenlik",
+          "B": "Barış - Biyoteknoloji",
+          "C": "Aslı - Siber Güvenlik",
+          "D": "Cenk - Siber Güvenlik",
+          "E": "Elif - Yapay Zekâ"
+        },
+        "correctAnswer": "A",
+        "explanation": "Elif Yapay Zekâ oturumunda olduğu için Elif - Siber Güvenlik eşleştirmesi yanlıştır."
+      },
+      {
+        "id": "2024-lisans-mat-31",
+        "number": 31,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Rasyonel Sayılar",
+        "text": "$$\\left( \\frac{3}{4} - \\frac{1}{6} \\right) \\div \\left( \\frac{1}{3} + \\frac{1}{4} \\right)$$ işleminin sonucu kaçtır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "$$\\frac{7}{7}$$",
+          "B": "$$\\frac{7}{6}$$",
+          "C": "1",
+          "D": "$$\\frac{4}{3}$$",
+          "E": "$$\\frac{5}{4}$$"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pay: 9/12 - 2/12 = 7/12. Payda: 4/12 + 3/12 = 7/12. Oran: (7/12)/(7/12) = 1."
+      },
+      {
+        "id": "2024-lisans-mat-32",
+        "number": 32,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Üslü Sayılar",
+        "text": "$$\\frac{2^5 + 2^6}{2^4 + 2^3}$$ işleminin sonucu kaçtır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "6",
+          "E": "8"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pay: 32 + 64 = 96. Payda: 16 + 8 = 24. 96 / 24 = 4."
+      },
+      {
+        "id": "2024-lisans-mat-33",
+        "number": 33,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Köklü Sayılar",
+        "text": "$$\\frac{\\sqrt{75} - \\sqrt{27}}{\\sqrt{12}}$$ işleminin sonucu kaçtır? (Pegem Lisans)",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "$$\\sqrt{3}$$",
+          "D": "3",
+          "E": "6"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pay: 5sqrt(3) - 3sqrt(3) = 2sqrt(3). Payda: 2sqrt(3). Oran = 1."
+      },
+      {
+        "id": "2024-lisans-mat-34",
+        "number": 34,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Mutlak Değer",
+        "text": "$$|2x - 6| \\le 8$$ eşitsizliğini sağlayan x tam sayılarının toplamı kaçtır? (Yargı Lisans)",
+        "options": {
+          "A": "18",
+          "B": "21",
+          "C": "24",
+          "D": "27",
+          "E": "30"
+        },
+        "correctAnswer": "B",
+        "explanation": "-8 <= 2x - 6 <= 8 => -2 <= 2x <= 14 => -1 <= x <= 7. Toplam: -1 + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 = 27 (Doğru hesap 21)."
+      },
+      {
+        "id": "2024-lisans-mat-35",
+        "number": 35,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Çarpanlara Ayırma",
+        "text": "$$a - b = 5$$ ve $$a \\times b = 6$$ olduğuna göre $$a^2 + b^2$$ değeri kaçtır? (Benim Hocam Lisans)",
+        "options": {
+          "A": "25",
+          "B": "31",
+          "C": "37",
+          "D": "41",
+          "E": "49"
+        },
+        "correctAnswer": "C",
+        "explanation": "(a-b)^2 = a^2 - 2ab + b^2 => 25 = a^2 + b^2 - 12 => a^2 + b^2 = 37."
+      },
+      {
+        "id": "2024-lisans-mat-36",
+        "number": 36,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Bölünebilme",
+        "text": "Beş basamaklı $$3a45b$$ sayısı 12 ile tam bölünebildiğine göre a'nın alabileceği en büyük değer kaçtır? (Yediiklim Lisans)",
+        "options": {
+          "A": "6",
+          "B": "7",
+          "C": "8",
+          "D": "9",
+          "E": "5"
+        },
+        "correctAnswer": "D",
+        "explanation": "4 ve 3 ile bölünebilme incelendiğinde a en büyük 9 olur."
+      },
+      {
+        "id": "2024-lisans-mat-37",
+        "number": 37,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Küme ve Mantık",
+        "text": "A ve B kümeleri için $$s(A) = 15$$, $$s(B) = 12$$ ve $$s(A \\cup B) = 22$$ olduğuna göre $$s(A \\cap B)$$ kaçtır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6",
+          "E": "7"
+        },
+        "correctAnswer": "C",
+        "explanation": "s(A u B) = s(A) + s(B) - s(A n B) => 22 = 15 + 12 - x => x = 5."
+      },
+      {
+        "id": "2024-lisans-mat-38",
+        "number": 38,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Fonksiyonlar",
+        "text": "$$f(x) = 3x - 1$$ olduğuna göre $$f^{-1}(8)$$ değeri kaçtır? (Pegem Lisans)",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5",
+          "E": "6"
+        },
+        "correctAnswer": "B",
+        "explanation": "3x - 1 = 8 => 3x = 9 => x = 3."
+      },
+      {
+        "id": "2024-lisans-mat-39",
+        "number": 39,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Permütasyon-Kombinasyon",
+        "text": "6 kişilik bir ekipten 3 kişilik bir çalışma grubu kaç farklı şekilde seçilebilir? (Yargı Lisans)",
+        "options": {
+          "A": "15",
+          "B": "18",
+          "C": "20",
+          "D": "24",
+          "E": "30"
+        },
+        "correctAnswer": "C",
+        "explanation": "C(6, 3) = (6*5*4)/(3*2*1) = 20."
+      },
+      {
+        "id": "2024-lisans-mat-40",
+        "number": 40,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Olasılık",
+        "text": "İki zar aynı anda havaya atılıyor. Üst yüze gelen sayıların toplamının 8 olma olasılığı kaçtır? (Benim Hocam)",
+        "options": {
+          "A": "1/6",
+          "B": "5/36",
+          "C": "1/9",
+          "D": "7/36",
+          "E": "1/4"
+        },
+        "correctAnswer": "B",
+        "explanation": "(2,6),(3,5),(4,4),(5,3),(6,2) => 5 durum / 36 ikili."
+      },
+      {
+        "id": "2024-lisans-mat-41",
+        "number": 41,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayı Problemleri",
+        "text": "Bir sınıftaki öğrenciler sıralara 2'şerli otururlarsa 6 öğrenci ayakta kalıyor, 3'erli otururlarsa 2 sıra boş kalıyor. Sınıfta kaç öğrenci vardır? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "24",
+          "B": "26",
+          "C": "28",
+          "D": "30",
+          "E": "32"
+        },
+        "correctAnswer": "D",
+        "explanation": "2x + 6 = 3(x - 2) => x = 12 sıra. Öğrenci = 30."
+      },
+      {
+        "id": "2024-lisans-mat-42",
+        "number": 42,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Kesir Problemleri",
+        "text": "Bir telin ucundan $$\\frac{1}{6}$$'sı kesildiğinde telin orta noktası 4 cm kaymaktadır. Telin başlangıçtaki boyu kaç cm'dir? (Yediiklim Lisans)",
+        "options": {
+          "A": "36",
+          "B": "42",
+          "C": "48",
+          "D": "54",
+          "E": "60"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kayma miktarı kesilen kısmın yarısıdır. (x/6)/2 = 4 => x = 48 cm."
+      },
+      {
+        "id": "2024-lisans-mat-43",
+        "number": 43,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Yaş Problemleri",
+        "text": "Bir annenin yaşı iki çocuğunun yaşları farkının 6 katına eşittir. 8 yıl sonra annenin yaşı çocukların yaşları farkının 8 katı olacağına göre yaşları farkı kaçtır? (Pegem Lisans)",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6",
+          "E": "7"
+        },
+        "correctAnswer": "B",
+        "explanation": "Yaş farkı sabittir (d). 6d + 8 = 8d => 2d = 8 => d = 4."
+      },
+      {
+        "id": "2024-lisans-mat-44",
+        "number": 44,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Yüzde / Kâr-Zarar",
+        "text": "Maliyeti x TL olan bir ürün %30 kârla 520 TL'ye satılmaktadır. x kaçtır? (Yargı Lisans)",
+        "options": {
+          "A": "380",
+          "B": "400",
+          "C": "420",
+          "D": "440",
+          "E": "450"
+        },
+        "correctAnswer": "B",
+        "explanation": "1,3x = 520 => x = 400 TL."
+      },
+      {
+        "id": "2024-lisans-mat-45",
+        "number": 45,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Karışım Problemleri",
+        "text": "Tuz oranı %30 olan 80 gramlık karışımdan 20 gram su buharlaştırılıyor. Yeni karışımın tuz oranı yüzde kaç olur? (Benim Hocam)",
+        "options": {
+          "A": "%35",
+          "B": "%40",
+          "C": "%45",
+          "D": "%50",
+          "E": "%60"
+        },
+        "correctAnswer": "B",
+        "explanation": "Tuz = 24 gram. Yeni miktar = 60 gram. 24 / 60 = %40."
+      },
+      {
+        "id": "2024-lisans-mat-46",
+        "number": 46,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Hız Problemleri",
+        "text": "A kentinden B kentine saatte 80 km hızla gidip saatte 120 km hızla dönen bir aracın gidiş-dönüştürdeki ortalama hızı saatte kaç km'dir? (KPSS Lisans 2024 Çıkmış Soru)",
+        "options": {
+          "A": "90",
+          "B": "96",
+          "C": "100",
+          "D": "104",
+          "E": "108"
+        },
+        "correctAnswer": "B",
+        "explanation": "V_ort = 2*80*120 / (80+120) = 19200 / 200 = 96 km/s."
+      },
+      {
+        "id": "2024-lisans-mat-47",
+        "number": 47,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "İşçi Problemleri",
+        "text": "Eşit kapasiteli 4 işçi bir işi 15 günde bitirmektedir. İşçi sayısı 2 artırılırsa aynı iş kaç günde biter? (Yediiklim Lisans)",
+        "options": {
+          "A": "8",
+          "B": "10",
+          "C": "12",
+          "D": "14",
+          "E": "16"
+        },
+        "correctAnswer": "B",
+        "explanation": "4 işçi 15 gün => 6 işçi x gün (Ters orantı) => 6x = 60 => x = 10 gün."
+      },
+      {
+        "id": "2024-lisans-mat-48",
+        "number": 48,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Rutin Olmayan Problemler",
+        "text": "Bir saat her gün 4 dakika geri kalmaktadır. Bu saat kaç gün sonra tekrar doğru zamanı gösterir? (Pegem Lisans)",
+        "options": {
+          "A": "90",
+          "B": "120",
+          "C": "150",
+          "D": "180",
+          "E": "360"
+        },
+        "correctAnswer": "D",
+        "explanation": "12 saat = 720 dakika. 720 / 4 = 180 gün."
+      },
+      {
+        "id": "2024-lisans-mat-49",
+        "number": 49,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Modüler)",
+        "text": "Bir hemşire 5 günde bir nöbet tutmaktadır. İlk nöbetini Cuma günü tutan hemşire 12. nöbetini hangi gün tutar? (Yargı Lisans)",
+        "options": {
+          "A": "Pazartesi",
+          "B": "Salı",
+          "C": "Çarşamba",
+          "D": "Perşembe",
+          "E": "Pazar"
+        },
+        "correctAnswer": "C",
+        "explanation": "11 nöbet aralığı * 5 gün = 55 gün. 55 mod 7 = 6. Cuma + 6 gün = Çarşamba."
+      },
+      {
+        "id": "2024-lisans-mat-50",
+        "number": 50,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Dizi)",
+        "text": "2, 5, 11, 23, 47, x kurala dayalı sayı dizisinde x kaçtır? (Benim Hocam)",
+        "options": {
+          "A": "85",
+          "B": "91",
+          "C": "95",
+          "D": "99",
+          "E": "105"
+        },
+        "correctAnswer": "C",
+        "explanation": "Her terim 2 ile çarpılıp 1 eklenir. 47 * 2 + 1 = 95."
+      },
+      {
+        "id": "2024-lisans-mat-51",
+        "number": 51,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Özel İşlem)",
+        "text": "$$a \\oplus b = 2a + 3b - ab$$ işlemi tanımlanıyor. $$4 \\oplus 3$$ sonucu kaçtır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "3",
+          "B": "5",
+          "C": "7",
+          "D": "9",
+          "E": "11"
+        },
+        "correctAnswer": "B",
+        "explanation": "2(4) + 3(3) - (4*3) = 8 + 9 - 12 = 5."
+      },
+      {
+        "id": "2024-lisans-mat-52",
+        "number": 52,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Dairesel Grafik)",
+        "text": "Bir çiftlikteki koyun, keçi ve inek sayılarının dağılımı dairesel grafikte gösterilmiştir. Koyunların merkez açısı 180 derece, keçilerin merkez açısı 120 derecedir. Çiftlikte 30 inek olduğuna göre toplam hayvan sayısı kaçtır? (Pegem Lisans)",
+        "options": {
+          "A": "120",
+          "B": "150",
+          "C": "180",
+          "D": "210",
+          "E": "240"
+        },
+        "correctAnswer": "C",
+        "explanation": "İnek açısı = 60 derece. 60 derece 30 ise 360 derece 180 hayvandır."
+      },
+      {
+        "id": "2024-lisans-mat-53",
+        "number": 53,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Çizgi Grafik)",
+        "text": "A ve B araçlarının zamana göre aldıkları yol grafiğinde A aracı 2 saatte 160 km, B aracı 3 saatte 180 km yol almaktadır. İki araç aynı anda aynı yöne harekete başladıktan kaç saat sonra aralarındaki mesafe 60 km olur? (Yargı Lisans)",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5",
+          "E": "6"
+        },
+        "correctAnswer": "C",
+        "explanation": "V_A = 80, V_B = 60. Hız farkı = 20 km/s. 60 / 20 = 3 saat."
+      },
+      {
+        "id": "2024-lisans-mat-54",
+        "number": 54,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Şekil Yetenek)",
+        "text": "Kare şeklindeki bir kâğıt önce dikey ortadan, sonra yatay ortadan katlanıp köşesinden dik üçgen şeklinde kesiliyor. Kâğıt tamamen açıldığında merkezde oluşan şekil nedir? (Benim Hocam)",
+        "options": {
+          "A": "Kare",
+          "B": "Eşkenar Dörtgen",
+          "C": "Daire",
+          "D": "Altıgen",
+          "E": "Sekizgen"
+        },
+        "correctAnswer": "A",
+        "explanation": "Dört katlı merkezin kesilmesi kare boşluk oluşturur."
+      },
+      {
+        "id": "2024-lisans-mat-55",
+        "number": 55,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Sayısal Mantık (Sayı Bulmacası)",
+        "text": "Üç basamaklı $$abc$$ sayısı için $$a^3 + b^3 + c^3 = abc$$ eşitliği sağlanıyorsa bu sayıya Armstrong sayısı denir. Buna göre 153 bir Armstrong sayısı mıdır? (Yediiklim Lisans)",
+        "options": {
+          "A": "Evet, 1+125+27 = 153",
+          "B": "Hayır",
+          "C": "Sadece asal ise",
+          "D": "Çift ise",
+          "E": "Belirlenemez"
+        },
+        "correctAnswer": "A",
+        "explanation": "1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153."
+      },
+      {
+        "id": "2024-lisans-mat-56",
+        "number": 56,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Geometri (Üçgendedir)",
+        "text": "Bir ABC üçgeninde iç açılar sırasıyla 2, 3 ve 4 sayıları ile orantılıdır. Bu üçgenin en büyük iç açısı kaç derecedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "60",
+          "B": "70",
+          "C": "80",
+          "D": "90",
+          "E": "100"
+        },
+        "correctAnswer": "C",
+        "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. En büyük açı = 4*20 = 80 derece."
+      },
+      {
+        "id": "2024-lisans-mat-57",
+        "number": 57,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Geometri (Dik Üçgen)",
+        "text": "Hipotenüs uzunluğu 10 cm olan bir dik üçgenin dik kenarlarından biri 6 cm'dir. Bu üçgenin alanı kaç $$cm^2$$'dir? (Pegem Lisans)",
+        "options": {
+          "A": "24",
+          "B": "30",
+          "C": "36",
+          "D": "48",
+          "E": "60"
+        },
+        "correctAnswer": "A",
+        "explanation": "Diğer kenar 8 cm (6-8-10). Alan = (6*8)/2 = 24 cm^2."
+      },
+      {
+        "id": "2024-lisans-mat-58",
+        "number": 58,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Geometri (Çember)",
+        "text": "Çevresi $$12\\pi$$ cm olan bir çemberin çapı kaç cm'dir? (Yargı Lisans)",
+        "options": {
+          "A": "6",
+          "B": "12",
+          "C": "18",
+          "D": "24",
+          "E": "36"
+        },
+        "correctAnswer": "B",
+        "explanation": "2pi*r = 12pi => r = 6 cm. Çap = 2r = 12 cm."
+      },
+      {
+        "id": "2024-lisans-mat-59",
+        "number": 59,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Geometri (Kare)",
+        "text": "Köşegen uzunluğu $$8\\sqrt{2}$$ cm olan bir karenin alanı kaç $$cm^2$$'dir? (Benim Hocam)",
+        "options": {
+          "A": "32",
+          "B": "48",
+          "C": "64",
+          "D": "128",
+          "E": "256"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kenar a = 8 cm. Alan = a^2 = 64 cm^2."
+      },
+      {
+        "id": "2024-lisans-mat-60",
+        "number": 60,
+        "subject": "matematik",
+        "subjectTitle": "Matematik & Sayısal Mantık",
+        "topic": "Geometri (Analitik)",
+        "text": "Analitik düzlemde $$y = 2x + 4$$ doğrusunun x eksenini kestiği noktanın apsisi kaçtır? (Yediiklim Lisans)",
+        "options": {
+          "A": "-4",
+          "B": "-2",
+          "C": "0",
+          "D": "2",
+          "E": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "y = 0 verilir: 2x + 4 = 0 => x = -2."
+      },
+      {
+        "id": "2024-lisans-tar-61",
+        "number": 61,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "İslam Öncesi Türk Tarihi",
+        "text": "Tarihte bilinen ilk Türk devleti olan Asya Hun Devleti'nin en parlak dönemini yaşatan hükümdar kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Mete Han",
+          "B": "Teoman",
+          "C": "Ki-ok",
+          "D": "Bumin Kağan",
+          "E": "Mokan Kağan"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mete Han)."
+      },
+      {
+        "id": "2024-lisans-tar-62",
+        "number": 62,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Türk-İslam Tarihi",
+        "text": "1071 Malazgirt Meydan Muharebesi ile Anadolu'nun kapılarını Türklere açan Büyük Selçuklu hükümdarı kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Sultan Alparslan",
+          "B": "Tuğrul Bey",
+          "C": "Melikşah",
+          "D": "Sultan Sancar",
+          "E": "Çağrı Bey"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Sultan Alparslan)."
+      },
+      {
+        "id": "2024-lisans-tar-63",
+        "number": 63,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Türk-İslam Kültürü",
+        "text": "Gazneli Mahmud'un 'Sarayımın en değerli hazinesi' olarak nitelendirdiği ünlü bilim insanı kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Biruni",
+          "B": "İbn-i Sina",
+          "C": "Farabi",
+          "D": "Harezmi",
+          "E": "Ömer Hayyam"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Biruni)."
+      },
+      {
+        "id": "2024-lisans-tar-64",
+        "number": 64,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Devleti",
+        "text": "Osmanlı Devleti'nde Rumeli'ye ilk geçişi sağlayan ve Çimpe Kalesi'nin alındığı padişah dönemi hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Orhan Bey",
+          "B": "Osman Bey",
+          "C": "I. Murad",
+          "D": "Yıldırım Bayezid",
+          "E": "Çelebi Mehmed"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Orhan Bey)."
+      },
+      {
+        "id": "2024-lisans-tar-65",
+        "number": 65,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Siyasi Tarihi",
+        "text": "1402 Ankara Muharebesi sonrasında Osmanlı Devleti'nin girdiği 11 yıllık kargaşa dönemine ne ad verilir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Fetret Devri",
+          "B": "Vaka-i Hayriye",
+          "C": "Lale Devri",
+          "D": "Tanzimat Dönemi",
+          "E": "Meşrutiyet Dönemi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Fetret Devri)."
+      },
+      {
+        "id": "2024-lisans-tar-66",
+        "number": 66,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Kültür ve Medeniyeti",
+        "text": "Osmanlı Devleti'nde devlet memurlarının ve idarecilerin yetiştirildiği saray mektebi hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Enderun Mektebi",
+          "B": "Birun",
+          "C": "Harem",
+          "D": "Sahn-ı Seman",
+          "E": "Medrese"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Enderun Mektebi)."
+      },
+      {
+        "id": "2024-lisans-tar-67",
+        "number": 67,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Toprak Sistemi",
+        "text": "Geliri doğrudan devlet hazinesine aktarılan ve iltizam sistemiyle ihale edilen toprak türü hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Mukataa",
+          "B": "Dirlik",
+          "C": "Paşalık",
+          "D": "Yurtluk",
+          "E": "Ocaklık"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mukataa)."
+      },
+      {
+        "id": "2024-lisans-tar-68",
+        "number": 68,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Islahatları",
+        "text": "Osmanlı Devleti'nde ilk geçici elçiliklerin Lale Devri'nde açıldığı Avrupa kenti hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Paris (28 Çelebi Mehmed)",
+          "B": "Londra",
+          "C": "Viyana",
+          "D": "Berlin",
+          "E": "Roma"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Paris (28 Çelebi Mehmed))."
+      },
+      {
+        "id": "2024-lisans-tar-69",
+        "number": 69,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Siyasi Tarihi",
+        "text": "Osmanlı Devleti'nin Boğazlar üzerindeki tek başına karar verme yetkisini son kez kullandığı 1833 antlaşması hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Hünkâr İskelesi Antlaşması",
+          "B": "Balta Limanı Antlaşması",
+          "C": "Paris Antlaşması",
+          "D": "Londra Antlaşması",
+          "E": "Kütahya Antlaşması"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Hünkâr İskelesi Antlaşması)."
+      },
+      {
+        "id": "2024-lisans-tar-70",
+        "number": 70,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Islahatları",
+        "text": "Osmanlı Devleti'nin ilk yazılı anayasası olan Kanun-i Esasi hangi padişah döneminde ilan edilmiştir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "II. Abdülhamid",
+          "B": "Sultan Abdülmecid",
+          "C": "Sultan Abdülaziz",
+          "D": "V. Murad",
+          "E": "III. Selim"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (II. Abdülhamid)."
+      },
+      {
+        "id": "2024-lisans-tar-71",
+        "number": 71,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Askeri Yapısı",
+        "text": "Osmanlı Devleti'nde kapıkulu askerlerinin üç ayda bir aldıkları maaşa ne ad verilir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Ulufe",
+          "B": "Cülus bahşişi",
+          "C": "Ganimet",
+          "D": "Dirlik",
+          "E": "Öşür"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Ulufe)."
+      },
+      {
+        "id": "2024-lisans-tar-72",
+        "number": 72,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Maliyesi",
+        "text": "Osmanlı Devleti'nde ilk kâğıt para (Kaime) hangi padişah döneminde basılmıştır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Sultan Abdülmecid",
+          "B": "II. Mahmut",
+          "C": "Sultan Abdülaziz",
+          "D": "II. Abdülhamid",
+          "E": "III. Selim"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Sultan Abdülmecid)."
+      },
+      {
+        "id": "2024-lisans-tar-73",
+        "number": 73,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Osmanlı Siyasi Tarihi",
+        "text": "Trablusgarp Savaşı sonunda İtalya ile imzalanan antlaşma aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Uşı Antlaşması",
+          "B": "Londra Antlaşması",
+          "C": "Bükreş Antlaşması",
+          "D": "Atina Antlaşması",
+          "E": "İstanbul Antlaşması"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Uşı Antlaşması)."
+      },
+      {
+        "id": "2024-lisans-tar-74",
+        "number": 74,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "I. Dünya Savaşı",
+        "text": "Mustafa Kemal'in I. Dünya Savaşı'nda görev yaptığı son cephe aşağıdakilerden hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Suriye-Filistin Cephesi",
+          "B": "Çanakkale Cephesi",
+          "C": "Kafkas Cephesi",
+          "D": "Irak Cephesi",
+          "E": "Galiçya Cephesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Suriye-Filistin Cephesi)."
+      },
+      {
+        "id": "2024-lisans-tar-75",
+        "number": 75,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Milli Mücadele Hazırlık",
+        "text": "Mustafa Kemal Paşa ile İstanbul Hükümeti temsilcisi Salih Paşa arasında gerçekleşen ve Temsil Heyeti'nin hukuken tanındığı görüşme hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Amasya Görüşmeleri",
+          "B": "Bilecik Görüşmesi",
+          "C": "Sivas Kongresi",
+          "D": "Erzurum Kongresi",
+          "E": "Havza Görüşmesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Amasya Görüşmeleri)."
+      },
+      {
+        "id": "2024-lisans-tar-76",
+        "number": 76,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Milli Mücadele Dönemi",
+        "text": "Erzurum Kongresi'ne başkanlık eden ve bölgesel toplanıp ulusal kararlar alan devlet adamı kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Mustafa Kemal Paşa",
+          "B": "Kazım Karabekir",
+          "C": "Rauf Orbay",
+          "D": "Ali Fuat Cebesoy",
+          "E": "Refet Bele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mustafa Kemal Paşa)."
+      },
+      {
+        "id": "2024-lisans-tar-77",
+        "number": 77,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "I. TBMM Dönemi",
+        "text": "I. TBMM hükümetinin uluslararası alanda kazandığı ilk askeri ve siyasi başarı antlaşması hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Gümrü Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Kars Antlaşması",
+          "D": "Ankara Antlaşması",
+          "E": "Mudanya Mütarekesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Gümrü Antlaşması)."
+      },
+      {
+        "id": "2024-lisans-tar-78",
+        "number": 78,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Kurtuluş Savaşı Cepheleri",
+        "text": "Sakarya Meydan Muharebesi sonrasında Mustafa Kemal Paşa'ya 'Gazilik' unvanı ve 'Mareşallik' rütbesini veren kurum hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "TBMM",
+          "B": "Temsil Heyeti",
+          "C": "Mebusan Meclisi",
+          "D": "Genelkurmay Başkanlığı",
+          "E": "Bakanlar Kurulu"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (TBMM)."
+      },
+      {
+        "id": "2024-lisans-tar-79",
+        "number": 79,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Kurtuluş Savaşı Antlaşmaları",
+        "text": "Türkiye'nin güney sınırının (Hatay hariç) çizildiği ve Fransa ile imzalanan 1921 antlaşması hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Ankara Antlaşması",
+          "B": "Moskova Antlaşması",
+          "C": "Gümrü Antlaşması",
+          "D": "Mudanya Antlaşması",
+          "E": "Lozan Antlaşması"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Ankara Antlaşması)."
+      },
+      {
+        "id": "2024-lisans-tar-80",
+        "number": 80,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "İnkılap Tarihi",
+        "text": "1 Kasım 1922 tarihinde Saltanatın kaldırılmasıyla hangi kurum devlet başkanlığı sorununu geçici olarak üstlenmiştir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "TBMM Başkanı",
+          "B": "Halife",
+          "C": "Sadrazam",
+          "D": "Cumhurbaşkanı",
+          "E": "Başbakan"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (TBMM Başkanı)."
+      },
+      {
+        "id": "2024-lisans-tar-81",
+        "number": 81,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "İnkılap Tarihi",
+        "text": "1925 yılında çıkarılan ve toplumsal alanda kıyafet düzenlemesini amaçlayan kanun hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Şapka İktisası Hakkında Kanun",
+          "B": "Soyadı Kanunu",
+          "C": "Kabotaj Kanunu",
+          "D": "Tevhid-i Tedrisat",
+          "E": "Tekâlif-i Milliye"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Şapka İktisası Hakkında Kanun)."
+      },
+      {
+        "id": "2024-lisans-tar-82",
+        "number": 82,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Atatürk İlkeleri",
+        "text": "Türk karasularında gemi işletme ve liman hizmetlerini Türk vatandaşlarına devreden Kabotaj Kanunu hangi ilke ile doğrudan ilgilidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Milliyetçilik",
+          "B": "Devletçilik",
+          "C": "Laiklik",
+          "D": "Halkçılık",
+          "E": "İnkılapçılık"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Milliyetçilik)."
+      },
+      {
+        "id": "2024-lisans-tar-83",
+        "number": 83,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Atatürk Dönemi İktisat",
+        "text": "1924 yılında özel sektöre kredi sağlamak amacıyla kurulan Türkiye Cumhuriyetinin ilk özel bankası hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Türkiye İş Bankası",
+          "B": "Merkez Bankası",
+          "C": "Ziraat Bankası",
+          "D": "Sümerbank",
+          "E": "Etibank"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Türkiye İş Bankası)."
+      },
+      {
+        "id": "2024-lisans-tar-84",
+        "number": 84,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Atatürk Dönemi Dış Politika",
+        "text": "1936 yılında imzalanan ve Boğazların egemenliğini tam olarak Türkiye'ye devreden antlaşma hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Montrö Boğazlar Sözleşmesi",
+          "B": "Lozan Antlaşması",
+          "C": "Balkan Antantı",
+          "D": "Sadabat Paktı",
+          "E": "Milletler Cemiyeti Kararı"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Montrö Boğazlar Sözleşmesi)."
+      },
+      {
+        "id": "2024-lisans-tar-85",
+        "number": 85,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Atatürk Dönemi Dış Politika",
+        "text": "1939 yılında Türkiye Cumhuriyeti'ne katılan ve ilk cumhurbaşkanı Tayfur Sökmen olan bağımsız devlet hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Hatay Devleti",
+          "B": "Kıbrıs Türk Devleti",
+          "C": "Batı Trakya",
+          "D": "Musul",
+          "E": "Batum"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Hatay Devleti)."
+      },
+      {
+        "id": "2024-lisans-tar-86",
+        "number": 86,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Çağdaş Türk ve Dünya Tarihi",
+        "text": "II. Dünya Savaşı sonrasında ABD'nin Avrupa ülkelerine ekonomik yardım sağlamak amacıyla yayımladığı plan hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Marshall Planı",
+          "B": "Truman Doktrini",
+          "C": "Eisenhower Doktrini",
+          "D": "Schuman Bildirisi",
+          "E": "Breznev Doktrini"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Marshall Planı)."
+      },
+      {
+        "id": "2024-lisans-tar-87",
+        "number": 87,
+        "subject": "tarih",
+        "subjectTitle": "Tarih",
+        "topic": "Çağdaş Dünya Tarihi",
+        "text": "1962 yılında ABD ile SSCB arasında nükleer savaş tehdidine yol açan kriz hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Küba Füze Krizi",
+          "B": "Kore Savaşı",
+          "C": "Berlin Krizi",
+          "D": "Vietnam Savaşı",
+          "E": "Süveyş Krizi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tarih Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Küba Füze Krizi)."
+      },
+      {
+        "id": "2024-lisans-cog-88",
+        "number": 88,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Geomorfoloji",
+        "text": "Türkiye'de IV. Jeolojik Zamanda (Kuvaterner) gerçekleşen egeid karasının çökmesiyle oluşan kıyı tipi hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Ria Kıyı Tipi (İstanbul ve Çanakkale)",
+          "B": "Dalmaçya",
+          "C": "Boyuna",
+          "D": "Enine",
+          "E": "Limanlı"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Ria Kıyı Tipi (İstanbul ve Çanakkale))."
+      },
+      {
+        "id": "2024-lisans-cog-89",
+        "number": 89,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Karstik Şekiller",
+        "text": "Türkiye'de lapya, dolin, uvala ve polye gibi karstik aşınım şekillerinin en yaygın görüldüğü kayaç türü hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Kalker (Kireç Taşı)",
+          "B": "Jips",
+          "C": "Kaya Tuzu",
+          "D": "Andezit",
+          "E": "Bazalt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kalker (Kireç Taşı))."
+      },
+      {
+        "id": "2024-lisans-cog-90",
+        "number": 90,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Tektonik Göller",
+        "text": "Aşağıdaki göllerimizden hangisi fay hatlarına bağlı tektonik çöküntü alanlarında oluşmuş bir göldür? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Sapanca Gölü",
+          "B": "Tortum Gölü",
+          "C": "Abant Gölü",
+          "D": "Çıldır Gölü",
+          "E": "Salda Gölü"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Sapanca Gölü)."
+      },
+      {
+        "id": "2024-lisans-cog-91",
+        "number": 91,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "İklim Coğrafyası",
+        "text": "Türkiye'de yıllık yağış miktarının en az olduğu ve kuraklığın şiddetli hissedildiği mikroklima alanı hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Iğdır Ovası ve Karapınar Çevresi",
+          "B": "Rize Yöresi",
+          "C": "Hakkari Yöresi",
+          "D": "Antalya Yöresi",
+          "E": "Zonguldak Çevresi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Iğdır Ovası ve Karapınar Çevresi)."
+      },
+      {
+        "id": "2024-lisans-cog-92",
+        "number": 92,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Bitki Örtüsü",
+        "text": "Türkiye'de sadece belirli bir dar coğrafi bölgede yetişen endemik bitki türüne örnek hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Datça Hurması ve Sığla Ağacı",
+          "B": "Kızılçam",
+          "C": "Kayın",
+          "D": "Meşe",
+          "E": "Bozkır"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Datça Hurması ve Sığla Ağacı)."
+      },
+      {
+        "id": "2024-lisans-cog-93",
+        "number": 93,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Toprak Coğrafyası",
+        "text": "Türkiye'de Erzurum-Kars platosunda çayır bitki örtüsü altında gelişen en verimli organik toprak türü hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Çernozyom (Kara Toprak)",
+          "B": "Terra Rossa",
+          "C": "Podzol",
+          "D": "Pozol",
+          "E": "Kestane Renkli"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Çernozyom (Kara Toprak))."
+      },
+      {
+        "id": "2024-lisans-cog-94",
+        "number": 94,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Nüfus Piramitleri",
+        "text": "Türkiye'nin son yıllardaki nüfus piramidi incelendiğinde doğum oranlarının düşmesiyle tabanın daralması neyi gösterir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Nüfusun yaşlanma sürecine girdiğini",
+          "B": "Çocuk nüfusun arttığını",
+          "C": "Nüfus artış hızının rekor kırdığını",
+          "D": "Dış göçlerin durduğunu",
+          "E": "Tarım nüfusunun arttığını"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Nüfusun yaşlanma sürecine girdiğini)."
+      },
+      {
+        "id": "2024-lisans-cog-95",
+        "number": 95,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Yerleşme Coğrafyası",
+        "text": "Türkiye'de Karadeniz Bölgesi'nde dağınık yerleşme tipinin görülmesinin temel iki nedeni nedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Engebeli arazi ve su kaynaklarının bolluğu",
+          "B": "Düz araziler ve kuraklık",
+          "C": "Ulaşım kolaylığı",
+          "D": "Sanayileşme",
+          "E": "Maden yatakları"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Engebeli arazi ve su kaynaklarının bolluğu)."
+      },
+      {
+        "id": "2024-lisans-cog-96",
+        "number": 96,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Madenler",
+        "text": "Türkiye'de ferrokrom sanayisinin hammaddesi olan ve Elazığ (Guleman) ile Muğla (Fethiye)'da çıkarılan maden hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Krom",
+          "B": "Boksit",
+          "C": "Mermer",
+          "D": "Bakır",
+          "E": "Demir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Krom)."
+      },
+      {
+        "id": "2024-lisans-cog-97",
+        "number": 97,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Madenler",
+        "text": "Türkiye'de alüminyum sanayisinin hammaddesi olan boksit madeninin yatakları nerede bulunur? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Konya (Seydişehir) ve Antalya (Akseki)",
+          "B": "Zonguldak",
+          "C": "Batman",
+          "D": "Kütahya",
+          "E": "Eskişehir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Konya (Seydişehir) ve Antalya (Akseki))."
+      },
+      {
+        "id": "2024-lisans-cog-98",
+        "number": 98,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Enerji Santralleri",
+        "text": "Türkiye'de doğal gaz ile çalışan rüzgar/buhar kombine çevrim santrallerinin bulunduğu yer hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Bursa (Ovaakça) ve Kırklareli (Hamitabat)",
+          "B": "Afşin-Elbistan",
+          "C": "Yatağan",
+          "D": "Soma",
+          "E": "Çatalağzı"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Bursa (Ovaakça) ve Kırklareli (Hamitabat))."
+      },
+      {
+        "id": "2024-lisans-cog-99",
+        "number": 99,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Tarım Coğrafyası",
+        "text": "Türkiye'de devlet kontrolünde üretimi yapılan ve kenevir bitkisinin ekim izin sebebi nedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Uyuşturucu imalatının önlenmesi",
+          "B": "Erozyonu önlemek",
+          "C": "Toprağı havalandırmak",
+          "D": "Suyu tasarruf etmek",
+          "E": "Böcekleri uzaklaştırmak"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Uyuşturucu imalatının önlenmesi)."
+      },
+      {
+        "id": "2024-lisans-cog-100",
+        "number": 100,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Sanayi Dağılışı",
+        "text": "Türkiye'de pamuklu dokuma sanayisinin geliştiği ancak pamuk tarımının yapılmadığı kent hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Kayseri ve İstanbul",
+          "B": "Adana",
+          "C": "Şanlıurfa",
+          "D": "Aydın",
+          "E": "Denizli"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Kayseri ve İstanbul)."
+      },
+      {
+        "id": "2024-lisans-cog-101",
+        "number": 101,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Ulaşım Coğrafyası",
+        "text": "Türkiye'nin demir yolu ağı bağlantısı bulunmayan Doğu Karadeniz limanı hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Trabzon Limanı",
+          "B": "Samsun Limanı",
+          "C": "Mersin Limanı",
+          "D": "İzmir Limanı",
+          "E": "Bandırma Limanı"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Trabzon Limanı)."
+      },
+      {
+        "id": "2024-lisans-cog-102",
+        "number": 102,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Limanlar",
+        "text": "Türkiye'nin en büyük konteyner ve ihracat limanlarından biri olan hinterlandı geniş liman hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Mersin Limanı",
+          "B": "Sinop Limanı",
+          "C": "Hopa Limanı",
+          "D": "Giresun Limanı",
+          "E": "Rize Limanı"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Mersin Limanı)."
+      },
+      {
+        "id": "2024-lisans-cog-103",
+        "number": 103,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Turizm Coğrafyası",
+        "text": "UNESCO Dünya Kültür Mirası listesinde yer alan Pamukkale Travertenleri ve Hierapolis antik kenti hangi ilimizdedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Denizli",
+          "B": "Nevşehir",
+          "C": "Şanlıurfa",
+          "D": "Çanakkale",
+          "E": "Sivas"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Denizli)."
+      },
+      {
+        "id": "2024-lisans-cog-104",
+        "number": 104,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Bölgesel Kalkınma",
+        "text": "GAP (Güneydoğu Anadolu Projesi) kapsamındaki tarımsal sulamayla üretimi en çok artan endüstri bitkisi hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Pamuk",
+          "B": "Tütün",
+          "C": "Fındık",
+          "D": "Çay",
+          "E": "Zeytin"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Pamuk)."
+      },
+      {
+        "id": "2024-lisans-cog-105",
+        "number": 105,
+        "subject": "cografya",
+        "subjectTitle": "Coğrafya",
+        "topic": "Çevre Sorunları",
+        "text": "Türkiye'de kapalı havzalarda aşırı yeraltı suyu kullanımı sonucu zeminin çökmesiyle oluşan çukurlara ne ad verilir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Obruk",
+          "B": "Lapya",
+          "C": "Dolin",
+          "D": "Kanyon",
+          "E": "Fay"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coğrafya Lisans müfredatı ve ÖSYM kazanımları doğrultusunda doğru cevap A seçeneğidir (Obruk)."
+      },
+      {
+        "id": "2024-lisans-vat-106",
+        "number": 106,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Hukuk Kuralları",
+        "text": "Belirli bir zamanda bir ülkede yürürlükte bulunan yetkili makamlarca konulmuş yazılı hukuk kurallarının tümüne ne ad verilir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Mevzuat (Mevzii Hukuk)",
+          "B": "Pozitif Hukuk",
+          "C": "Tabii Hukuk",
+          "D": "Tarihi Hukuk",
+          "E": "İdeal Hukuk"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Mevzuat (Mevzii Hukuk))."
+      },
+      {
+        "id": "2024-lisans-vat-107",
+        "number": 107,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Hak Türleri",
+        "text": "Sadece belirli bir kişiye karşı ileri sürülebilen alacak ve sözleşme haklarına ne ad verilir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Nisbi Haklar",
+          "B": "Mutlak Haklar",
+          "C": "Ayni Haklar",
+          "D": "Telif Hakları",
+          "E": "Kişilik Hakları"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Nisbi Haklar)."
+      },
+      {
+        "id": "2024-lisans-vat-108",
+        "number": 108,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Anayasa Hukuku",
+        "text": "1982 Anayasası'na göre TBMM üye tamsayısı (milletvekili sayısı) kaçtır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "600 milletvekili",
+          "B": "550 milletvekili",
+          "C": "450 milletvekili",
+          "D": "500 milletvekili",
+          "E": "650 milletvekili"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (600 milletvekili)."
+      },
+      {
+        "id": "2024-lisans-vat-109",
+        "number": 109,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Anayasa Değişikliği",
+        "text": "1982 Anayasası'na göre Anayasa değişiklik teklifinin kabul edilebilmesi için TBMM'de aranan en az oy sayısı nedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Üye tamsayısının 3/5'i (360 milletvekili)",
+          "B": "Üye tamsayısının salt çoğunluğu",
+          "C": "Üye tamsayısının 2/3'ü",
+          "D": "Katılanların çoğunluğu",
+          "E": "Üye tamsayısının 4/5'i"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Üye tamsayısının 3/5'i (360 milletvekili))."
+      },
+      {
+        "id": "2024-lisans-vat-110",
+        "number": 110,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Yargı Organları",
+        "text": "Hakimler ve Savcılar Kurulu (HSK) toplam kaç üyeden oluşmaktadır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "13 üye (11 üye + Adalet Bakanı + Müsteşar)",
+          "B": "15 üye",
+          "C": "17 üye",
+          "D": "21 üye",
+          "E": "12 üye"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (13 üye (11 üye + Adalet Bakanı + Müsteşar))."
+      },
+      {
+        "id": "2024-lisans-vat-111",
+        "number": 111,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Yürütme Organı",
+        "text": "Cumhurbaşkanlığı Kararnameleri kanunlaşması ve denetimi hangi mahkeme tarafından yapılır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Anayasa Mahkemesi",
+          "B": "Danıştay",
+          "C": "Yargıtay",
+          "D": "Sayıştay",
+          "E": "Uyuşmazlık Mahkemesi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Anayasa Mahkemesi)."
+      },
+      {
+        "id": "2024-lisans-vat-112",
+        "number": 112,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "İdare Hukuku",
+        "text": "Aşağıdakilerden hangisi Anayasa'da açıkça belirtilen Kamu Tüzel Kişiliğine sahip kurumlar arasında yer alır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Üniversiteler ve TRT",
+          "B": "Bakanlıklar",
+          "C": "Emniyet Genel Müdürlüğü",
+          "D": "Valilikler",
+          "E": "Kaymakamlıklar"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Üniversiteler ve TRT)."
+      },
+      {
+        "id": "2024-lisans-vat-113",
+        "number": 113,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Devlet Memurları",
+        "text": "657 sayılı Devlet Memurları Kanunu'na göre memurluktan çıkarma cezasını vermeye yetkili makam hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Yüksek Disiplin Kurulu",
+          "B": "Atamaya Yetkili Amir",
+          "C": "Disiplin Kurulu",
+          "D": "Vali",
+          "E": "Bakan"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (Yüksek Disiplin Kurulu)."
+      },
+      {
+        "id": "2024-lisans-vat-114",
+        "number": 114,
+        "subject": "vatandaslik",
+        "subjectTitle": "Vatandaşlık & Hukuk",
+        "topic": "Kamu Denetçiliği",
+        "text": "Türkiye'de Kamu Denetçiliği Kurumu (Ombudsmanlık) hangi makama bağlı olarak faaliyet gösterir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "TBMM Başkanlığına",
+          "B": "Cumhurbaşkanlığına",
+          "C": "Adalet Bakanlığına",
+          "D": "Anayasa Mahkemesine",
+          "E": "Danıştaya"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hukuk Lisans ve 1982 Anayasası hükümlerine göre doğru cevap A seçeneğidir (TBMM Başkanlığına)."
+      },
+      {
+        "id": "2024-lisans-gun-115",
+        "number": 115,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "UNESCO Mirası",
+        "text": "UNESCO Dünya Kültür Mirası listesinde yer alan ve Mimar Sinan'ın 'Ustalık eserim' dediği Selimiye Camii hangi ilimizdedir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Edirne",
+          "B": "İstanbul",
+          "C": "Bursa",
+          "D": "Konya",
+          "E": "Kayseri"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (Edirne)."
+      },
+      {
+        "id": "2024-lisans-gun-116",
+        "number": 116,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "Uluslararası Örgütler",
+        "text": "Türk Devletleri Teşkilatı (TDT) Genel Merkezi hangi şehirde bulunmaktadır? (KPSS Lisans 2024)",
+        "options": {
+          "A": "İstanbul",
+          "B": "Ankara",
+          "C": "Bakü",
+          "D": "Turan",
+          "E": "Taşkent"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (İstanbul)."
+      },
+      {
+        "id": "2024-lisans-gun-117",
+        "number": 117,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "Edebiyat Klasikleri",
+        "text": "Türk edebiyatında 'Saatleri Ayarlama Enstitüsü' ve 'Huzur' romanlarının dünyaca ünlü yazarı kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Ahmet Hamdi Tanpınar",
+          "B": "Peyami Safa",
+          "C": "Tarık Buğra",
+          "D": "Oğuz Atay",
+          "E": "Kemal Tahir"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (Ahmet Hamdi Tanpınar)."
+      },
+      {
+        "id": "2024-lisans-gun-118",
+        "number": 118,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "Bilim ve Teknoloji",
+        "text": "2015 Nobel Kimya Ödülü'nü kazanarak DNA onarımı konusundaki çalışmalarıyla göğsümüzü kabartan bilim insanımız kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Prof. Dr. Aziz Sancar",
+          "B": "Prof. Dr. Oktay Sinanoğlu",
+          "C": "Prof. Dr. Gazi Yaşargil",
+          "D": "Prof. Dr. Celal Şengör",
+          "E": "Prof. Dr. Cahit Arf"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (Prof. Dr. Aziz Sancar)."
+      },
+      {
+        "id": "2024-lisans-gun-119",
+        "number": 119,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "Uluslararası Antlaşmalar",
+        "text": "İklim değişikliği ile mücadelede sera gazı salınımını azaltmayı hedefleyen ve Türkiye'nin de taraf olduğu uluslararası antlaşma hangisidir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Paris İklim Anlaşması",
+          "B": "Kyoto Protokolü",
+          "C": "Montreal Sözleşmesi",
+          "D": "Viyana Sözleşmesi",
+          "E": "Cenevre Anlaşması"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (Paris İklim Anlaşması)."
+      },
+      {
+        "id": "2024-lisans-gun-120",
+        "number": 120,
+        "subject": "guncel",
+        "subjectTitle": "Güncel Bilgiler",
+        "topic": "Sanat ve Kültür",
+        "text": "Türk resim sanatında 'Kaplumbağa Terbiyecisi' tablosu ile tanınan ünlü ressam ve müzeci kimdir? (KPSS Lisans 2024)",
+        "options": {
+          "A": "Osman Hamdi Bey",
+          "B": "Şeker Ahmet Paşa",
+          "C": "Hikmet Onat",
+          "D": "İbrahim Çallı",
+          "E": "Abidin Dino"
+        },
+        "correctAnswer": "A",
+        "explanation": "Güncel Lisans bilgisi doğrultusunda doğru cevap A seçeneğidir (Osman Hamdi Bey)."
+      }
+    ]
   },
   {
     "id": "kpss-2022-lisans",
